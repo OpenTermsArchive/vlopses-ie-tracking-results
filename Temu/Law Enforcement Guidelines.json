@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:33:25.143Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "bgp_law_enforcement_policy",
+        "fetch": "https://www.temu.com/bgp_law_enforcement_policy.html",
+        "select": [
+          ".mainContent"
+        ],
+        "remove": [
+          "footer",
+          "#mainHeader",
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d4944e07b80ec4aaef3b7b75d101944586ce07b1"
+      }
+    ]
+  }
+}
