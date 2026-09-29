@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:29:33.766Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "api-get_pdf",
+        "fetch": "https://www.sheingroup.com/api/get_pdf?url=https%3A%2F%2Fcdn.sanity.io%2Ffiles%2F44sbcf22%2Fproduction%2F31185f1d62bced750f90379c8eb01072fc745b0c.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "681ab49b34bd5656a40772ea606c41a8a725b47a"
+      },
+      {
+        "id": "api-get_pdf",
+        "fetch": "https://www.sheingroup.com/api/get_pdf?url=https%3A%2F%2Fcdn.sanity.io%2Ffiles%2F44sbcf22%2Fproduction%2Fd7451fb1ffda7d07f523f295c644695862cf429a.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "681ab49b34bd5656a40772ea606c41a8a725b47a"
+      },
+      {
+        "id": "api-get_pdf",
+        "fetch": "https://www.sheingroup.com/api/get_pdf?url=https%3A%2F%2Fcdn.sanity.io%2Ffiles%2F44sbcf22%2Fproduction%2Fff89ff5f37c505b7fe4ef33221ce895a3c8d895c.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "681ab49b34bd5656a40772ea606c41a8a725b47a"
+      },
+      {
+        "id": "api-get_pdf",
+        "fetch": "https://www.sheingroup.com/api/get_pdf?url=https%3A%2F%2Fcdn.sanity.io%2Ffiles%2F44sbcf22%2Fproduction%2F6a6e043a116e38ba8a996857df34682ba5810e79.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "681ab49b34bd5656a40772ea606c41a8a725b47a"
+      }
+    ]
+  }
+}
