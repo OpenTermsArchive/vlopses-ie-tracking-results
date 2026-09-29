@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:25:23.456Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "494561080557017",
+        "fetch": "https://help.instagram.com/494561080557017",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          "nav",
+          "fieldset",
+          "[id='Related Articles']"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "38115c208cc201f8100782fe94c984fe4d26f7ac"
+      }
+    ]
+  }
+}
