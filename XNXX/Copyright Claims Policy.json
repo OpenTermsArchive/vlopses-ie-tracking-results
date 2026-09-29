@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:48:16.180Z",
+    "serviceName": "XNXX",
+    "sourceDocuments": [
+      {
+        "id": "legal-piracy",
+        "fetch": "https://info.xnxx.com/legal/piracy",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ee6340b612037eb93515cbeeeea75379b74a4e26"
+      },
+      {
+        "id": "content_removal",
+        "fetch": "https://info.xnxx.com/content_removal",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ddd4fbf1ece34cab85e5b5caf0729a14dce4144a"
+      },
+      {
+        "id": "content-fingerprint",
+        "fetch": "https://info.xnxx.com/content/fingerprint",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a6d7289442e5a6ede7085b22b33674d0845df965"
+      }
+    ]
+  }
+}
