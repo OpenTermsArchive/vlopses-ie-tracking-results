@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:50:02.740Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "zalando-terms",
+        "fetch": "https://www.zalando.ie/zalando-terms/",
+        "select": [
+          "#main-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3e8cddd9792fa0cc4beec849d69683f1750ce514"
+      }
+    ]
+  }
+}
