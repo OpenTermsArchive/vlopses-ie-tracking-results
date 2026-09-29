@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:28:45.482Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "Consumer-Privacy-Notice-s-101",
+        "fetch": "https://eur.shein.com/Consumer-Privacy-Notice-s-101.html",
+        "select": [
+          "#j-security-article"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "00abfcccf83254a06195eb80c70b9e5090642843"
+      }
+    ]
+  }
+}
