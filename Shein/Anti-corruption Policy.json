@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:28:51.555Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "wp-content-uploads-2025-10-Shein-Code-of-Business-Conduct-and-Ethics-WATERMARK",
+        "fetch": "https://www.sheingroup.com/wp-content/uploads/2025/10/Shein-Code-of-Business-Conduct-and-Ethics-WATERMARK.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "ed2ea65cd3aad3f39a0a0f9a572d2b7f4ebd08f1"
+      }
+    ]
+  }
+}
