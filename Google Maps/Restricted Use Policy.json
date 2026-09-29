@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:16:19.420Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "maps-platform-terms-maps-prohibited-territories",
+        "fetch": "https://cloud.google.com/maps-platform/terms/maps-prohibited-territories",
+        "select": "#module-2",
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9c9ee720aad769e71fbe992e7bea874073c09abe"
+      }
+    ]
+  }
+}
