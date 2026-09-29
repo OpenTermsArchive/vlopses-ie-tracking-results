@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:43:56.894Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "p-transparencycenter-accessDesc",
+        "fetch": "https://www.aliexpress.com/p/transparencycenter/accessDesc.html",
+        "select": [
+          ".page-access-desc"
+        ],
+        "remove": [
+          ".style--head-wrapper--2L_jbBm",
+          ".pc--footer--2i31OTC0f",
+          ".site-footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9cdf848bc14cce165ee8c7ca4fe7f6a9fc7a3ed6"
+      }
+    ]
+  }
+}
