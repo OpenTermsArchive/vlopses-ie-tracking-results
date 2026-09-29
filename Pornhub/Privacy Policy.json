@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:27:16.699Z",
+    "serviceName": "Pornhub",
+    "sourceDocuments": [
+      {
+        "id": "information-privacy",
+        "fetch": "https://www.pornhub.com/information/privacy",
+        "select": [
+          "#information_privacy"
+        ],
+        "remove": [
+          ".buttonsBlock"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "29826f2c2550238e28bb2c5d4e797e3d7f7d3e11"
+      },
+      {
+        "id": "information-processors",
+        "fetch": "https://www.pornhub.com/information/processors",
+        "select": [
+          "#information_processors"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bca1ea6f00034db7508b2189900369889d891606"
+      },
+      {
+        "id": "static-misc-legal-Information_on_data_access_for_researchers_1761749815",
+        "fetch": "https://ei.phncdn.com/static/misc/legal/Information_on_data_access_for_researchers_1761749815.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "30c3a718c9ef7c194a4c1a6cb11dedb3146a9da6"
+      }
+    ]
+  }
+}
