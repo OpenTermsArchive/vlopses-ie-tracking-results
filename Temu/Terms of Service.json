@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:32:47.132Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.temu.com/terms-of-use.html",
+        "select": [
+          "#policyContent"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "432d7312dd5afcb1c706986ef412a0e3919a74de"
+      }
+    ]
+  }
+}
