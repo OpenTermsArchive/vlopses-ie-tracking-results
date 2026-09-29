@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:48:56.659Z",
+    "serviceName": "YouTube",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy?hl=en",
+        "select": "#main-content",
+        "remove": [
+          "img",
+          ".ytp-cued-thumbnail-overlay"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8b6f3bac10976a47b6041f622375eb2db1565f67"
+      }
+    ]
+  }
+}
