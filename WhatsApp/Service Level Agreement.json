@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:39:20.104Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-eecc-notice-eea",
+        "fetch": "https://www.whatsapp.com/legal/eecc-notice-eea",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4c0041c7aa9f94000bc8cdcd686df1973e5726cb"
+      }
+    ]
+  }
+}
