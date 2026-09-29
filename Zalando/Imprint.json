@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:50:04.368Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "imprint",
+        "fetch": "https://partner.zalando.com/imprint",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "89a33a1ecfed7a4f155d3f145d01ccda09681e64"
+      },
+      {
+        "id": "en-legal-notice",
+        "fetch": "https://corporate.zalando.com/en/legal-notice",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6bb480b43bcc5464a59e39b640747eb9848c9899"
+      }
+    ]
+  }
+}
