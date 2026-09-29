@@ -1,0 +1,57 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:39:42.593Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Policy_Wikimedia_Foundation_API_Usage_Guidelines",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_API_Usage_Guidelines",
+        "select": [
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cd9f91f8d03a01b0327b2ce2d265ac67332b92d6"
+      },
+      {
+        "id": "wiki-Policy_Terms_of_Use_for_Wikimedia_Maps",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use_for_Wikimedia_Maps",
+        "select": [
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "adf0c338b8b7430e48fb27e934f9c0cb889f7509"
+      },
+      {
+        "id": "wiki-Policy_Wikimedia_Phabricator_Terms_of_Use",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Phabricator_Terms_of_Use",
+        "select": [
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "111a715136f09ce813d18f6131118e60dc063bef"
+      }
+    ]
+  }
+}
