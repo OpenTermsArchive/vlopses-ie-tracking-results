@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:50:33.868Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "terms-giftcards",
+        "fetch": "https://www.zalando.ie/terms-giftcards/",
+        "select": [
+          "#main-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f745d6633198d147c3855c80a53c17f861ee700e"
+      }
+    ]
+  }
+}
