@@ -1,0 +1,108 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:58:05.923Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy-printable",
+        "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          "img",
+          "span",
+          "[href=\"#\"]",
+          ".bi",
+          "a[aria-label=\"Watch video\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "oh",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f48b2186f49a9869facfdb1c5f9855f15266073c"
+      },
+      {
+        "id": "privacy-genai",
+        "fetch": "https://mbasic.facebook.com/privacy/genai",
+        "select": [
+          "[role=\"main\"]"
+        ],
+        "remove": [
+          "img",
+          "span",
+          "[href=\"#\"]",
+          "#genai_more_resources"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "oh",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9850d210a4577e7ac86fc955fb8421650d15f175"
+      },
+      {
+        "id": "policies-other-policies-meta-ai-verification-terms",
+        "fetch": "https://transparency.meta.com/policies/other-policies/meta-ai-verification-terms",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "oh",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4dd0660b32f9cbb6ddb75bc7da54c8061dbc09e7"
+      },
+      {
+        "id": "legal-meta-AI-disclosures",
+        "fetch": "https://www.facebook.com/legal/meta-AI-disclosures",
+        "select": [
+          {
+            "startBefore": "div[role=main]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[aria-label=\"Facebook\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "oh",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0cfd1621f9c7e127c97475a5f483b7f74e6dc911"
+      }
+    ]
+  }
+}
