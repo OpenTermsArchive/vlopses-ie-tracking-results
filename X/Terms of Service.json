@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:40:36.820Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-tos",
+        "fetch": "https://x.com/en/tos",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "d474229c08a85ba7ebe7c4aef6f2284c6d923c3d"
+      }
+    ]
+  }
+}
