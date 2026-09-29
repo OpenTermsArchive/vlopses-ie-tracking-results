@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:50:34.757Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "accessibility-statement",
+        "fetch": "https://www.zalando.ie/accessibility-statement/",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5ba752761a1549b9ab306b83b4715e73910cdf2a"
+      }
+    ]
+  }
+}
