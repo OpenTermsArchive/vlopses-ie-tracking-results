@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:26:39.093Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-community-guidelines",
+        "fetch": "https://policy.pinterest.com/en/community-guidelines",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "e315cfdade9e385fae72cfbbab936152fd45b237"
+      },
+      {
+        "id": "en-enforcement",
+        "fetch": "https://policy.pinterest.com/en/enforcement",
+        "select": "#section-community-guidelines-enforcement",
+        "mimeType": "text/html",
+        "snapshotId": "6706c4738edc622a794df8d42d153d681d0118d3"
+      },
+      {
+        "id": "en-article-irish-online-safety-code",
+        "fetch": "https://help.pinterest.com/en/article/irish-online-safety-code",
+        "select": [
+          "main"
+        ],
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "2e56ebefca2482b0c04e29b86d9a597085fcd16d"
+      }
+    ]
+  }
+}
