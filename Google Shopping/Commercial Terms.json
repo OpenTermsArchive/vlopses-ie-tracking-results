@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:20:57.863Z",
+    "serviceName": "Google Shopping",
+    "sourceDocuments": [
+      {
+        "id": "shopping-customerreviews-static-tos-ie-1_01_tos",
+        "fetch": "https://www.google.com/shopping/customerreviews/static/tos/ie/1_01_tos.html",
+        "select": [
+          "body"
+        ],
+        "remove": [
+          "script"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a17ba9f308e7bf5ac940a0631f52c0085ae0a62e"
+      }
+    ]
+  }
+}
