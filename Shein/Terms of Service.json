@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:28:36.851Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "terms-conditions",
+        "fetch": "https://www.sheingroup.com/terms-conditions/",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8e98d933ed4fe19477923bbafe64f3eff6f627f1"
+      },
+      {
+        "id": "Terms-and-Conditions-a-399",
+        "fetch": "https://eur.shein.com/Terms-and-Conditions-a-399.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fa103f2d67beea56438f20439a721e859074895e"
+      },
+      {
+        "id": "Coupon-Policy-a-1302",
+        "fetch": "https://eur.shein.com/Coupon-Policy-a-1302.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6e23d28975156f5fb5b5546a90cb369b2a6e07ef"
+      }
+    ]
+  }
+}
