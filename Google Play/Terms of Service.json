@@ -1,0 +1,40 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:17:14.820Z",
+    "serviceName": "Google Play",
+    "sourceDocuments": [
+      {
+        "id": "intl-en_US-about-play-terms-index",
+        "fetch": "https://play.google.com/intl/en_US/about/play-terms/index.html",
+        "select": "#content",
+        "mimeType": "text/html",
+        "snapshotId": "cb8a080a809d1c5370c286cecc1085689aaf1441"
+      },
+      {
+        "id": "googleplay-android-developer-answer-9858738",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/9858738?hl=en-IE",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "eea925d1f0b91c2fdfb2e01ee8d9403eb98c36b3"
+      },
+      {
+        "id": "googleplay-android-developer-answer-9900533",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/9900533?hl=en-IE",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "c51c9231111d4a2189e54aa85d4ea8b60fde4851"
+      },
+      {
+        "id": "googleplay-android-developer-answer-9900633",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/9900633?hl=en-IE",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "dc5466d0b12fb4bb4426b648cfae36a513ddce5e"
+      }
+    ]
+  }
+}
