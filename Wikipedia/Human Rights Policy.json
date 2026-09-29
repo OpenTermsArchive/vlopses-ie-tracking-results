@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:39:45.591Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Policy_Wikimedia_Human_Rights_Policy",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Human_Rights_Policy",
+        "select": [
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e79eca75c559382fca949d458c3ee3983605ef3d"
+      }
+    ]
+  }
+}
