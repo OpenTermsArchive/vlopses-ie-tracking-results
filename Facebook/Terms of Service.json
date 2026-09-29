@@ -1,0 +1,69 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:57:24.973Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-plain_text_terms",
+        "fetch": "https://mbasic.facebook.com/legal/terms/plain_text_terms/",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "91210413c01e55f4823662386cd9ed4b26535386"
+      },
+      {
+        "id": "policies-other-policies-terms-of-service",
+        "fetch": "https://transparency.meta.com/policies/other-policies/terms-of-service",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f4d7a3339eb0477f7ca9474881bea3c2468fcebb"
+      },
+      {
+        "id": "legal-eu-ai-terms",
+        "fetch": "https://www.facebook.com/legal/eu-ai-terms",
+        "select": [
+          {
+            "startBefore": "div[role=main]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "68b6b58368e4d6c2930a1a3b8b8126498a16ab4c"
+      }
+    ]
+  }
+}
