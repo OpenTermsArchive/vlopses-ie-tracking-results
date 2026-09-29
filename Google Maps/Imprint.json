@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:15:40.221Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "help-legalnotices_maps",
+        "fetch": "https://www.google.com/help/legalnotices_maps",
+        "select": ".main-article",
+        "mimeType": "text/html",
+        "snapshotId": "17b4495bc23318e351058df9d7b9d3fe53f953af"
+      }
+    ]
+  }
+}
