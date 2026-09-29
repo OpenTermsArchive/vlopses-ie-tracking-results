@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:38:24.407Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-business-data-processing-terms",
+        "fetch": "https://www.whatsapp.com/legal/business-data-processing-terms",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4a7d1936378fb984065921af3994b7abd73b7aab"
+      },
+      {
+        "id": "legal-DTA",
+        "fetch": "https://www.whatsapp.com/legal/DTA",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f6b2003ab71817fc72686c90f17c0194051a10a6"
+      },
+      {
+        "id": "legal-business-data-security-terms",
+        "fetch": "https://www.whatsapp.com/legal/business-data-security-terms",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "724661a3ad557d357e35d17dea3a53f83c58e69b"
+      },
+      {
+        "id": "legal-business-data-transfer-addendum",
+        "fetch": "https://www.whatsapp.com/legal/business-data-transfer-addendum",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a158d76117a29db4e340685a72eb4dbd6f62861e"
+      }
+    ]
+  }
+}
