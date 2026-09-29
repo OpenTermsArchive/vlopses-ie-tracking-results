@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:29:15.815Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "ipp",
+        "fetch": "https://ipp.shein.com/ipp?code=20240730201923799773",
+        "select": "#property_content_detail",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5d966d310cb4cd91b2f74abd726422452bfb2f38"
+      },
+      {
+        "id": "ipp",
+        "fetch": "https://ipp.shein.com/ipp?code=20240730192620775058",
+        "select": "#property_content_detail",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5d966d310cb4cd91b2f74abd726422452bfb2f38"
+      },
+      {
+        "id": "copyright-noticeam-a-379",
+        "fetch": "https://eur.shein.com/copyright-noticeam-a-379.html",
+        "select": [
+          "#j-new-article-bff"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "32624e527b9ddb08f9d5e86c367282bcc04bdd3f"
+      }
+    ]
+  }
+}
