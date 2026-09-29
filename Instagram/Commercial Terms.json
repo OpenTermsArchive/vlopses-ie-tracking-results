@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:25:40.701Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "legal-commercial_terms",
+        "fetch": "https://www.facebook.com/legal/commercial_terms",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          "[aria-label='Show more languages']",
+          "[role='button'][tabindex='0']",
+          "footer[role='contentinfo']",
+          "div:has(> a[aria-label='Sign Up for Facebook'])"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "66ac064bbe86cb5bbe580e992b533d0fdf2c6c5e"
+      }
+    ]
+  }
+}
