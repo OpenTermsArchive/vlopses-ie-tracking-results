@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:39:19.289Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-business-terms-p2b-mediation",
+        "fetch": "https://www.whatsapp.com/legal/business-terms/p2b-mediation",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b25d5367de36a49a46837a1d47e20d734843e615"
+      }
+    ]
+  }
+}
