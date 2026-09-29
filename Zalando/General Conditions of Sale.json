@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:50:27.803Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://www.zalando.ie/legal/",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "08797e2a13fd0755c0e5f476186aae4566043335"
+      }
+    ]
+  }
+}
