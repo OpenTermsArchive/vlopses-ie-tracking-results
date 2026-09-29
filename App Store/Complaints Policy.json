@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:44:32.361Z",
+    "serviceName": "App Store",
+    "sourceDocuments": [
+      {
+        "id": "legal-contact-copyright-infringement",
+        "fetch": "https://www.apple.com/legal/contact/copyright-infringement.html",
+        "select": [
+          ".section-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e9b5ac6cbe45054dcb1560439cc98d8414de7543"
+      },
+      {
+        "id": "legal-dsa-en-redress-options",
+        "fetch": "https://www.apple.com/legal/dsa/en/redress-options.html",
+        "select": [
+          ".section-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d112782b3f1d1dcf2a3b8f9d32713269b1c5a7b7"
+      }
+    ]
+  }
+}
