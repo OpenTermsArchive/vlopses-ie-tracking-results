@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:48:47.224Z",
+    "serviceName": "XVideos",
+    "sourceDocuments": [
+      {
+        "id": "legal-mandatory-information",
+        "fetch": "https://info.xvideos.net/legal/mandatory-information",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "83cac666b0384a34d10b722d61e9d3c02e1a3211"
+      }
+    ]
+  }
+}
