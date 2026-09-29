@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:33:37.712Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "affiliate_policy",
+        "fetch": "https://www.temu.com/affiliate_policy.html",
+        "select": [
+          ".mainContent"
+        ],
+        "remove": [
+          "footer",
+          "#mainHeader",
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "39e0d918e4c72f048ba37e37abcdd0c95b88428d"
+      }
+    ]
+  }
+}
