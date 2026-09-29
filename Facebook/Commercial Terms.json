@@ -1,0 +1,96 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:58:56.378Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "legal-commercial_terms",
+        "fetch": "https://www.facebook.com/legal/commercial_terms",
+        "select": [
+          {
+            "startBefore": "[role=\"main\"]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "11e6a8c20847ba852b863130ad396cb07b115145"
+      },
+      {
+        "id": "policies-other-policies-meta-pay-terms-and-conditions",
+        "fetch": "https://transparency.meta.com/policies/other-policies/meta-pay-terms-and-conditions",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f6651ebb3de1c63aaa655011d29384795b08f456"
+      },
+      {
+        "id": "payments_terms",
+        "fetch": "https://www.facebook.com/payments_terms",
+        "select": "[role=\"main\"]",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "02cfa8f8e3af7be6d92397a45837fb0ae2911283"
+      },
+      {
+        "id": "policies_center-commerce",
+        "fetch": "https://www.facebook.com/policies_center/commerce",
+        "select": [
+          "._li"
+        ],
+        "remove": [
+          "#u_0_1_fk",
+          "#u_0_3_Da",
+          "[class~=_9nrb_9nrd]",
+          "[href*='137151366_203760844736656_1882032595123025998_n.jpg']",
+          "[href*='137145103_308994903869841_4708570808613729754_n.jpg']",
+          "[href*='137256059_2800543870233431_455035967167740410_n.jpg']",
+          "[href*='136893606_849918935579882_213472362566516880_n.jpg']",
+          "img[src*='https://scontent']",
+          "img[src*='static.xx.fbcdn.net']",
+          "iframe[src*='https://www.facebook.com/cms/video/?id=850337606335586']",
+          "a",
+          ".img",
+          "span"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2da06167db72a5407704e44febb18da9caf35b31"
+      }
+    ]
+  }
+}
