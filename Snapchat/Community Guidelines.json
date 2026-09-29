@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:30:35.626Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "policy-policy-community-guidelines",
+        "fetch": "https://values.snap.com/policy/policy-community-guidelines",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a64cc2dbf110e94cb360ca4bd2d8c633ba3dac59"
+      },
+      {
+        "id": "privacy-transparency-community-guidelines-severe-harm",
+        "fetch": "https://values.snap.com/privacy/transparency/community-guidelines/severe-harm",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e4bc622f0a111fac3669f18c34b801f3923896f4"
+      },
+      {
+        "id": "policy-policy-community-guidelines-threats-violence-harm",
+        "fetch": "https://values.snap.com/policy/policy-community-guidelines/threats-violence-harm",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c506fecb6abeab7bd5ea7b54bebb6f0b070a8582"
+      },
+      {
+        "id": "policy-policy-community-guidelines-illegal-regulated-activities",
+        "fetch": "https://values.snap.com/policy/policy-community-guidelines/illegal-regulated-activities",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8106ed59c7d114371188c80ea92f5a602e1c3ba2"
+      },
+      {
+        "id": "policy-policy-community-guidelines-hateful-content-terrorism-violent-extremism",
+        "fetch": "https://values.snap.com/policy/policy-community-guidelines/hateful-content-terrorism-violent-extremism",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a8cd7a96c3f0183195cc355951c348a0491ed708"
+      },
+      {
+        "id": "policy-policy-community-guidelines-harassment-bullying",
+        "fetch": "https://values.snap.com/policy/policy-community-guidelines/harassment-bullying",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6acc2d326860b6652579d6b6dd05109f6d7b6902"
+      },
+      {
+        "id": "policy-policy-community-guidelines-sexual-content",
+        "fetch": "https://values.snap.com/policy/policy-community-guidelines/sexual-content",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cce7faea6ba3051a73a4d1778e6275a37861774c"
+      },
+      {
+        "id": "policy-content-guidelines-recommendation-eligibility-recommendation-eligibility-false-deceptive-information",
+        "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/false-deceptive-information",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c44102c545e9746d36bda0d0097ed32ce92d4080"
+      }
+    ]
+  }
+}
