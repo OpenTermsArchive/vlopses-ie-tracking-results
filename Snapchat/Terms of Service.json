@@ -1,0 +1,83 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:30:07.251Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.snap.com/terms",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "df5651e8d749cc5d5a1aacfef911e50d6a3ffab7"
+      },
+      {
+        "id": "terms-paid-features",
+        "fetch": "https://www.snap.com/terms/paid-features",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "dde512dddb0dcb8481e8cf07968a0c084b0d5e50"
+      },
+      {
+        "id": "terms-my-selfie",
+        "fetch": "https://www.snap.com/terms/my-selfie",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a602807a55edebbb513e572f3ab419a4377484d9"
+      },
+      {
+        "id": "policies-pcd",
+        "fetch": "https://www.snap.com/policies/pcd",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "71a8766074e5287b594242a85d90d85a04924408"
+      },
+      {
+        "id": "terms-create-geofilter",
+        "fetch": "https://www.snap.com/terms/create-geofilter",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "66d8301ced5965f4d12721b4cc3a3c396cd8d03c"
+      },
+      {
+        "id": "terms-lens-studio-terms",
+        "fetch": "https://www.snap.com/terms/lens-studio-terms",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6ac1e848aa8764cca1025f1856a13abfed77d300"
+      },
+      {
+        "id": "terms-ai-tools",
+        "fetch": "https://www.snap.com/terms/ai-tools",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "c5cb689d97ebf395933b2a69852b60bbe1b9d6ec"
+      }
+    ]
+  }
+}
