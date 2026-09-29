@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:59:08.714Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "policies-live",
+        "fetch": "https://www.facebook.com/policies/live",
+        "select": [
+          {
+            "startBefore": "div[role=main]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "55983156db15225cf442b3152c40b2aeccab4176"
+      }
+    ]
+  }
+}
