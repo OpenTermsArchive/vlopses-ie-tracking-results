@@ -1,0 +1,30 @@
+{
+  "runId": "ota-run-08f94d68-d4e5-4e27-b2dc-01032968253c",
+  "collectionId": "vlopses-ie",
+  "schedule": "30 */12 * * *",
+  "lastRun": {
+    "startDate": "2026-09-29T22:30:07.365Z",
+    "endDate": null,
+    "engineVersion": "16.2.0",
+    "status": "in_progress"
+  },
+  "declarations": {
+    "commit": "e5cdc876eb3b256b6ebc53fe4765a254c2e0fdeb",
+    "services": 24,
+    "terms": 219
+  },
+  "tracked": {
+    "ok": 0,
+    "failed": 0
+  },
+  "coverage": {
+    "processed": 0,
+    "skipped": []
+  },
+  "transitions": {
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
+  },
+  "transientErrors": 0
+}
