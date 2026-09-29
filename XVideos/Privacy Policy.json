@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:48:39.127Z",
+    "serviceName": "XVideos",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://info.xvideos.net/legal/privacy",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "04923234439a6a02ebd707ecd24bf43504bddc43"
+      },
+      {
+        "id": "legal-privacynotice",
+        "fetch": "https://info.xvideos.net/legal/privacynotice",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0431ad79157c46068e051cf98bf8887a996070b6"
+      },
+      {
+        "id": "dsa-data-access",
+        "fetch": "https://info.xvideos.net/dsa-data-access",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7ee1608a199ec4abeeda710eab6f653aedc2e477"
+      },
+      {
+        "id": "dsa-data-catalogue",
+        "fetch": "https://info.xvideos.net/dsa-data-catalogue",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2ec5f9add47f7c0b92fae452c83a53617826ba30"
+      }
+    ]
+  }
+}
