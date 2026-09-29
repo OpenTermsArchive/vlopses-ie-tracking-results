@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:49:56.179Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "cnt-contentful-apps-uploads-62c0cb21-6d91-45f3-b90e-272a434ce5d6",
+        "fetch": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/62c0cb21-6d91-45f3-b90e-272a434ce5d6.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "345d4722219118bbbc2180835104f082d3f02bc9"
+      },
+      {
+        "id": "privacy-policy",
+        "fetch": "https://partner.zalando.com/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b46427a39c69d11893ffd82c9d8c28bd939a8a41"
+      },
+      {
+        "id": "en-zalando-data-protection-statement",
+        "fetch": "https://corporate.zalando.com/en/zalando-data-protection-statement",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3f862bb85ff774c3a6a1cba3434e23a1e69e5243"
+      }
+    ]
+  }
+}
