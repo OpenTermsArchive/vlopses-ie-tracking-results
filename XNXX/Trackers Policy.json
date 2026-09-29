@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:48:34.355Z",
+    "serviceName": "XNXX",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookiepolicy",
+        "fetch": "https://info.xnxx.com/legal/cookiepolicy",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2dc9a76e3ef63c7f4651f2ce6e93258e310fd2b2"
+      }
+    ]
+  }
+}
