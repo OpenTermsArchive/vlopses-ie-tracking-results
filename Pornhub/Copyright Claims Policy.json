@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:27:10.450Z",
+    "serviceName": "Pornhub",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-ie-articles-4419861225107-Copyright",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419861225107-Copyright",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "937ea72d33a72350a5223e15fd82b12decc493f5"
+      }
+    ]
+  }
+}
