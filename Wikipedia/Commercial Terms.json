@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:39:44.539Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Policy_Wikimedia_Foundation_Commercial_Sales_and_Contracts_Policy",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_Commercial_Sales_and_Contracts_Policy",
+        "select": [
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c4e0453d60f41f56bab07d7acdf54fd8702bafcd"
+      }
+    ]
+  }
+}
