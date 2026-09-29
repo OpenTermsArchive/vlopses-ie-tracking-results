@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:15:29.807Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "wp-content-uploads-2021-03-Facebooks-Corporate-Human-Rights-Policy",
+        "fetch": "https://about.fb.com/wp-content/uploads/2021/03/Facebooks-Corporate-Human-Rights-Policy.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "8ad401cf698466f8f64b4748702617ed583fbce2"
+      }
+    ]
+  }
+}
