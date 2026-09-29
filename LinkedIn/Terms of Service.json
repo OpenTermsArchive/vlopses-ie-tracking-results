@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:25:53.374Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-user-agreement",
+        "fetch": "https://www.linkedin.com/legal/user-agreement",
+        "select": "main",
+        "remove": "div.banner__image-container",
+        "mimeType": "text/html",
+        "snapshotId": "ffb7d423899267a8f633a553ffb3dd872f3a3fe5"
+      },
+      {
+        "id": "legal-eula",
+        "fetch": "https://www.linkedin.com/legal/eula",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "02545d583436cef6f81a17c5d1d5cf5d6866b372"
+      }
+    ]
+  }
+}
