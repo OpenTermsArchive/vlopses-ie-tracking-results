@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:40:34.940Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://x.com/en/privacy",
+        "select": "main",
+        "remove": [
+          ".ct17__wrapper",
+          ".ct17__background"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4599631401c5ca521622ad0de0ac36dcec9257eb"
+      },
+      {
+        "id": "en-rules-and-policies-x-services-and-corporate-affiliates",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-services-and-corporate-affiliates",
+        "select": "main",
+        "remove": [
+          "[aria-label=\"Breadcrumbs\"]",
+          "button",
+          "h4"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d83d82e726509ed02193b8c3a5785a645f88d5c3"
+      }
+    ]
+  }
+}
