@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T23:50:06.865Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "en-investor-relations-corporate-governance-anti-corruption-policy",
+        "fetch": "https://corporate.zalando.com/en/investor-relations/corporate-governance/anti-corruption-policy",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://corporate.zalando.com/en/investor-relations/corporate-governance/anti-corruption-policy'"
+    ]
+  }
+}
