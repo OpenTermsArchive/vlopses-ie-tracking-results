@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:33:38.878Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "policy-page",
+        "fetch": "https://seller-eu.temu.com/policy-page.html?type=50",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "#mms-layout-header",
+          "#mms-layout-footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "72e29c62e6fb212012520b0b5123b5353d68fdbc"
+      }
+    ]
+  }
+}
