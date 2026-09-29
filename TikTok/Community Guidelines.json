@@ -1,0 +1,177 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:34:57.978Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "safety-en-policies-and-engagement-overview",
+        "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/overview",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d661af36baf2d8d7262dd3a7cfdd13104db692f2"
+      },
+      {
+        "id": "community-guidelines-en-community-principles",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/community-principles/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7ed6aed6d2904cf06f3f269469ffe7e3c0cebb3f"
+      },
+      {
+        "id": "safety-en-policies-and-engagement-youth-safety",
+        "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/youth-safety?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3d2056a179abba53a5a2866dc32b6deb8622479f"
+      },
+      {
+        "id": "community-guidelines-en-safety-civility",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/safety-civility/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cbc465e04e1c58b9bbb9fe238ef3ee64f4b14512"
+      },
+      {
+        "id": "community-guidelines-en-mental-behavioral-health",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ad20587e4b17d7f3bc23fa400a9a3050b9caffb6"
+      },
+      {
+        "id": "community-guidelines-en-sensitive-mature-themes",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2e037d6342656887bfccac8401dbc7ebeffb39f1"
+      },
+      {
+        "id": "community-guidelines-en-integrity-authenticity",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/integrity-authenticity/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a947458fb2f85496dd6b7bebd4ebebd5544ca9aa"
+      },
+      {
+        "id": "community-guidelines-en-regulated-commercial-activities",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3a79c72bdb5d56a250a181bc180dee128789b87b"
+      },
+      {
+        "id": "community-guidelines-en-privacy-security",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/privacy-security/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "58fa011716340fa2a7e900d08a013318dd8bb6a5"
+      },
+      {
+        "id": "safety-en-policies-and-engagement-fyf-standards",
+        "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/fyf-standards?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fc5b793a83153d7c52e7500f8639b1b4c8681e86"
+      },
+      {
+        "id": "community-guidelines-en-accounts-features",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/accounts-features/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dd8703f6eb35c02caa108544e52b1a7029cd4843"
+      },
+      {
+        "id": "community-guidelines-en-enforcement",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/enforcement/?cgversion=2025H2update",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "h3",
+          "button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "69eac4c5fafb02c41ef196e34e6cab9f20d2026b"
+      }
+    ]
+  }
+}
