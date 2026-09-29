@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T23:35:40.448Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "en-business-and-creator-creator-and-business-accounts-promoting-a-brand-product-or-service",
+        "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
+        "select": [
+          ".article-desc-container"
+        ],
+        "remove": [
+          ".help-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "dc34125648d030d1b7829239661b82517b8bd81e"
+      },
+      {
+        "id": "en-business-and-creator-creator-and-business-accounts-commercial-use-of-music-on-tiktok",
+        "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok",
+        "select": [
+          ".article-desc-container"
+        ],
+        "remove": [
+          ".help-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "54904d5772580e1e04ca8a254c397ccf7a92f1b0"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".article-desc-container\"]\" has no match in the web page at 'https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\".article-desc-container\"]\" has no match in the web page at 'https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
