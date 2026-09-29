@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:16:02.127Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "maps-platform-terms-aup",
+        "fetch": "https://cloud.google.com/maps-platform/terms/aup",
+        "select": "#module-3",
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "00a64251c6c8f3ff7d0bd5cacf26b7d112d640e2"
+      }
+    ]
+  }
+}
