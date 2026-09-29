@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:26:36.003Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://policy.pinterest.com/en/privacy-policy",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "bba803e7295ab43cec0987a0802bd70578ccbc78"
+      },
+      {
+        "id": "en-information-about-call-recordings",
+        "fetch": "https://policy.pinterest.com/en/information-about-call-recordings",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "3f39ff2995cdf7a30f38dcad2bcd05e7ded5f450"
+      },
+      {
+        "id": "en-non-user-notice",
+        "fetch": "https://policy.pinterest.com/en/non-user-notice",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "b18026b65e91cf8645815d5229cb3b216e4ebd4b"
+      }
+    ]
+  }
+}
