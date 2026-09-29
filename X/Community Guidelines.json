@@ -1,0 +1,311 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:58:25.322Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-x-rules",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-rules",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a4eb48a4809d6a66abd8fcda41f20e4be78f0b5d"
+      },
+      {
+        "id": "en-rules-and-policies-violent-content",
+        "fetch": "https://help.x.com/en/rules-and-policies/violent-content",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f768dd8b447a3cbde2a5320ebdf83e443ad7a0ff"
+      },
+      {
+        "id": "en-rules-and-policies-violent-entities",
+        "fetch": "https://help.x.com/en/rules-and-policies/violent-entities",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1677c986b408ca7b489078efb2e3a48e72664c3a"
+      },
+      {
+        "id": "en-rules-and-policies-child-safety",
+        "fetch": "https://help.x.com/en/rules-and-policies/child-safety",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7f8d7f6f4ee691f877cd323cc6a549389e3480c3"
+      },
+      {
+        "id": "en-rules-and-policies-abusive-behavior",
+        "fetch": "https://help.x.com/en/rules-and-policies/abusive-behavior",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "59e6925e6b665acc2258e4e76a7bc02948c4b0e5"
+      },
+      {
+        "id": "en-rules-and-policies-hateful-conduct-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/hateful-conduct-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3783304ee4b92658db30eb6d525ddeac8ff5eba7"
+      },
+      {
+        "id": "en-rules-and-policies-perpetrators-of-violent-attacks",
+        "fetch": "https://help.x.com/en/rules-and-policies/perpetrators-of-violent-attacks",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6b8e0680087e0810f91fd6c460fb24a0ea670874"
+      },
+      {
+        "id": "en-rules-and-policies-glorifying-self-harm",
+        "fetch": "https://help.x.com/en/rules-and-policies/glorifying-self-harm",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c576e5558e795cd29b06c004b387d50b66618d89"
+      },
+      {
+        "id": "en-rules-and-policies-adult-content",
+        "fetch": "https://help.x.com/en/rules-and-policies/adult-content",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2cc4528a821524fb40f6417297d4d62576992caf"
+      },
+      {
+        "id": "en-rules-and-policies-shopping-policies",
+        "fetch": "https://help.x.com/en/rules-and-policies/shopping-policies",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "478194116f8cf6bbddaf565f0fcd4c960e61108b"
+      },
+      {
+        "id": "en-rules-and-policies-personal-information",
+        "fetch": "https://help.x.com/en/rules-and-policies/personal-information",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7ed2c941d6ce8e2ce20d21a21ba6e889925c16ea"
+      },
+      {
+        "id": "en-rules-and-policies-intimate-media",
+        "fetch": "https://help.x.com/en/rules-and-policies/intimate-media",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0a66e293901b530b5c9700d788d80eeff9cfa78a"
+      },
+      {
+        "id": "en-rules-and-policies-platform-manipulation",
+        "fetch": "https://help.x.com/en/rules-and-policies/platform-manipulation",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "564bd07276dbafa6082e52d347b2204c4d3850da"
+      },
+      {
+        "id": "en-rules-and-policies-election-integrity-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/election-integrity-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "16d19e972ad963e9ed311eed6a8bab70e0dce0e6"
+      },
+      {
+        "id": "en-rules-and-policies-twitter-impersonation-and-deceptive-identities-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1e2386fba1873a4db874f6167e6f2e4002f46789"
+      },
+      {
+        "id": "en-rules-and-policies-manipulated-media",
+        "fetch": "https://help.x.com/en/rules-and-policies/manipulated-media",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3f41665aa96bb8101df2720a6c7427a353621785"
+      },
+      {
+        "id": "en-rules-and-policies-x-trademark-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-trademark-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e3cb76daac5c5f22d20f38ac48cfe07d0fdec0f4"
+      },
+      {
+        "id": "en-rules-and-policies-x-username-squatting",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-username-squatting",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "455117c75fe510e2e7e5673b7035024f1366b75a"
+      },
+      {
+        "id": "en-rules-and-policies-copypasta-duplicate-content",
+        "fetch": "https://help.x.com/en/rules-and-policies/copypasta-duplicate-content",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d522bbf793c83270b6bb8d8b0cb29cddf9a3b516"
+      },
+      {
+        "id": "en-rules-and-policies-financial-scam",
+        "fetch": "https://help.x.com/en/rules-and-policies/financial-scam",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bedac18bb770e35bed64daa169f6fbffa6561bce"
+      },
+      {
+        "id": "en-rules-and-policies-abusive-profile",
+        "fetch": "https://help.x.com/en/rules-and-policies/abusive-profile",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "af1da9125d052fff1c30de737aaa5f2124a9ca6b"
+      },
+      {
+        "id": "en-rules-and-policies-automated-claims-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/automated-claims-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3dc8f20b6451cf5a9da763dad813502c5b0fb0b8"
+      },
+      {
+        "id": "en-rules-and-policies-counterfeit-goods-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/counterfeit-goods-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "412cfd6697f77ce04356035a02073f77f3ea7e9e"
+      },
+      {
+        "id": "en-rules-and-policies-public-interest",
+        "fetch": "https://help.x.com/en/rules-and-policies/public-interest",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "73f03c52dbe8bf3e44c16a9b52eaf807651ba3ff"
+      },
+      {
+        "id": "en-rules-and-policies-x-limits",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-limits",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "585187a28bb507d23cf85a1acb33ed1f964156b6"
+      },
+      {
+        "id": "en-rules-and-policies-x-reach-limited",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-reach-limited",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8181bafe906d3c4d9132e180b823a75054954c6a"
+      },
+      {
+        "id": "en-rules-and-policies-enforcement-options",
+        "fetch": "https://help.x.com/en/rules-and-policies/enforcement-options",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "87f1b6762e4d1078b1d12f82c8df072cff2bdfe7"
+      },
+      {
+        "id": "en-rules-and-policies-x-moments-guidelines-and-principles",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-moments-guidelines-and-principles",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "92892c99b9d24abe8700a6db9360be5b2c8bf629"
+      },
+      {
+        "id": "en-rules-and-policies-fair-use-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/fair-use-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a632c8b37a3b4080f5e40967665308b61ce1e33f"
+      },
+      {
+        "id": "en-rules-and-policies-enforcement-philosophy",
+        "fetch": "https://help.x.com/en/rules-and-policies/enforcement-philosophy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0e480698e0f19739a2b4cbf3077adcf12c4c3927"
+      },
+      {
+        "id": "en-rules-and-policies-media-literacy-plan",
+        "fetch": "https://help.x.com/en/rules-and-policies/media-literacy-plan",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "634cad7d327f282a782e8c1f0dd3809b5c4762f2"
+      },
+      {
+        "id": "en-rules-and-policies-european-union",
+        "fetch": "https://help.x.com/en/rules-and-policies/european-union",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c89b3ecd92b4b7284b16e0953ecd3bbbf5a42d90"
+      },
+      {
+        "id": "en-rules-and-policies-digital-services-act",
+        "fetch": "https://help.x.com/en/rules-and-policies/digital-services-act",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "45dece3a520b5af5500b068cabc8d09ef47c157f"
+      }
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.x.com/en/rules-and-policies/platform-manipulation'"
+      ]
+    }
+  }
+}
