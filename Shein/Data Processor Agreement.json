@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:29:23.237Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "wp-content-uploads-2025-10-DPA-Defined-Terms-Appendix",
+        "fetch": "https://www.sheingroup.com/wp-content/uploads/2025/10/DPA-Defined-Terms-Appendix.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "625d867e12899f33129124306b8512c5ed32fa57"
+      },
+      {
+        "id": "wp-content-uploads-2025-10-EEA-SCCs-Appendix",
+        "fetch": "https://www.sheingroup.com/wp-content/uploads/2025/10/EEA-SCCs-Appendix.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "149f231b1de3d0256b7ccb54d8b948587ff87528"
+      },
+      {
+        "id": "wp-content-uploads-2025-10-DPA-Swiss-SCCs-Appendix",
+        "fetch": "https://www.sheingroup.com/wp-content/uploads/2025/10/DPA-Swiss-SCCs-Appendix.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "f9aef3d1e0d1d3704cc7364965873600155a4e0f"
+      }
+    ]
+  }
+}
