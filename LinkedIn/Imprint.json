@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:26:31.060Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-impressum",
+        "fetch": "https://www.linkedin.com/legal/impressum",
+        "select": "main",
+        "remove": "div.banner__image-container",
+        "mimeType": "text/html",
+        "snapshotId": "1c7f4f9326dabb09f57525a3dabbb09d28417ea0"
+      }
+    ]
+  }
+}
