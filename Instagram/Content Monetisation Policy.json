@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:25:49.761Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "2635536099905516",
+        "fetch": "https://help.instagram.com/2635536099905516",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          "fieldset",
+          "[id='Related Articles']",
+          "[role='tablist']"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5d12682a93aa513d27c9a0ed15c20a1fe82a9b29"
+      },
+      {
+        "id": "512371932629820",
+        "fetch": "https://help.instagram.com/512371932629820?helpref=faq_content",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          "fieldset",
+          "[id='Related Articles']",
+          "[role='tablist']"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3e29079f1ca1e5737cd7e883c10381ed81840366"
+      }
+    ]
+  }
+}
