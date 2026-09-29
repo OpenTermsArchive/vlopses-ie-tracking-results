@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:27:08.160Z",
+    "serviceName": "Pornhub",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-ie-articles-4419878696211-Notice-To-Our-Users",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419878696211-Notice-To-Our-Users",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "09206eac3473b9614b47eb3decc83d2eaf579a20"
+      },
+      {
+        "id": "hc-en-ie-articles-4419883182867-Notice-To-Law-Enforcement",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419883182867-Notice-To-Law-Enforcement",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dd7f928f7034d47e981234ef5558730fa832722b"
+      },
+      {
+        "id": "information-2257",
+        "fetch": "https://www.pornhub.com/information/2257",
+        "select": [
+          "#information_2257"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7ebe2764df672fdc262c907a5c66929742b6bdf9"
+      },
+      {
+        "id": "hc-en-ie-articles-4419879221907-Pornhub-Trusted-Flagger-Program",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419879221907-Pornhub-Trusted-Flagger-Program",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e9a77037ae6418d886c45c251368dfb120e1eab5"
+      },
+      {
+        "id": "hc-en-ie-articles-4419868912787-Content-Removal-Request-Form",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419868912787-Content-Removal-Request-Form",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d477be1ad409ccfd4052b51f9ce73d373bb56185"
+      }
+    ]
+  }
+}
