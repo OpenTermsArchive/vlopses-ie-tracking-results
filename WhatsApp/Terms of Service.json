@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:38:06.127Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://www.whatsapp.com/legal/terms-of-service",
+        "select": "#content-wrapper",
+        "remove": [
+          "span",
+          "a[href*='/legal/privacy-policy']",
+          "a[href*='/legal/ip-policy']",
+          "a[href*='https://about.meta.com/brand/resources/whatsapp/whatsapp-brand']",
+          "[href='#top-of-page']"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fab04dc8136d7082ecc9e517a532f7e82f4e3f36"
+      },
+      {
+        "id": "legal-channels-terms-of-service",
+        "fetch": "https://www.whatsapp.com/legal/channels-terms-of-service",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a12199d267388640072667329ff8b0a32ee8625b"
+      },
+      {
+        "id": "legal-payments-terms",
+        "fetch": "https://www.whatsapp.com/legal/payments/terms",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "45bcb97a7bd9797f03faae5bd2eb6821ced11a44"
+      },
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://www.whatsapp.com/legal/terms-of-service?eea",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fab04dc8136d7082ecc9e517a532f7e82f4e3f36"
+      }
+    ]
+  }
+}
