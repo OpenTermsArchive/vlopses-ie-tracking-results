@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:26:29.488Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-l-dpa",
+        "fetch": "https://www.linkedin.com/legal/l/dpa",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "ab3fda7b4837161a4c7622eb2d38927c70f8c724"
+      }
+    ]
+  }
+}
