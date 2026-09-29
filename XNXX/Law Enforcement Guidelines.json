@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:48:34.996Z",
+    "serviceName": "XNXX",
+    "sourceDocuments": [
+      {
+        "id": "trusted-flaggers",
+        "fetch": "https://info.xnxx.com/trusted-flaggers",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "eff2abf2828f95ed28c2fc5cb94322532fdb4f94"
+      }
+    ]
+  }
+}
