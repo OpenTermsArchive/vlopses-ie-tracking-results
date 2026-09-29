@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:43:37.982Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-terms-c_platform_service_agreement-20240401172006520-20240401172006520",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20240401172006520/20240401172006520.html",
+        "select": [
+          "#ddReader"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "89493d5092829ae9e2882282ef710caa54a01ac3"
+      }
+    ]
+  }
+}
