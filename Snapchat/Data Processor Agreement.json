@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:30:46.805Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "terms-data-processing-agreement",
+        "fetch": "https://www.snap.com/terms/data-processing-agreement",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d24f5a48d873d0ace5fedf2fbffea0e7493a9ecc"
+      },
+      {
+        "id": "terms-data-sharing-agreement",
+        "fetch": "https://www.snap.com/terms/data-sharing-agreement",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "59bd1fcb02d3a0eab2d411f911934e5591ce1983"
+      },
+      {
+        "id": "terms-data-transfer-agreement",
+        "fetch": "https://www.snap.com/terms/data-transfer-agreement",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "eed62bdf1901af854d70f3e15c14b18bcf528f31"
+      }
+    ]
+  }
+}
