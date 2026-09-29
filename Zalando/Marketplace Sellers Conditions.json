@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:50:47.493Z",
+    "serviceName": "Zalando",
+    "sourceDocuments": [
+      {
+        "id": "6h1o1uyhbb7c-1tFgA2aDsU0Xlx6OmupYvF-427a345f2d9ceabce6904ae3a411c09d-2025_Product___Brand_Guidelines",
+        "fetch": "https://assets.ctfassets.net/6h1o1uyhbb7c/1tFgA2aDsU0Xlx6OmupYvF/427a345f2d9ceabce6904ae3a411c09d/2025_Product___Brand_Guidelines.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "124d6576e44c030fe1ba0f48574ba42e4f811616"
+      },
+      {
+        "id": "6h1o1uyhbb7c-6Av9BaFuyByKZ7FW1jPP3u-3d8c4f0c3e96403e1961dacc41ac55f9-Zalando-SE_Sustainable-Sourcing-Animal-Welfare-Policy__1_",
+        "fetch": "https://assets.ctfassets.net/6h1o1uyhbb7c/6Av9BaFuyByKZ7FW1jPP3u/3d8c4f0c3e96403e1961dacc41ac55f9/Zalando-SE_Sustainable-Sourcing-Animal-Welfare-Policy__1_.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "4c44420674f4653a9d9e5108ead1e4a24df9c7f2"
+      },
+      {
+        "id": "university-article-platform-rules",
+        "fetch": "https://partner.zalando.com/university/article/platform-rules",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "img",
+          "header",
+          "footer",
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "70070d52acda22eb4e5443ede64d5cc50323a94a"
+      },
+      {
+        "id": "university-article-zalandos-code-of-conduct",
+        "fetch": "https://partner.zalando.com/university/article/zalandos-code-of-conduct",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "img",
+          "header",
+          "footer",
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "084b3143779ce46e0c219825e45e1740c8e7ffb2"
+      }
+    ]
+  }
+}
