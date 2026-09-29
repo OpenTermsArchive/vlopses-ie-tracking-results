@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-09-29T22:30:07.365Z",
-    "endDate": null,
+    "endDate": "2026-09-29T23:58:26.482Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "e5cdc876eb3b256b6ebc53fe4765a254c2e0fdeb",
@@ -14,11 +14,11 @@
     "terms": 219
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 198,
+    "failed": 15
   },
   "coverage": {
-    "processed": 0,
+    "processed": 213,
     "skipped": []
   },
   "transitions": {
@@ -26,5 +26,5 @@
     "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 0
+  "transientErrors": 4
 }
