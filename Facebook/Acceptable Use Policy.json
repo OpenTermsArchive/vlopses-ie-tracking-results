@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:15:34.361Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "policies-other-policies-meta-pay-acceptable-use-policy",
+        "fetch": "https://transparency.meta.com/policies/other-policies/meta-pay-acceptable-use-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "18be2870155540f39b3de9375262f8114dc1ceaf"
+      }
+    ]
+  }
+}
