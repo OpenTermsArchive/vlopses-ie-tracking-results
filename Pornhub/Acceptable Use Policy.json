@@ -1,0 +1,97 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T23:27:46.593Z",
+    "serviceName": "Pornhub",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-ie-articles-4419871787027-Non-Consensual-Content-Policy",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419871787027-Non-Consensual-Content-Policy",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ac74dfd4099e626159fea299ab664039adec8282"
+      },
+      {
+        "id": "hc-en-ie-categories-4419836212499-Our-Commitment-to-Trust-and-Safety",
+        "fetch": "https://help.pornhub.com/hc/en-ie/categories/4419836212499-Our-Commitment-to-Trust-and-Safety",
+        "select": [
+          ".h2",
+          ".page-description"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4a40e877695a96ddadfded5a352496f17dd226ea"
+      },
+      {
+        "id": "hc-en-ie-articles-19159382668435-Trust-and-Safety-Initiatives",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/19159382668435-Trust-and-Safety-Initiatives",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "672cd7c211684914110d58e89204fb4e7e71f662"
+      },
+      {
+        "id": "hc-en-ie-articles-4419869793683-Child-Sexual-Abuse-Material-Policy",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419869793683-Child-Sexual-Abuse-Material-Policy",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1a6964e81154e6af9b48c95438945cf0139fb742"
+      },
+      {
+        "id": "hc-en-ie-articles-7906741373971-Animal-Welfare-Policy",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/7906741373971-Animal-Welfare-Policy",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "25c27130426081baae30bf0946fb0029e97d1680"
+      },
+      {
+        "id": "hc-en-ie-articles-4419863430291-Violent-Content-Policy",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419863430291-Violent-Content-Policy",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "34a42d205d917e7ed8362c0008cf54c4635f027b"
+      },
+      {
+        "id": "hc-en-ie-articles-4419885579795-Parental-Controls",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419885579795-Parental-Controls",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "872ee215f60b62a7df131258bb17012c7f565a6b"
+      },
+      {
+        "id": "hc-en-ie-articles-4419839721875-What-sort-of-content-is-not-allowed-on-the-site",
+        "fetch": "https://help.pornhub.com/hc/en-ie/articles/4419839721875-What-sort-of-content-is-not-allowed-on-the-site",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "aa5edcb255d06d8301691dcfe86af086066eab2d"
+      }
+    ]
+  }
+}
