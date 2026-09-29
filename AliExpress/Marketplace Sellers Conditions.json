@@ -1,0 +1,699 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:43:14.854Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "rule-channels-37978936-137259699",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137259699",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8f8b57da288037ea782c4bfbd2e984d492c58dc4"
+      },
+      {
+        "id": "rule-channels-37978936-127561565",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561565",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2e5fd7161f36949309c0e0e3469aa030de19ef2a"
+      },
+      {
+        "id": "rule-channels-37978936-137261302",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137261302",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e2697489a8aa8466ce7c479972905a049414c004"
+      },
+      {
+        "id": "rule-channels-37978936-149930676",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/149930676",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7d6ba48ad71c54d62e296661301994df4ee438e5"
+      },
+      {
+        "id": "rule-channels-37978936-180243954",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/180243954",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "80e42a67714e513628070a37db3df402de42b5a4"
+      },
+      {
+        "id": "rule-channels-37978936-127561583",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561583",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dc8906c05100d0746c771d28519337a7da61644c"
+      },
+      {
+        "id": "rule-channels-37978936-180077641",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/180077641",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5f15c1a969bfa34ebfd7f8b0a0e4d2620b503176"
+      },
+      {
+        "id": "rule-channels-37978936-127561551",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561551",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b2b3819f057eba673db67e7c03cec40e46998da9"
+      },
+      {
+        "id": "rule-channels-37978936-127561552",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561552",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a2793c1db9ad0af6da2be270aa858d5767487827"
+      },
+      {
+        "id": "rule-channels-37978936-127561558",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561558",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b0d2a2f1ee5b4e6cc8cdaa710a74ad2ba0acd77c"
+      },
+      {
+        "id": "rule-channels-37978936-137281264",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137281264",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "409d2e9cba00c053d4edacc361910915ec6a8610"
+      },
+      {
+        "id": "rule-channels-37978936-138267621",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/138267621",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7738875b3338094b04d66652fd36885cba9b1881"
+      },
+      {
+        "id": "rule-channels-37978936-137340756",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340756",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5e01797db8a0c2cc3347169d40730e822f572f42"
+      },
+      {
+        "id": "rule-channels-37978936-137260525",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137260525",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1b9a3592b1bedb4dbb05563cb86eaed8be4a7977"
+      },
+      {
+        "id": "rule-channels-37978936-137260610",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137260610",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "30632fa1b1e6a2c1d7dd5454c358c751f1647585"
+      },
+      {
+        "id": "rule-channels-37978936-137340843",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340843",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d78738730420ec6879c7e412e6b29e09832fc21a"
+      },
+      {
+        "id": "rule-channels-37978936-137340525",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340525",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ab81b0513a770a0e6d7a96b7b9976970f4c0c928"
+      },
+      {
+        "id": "rule-channels-37978936-137340442",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340442",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1eef043c45ca6a19f03d5c680591707cd6b2b6fe"
+      },
+      {
+        "id": "rule-channels-37978936-137260452",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137260452",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e2f3323dc03c73d76b19f95bb395bae5dff621da"
+      },
+      {
+        "id": "rule-channels-37978936-137340306",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340306",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "98963d6adfe025700433f2307947562efa6aa2dd"
+      },
+      {
+        "id": "rule-channels-37978936-137340560",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340560",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2e0ac92a550de18da9584cff1032a4a3e810ed48"
+      },
+      {
+        "id": "rule-channels-37978936-137340393",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340393",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "de302352193bc27e81507e26a8b94cf44874b011"
+      },
+      {
+        "id": "rule-channels-37978936-137340636",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340636",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d01241f6b980395899e0be854cffd4e70d04e7b3"
+      },
+      {
+        "id": "rule-channels-37978936-137340598",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340598",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b23e0f7dceb0499b97c5011442f43cf396b49ef7"
+      },
+      {
+        "id": "rule-channels-37978936-127561581",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561581",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "56fe2d89e4af157e200d63c2facb8bb0bc07c0b1"
+      },
+      {
+        "id": "rule-channels-37978936-137340481",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340481",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "febf464ead2a4adcb500a179cbac16786f234136"
+      },
+      {
+        "id": "rule-channels-37978936-137340205",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340205",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "82e52f6f30cef904677170ffcffa0d3a6a44abf4"
+      },
+      {
+        "id": "rule-channels-37978936-137340711",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/137340711",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ea471869e0564a0399872f7fd3d651abeb058a54"
+      },
+      {
+        "id": "rule-channels-36963666-156164010",
+        "fetch": "https://rule.aliexpress.com/rule-channels/36963666/156164010",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5aba000d5224670b45fb7b3fc39701733e5e4e2f"
+      },
+      {
+        "id": "rule-channels-37978936-147928969",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/147928969",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6fdeb3eaf9121dbffdfdfcf037fcb6884dbd8794"
+      },
+      {
+        "id": "rule-channels-37978936-180112229",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/180112229",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "41576011f8626dcbd0f837aafad79454a0798182"
+      },
+      {
+        "id": "rule-channels-36963666-164875170",
+        "fetch": "https://rule.aliexpress.com/rule-channels/36963666/164875170",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5042cc241e583c4f2c8b97349b97828e81f4740b"
+      },
+      {
+        "id": "rule-channels-37978936-243523937",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/243523937",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f28d382931692a85150b0da4399836e63a6af9be"
+      },
+      {
+        "id": "rule-channels-37978936-180110655",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/180110655",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0a55d8e3e3a3088ce6eb01e4a90fdd4566607a0e"
+      },
+      {
+        "id": "rule-channels-37978936-157566799",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/157566799",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "111506dabf8de2bafe28481f928cd4f3d17e391c"
+      },
+      {
+        "id": "rule-channels-37978936-132341829",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/132341829",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c306aa80f1b237fb1252f0df0e539550ba6c85a8"
+      },
+      {
+        "id": "rule-channels-37978936-133166937",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/133166937",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a2d5c3bb757ad12258364b4e99b2c3c313979043"
+      },
+      {
+        "id": "rule-channels-37978936-132289376",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/132289376",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5c78ced328a369b3e65231c295a4fadd7930156a"
+      },
+      {
+        "id": "rule-channels-37978936-235352878",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/235352878",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c9c881424600298205692dfe11ba573aebdd08fe"
+      },
+      {
+        "id": "rule-channels-37978936-237057691",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/237057691",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1c8412573acdd2336d7e4037f7553cd5d47e3bf3"
+      },
+      {
+        "id": "rule-channels-37978936-240793912",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/240793912",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a4ec70af79fe4565f6bef15b3058243c74fa9293"
+      },
+      {
+        "id": "rule-channels-37978936-243628385",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/243628385",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f2fcbccf9127d84e729b18b4faed772f046f90c4"
+      },
+      {
+        "id": "rule-channels-37978936-211428580",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/211428580",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "553e7aa65bfcdb333924833be4211ad0b1d11cb4"
+      },
+      {
+        "id": "rule-channels-37978936-131630255",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/131630255",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2fcd231a0b7491e0e5b3dbf0dd8dfd2020c35116"
+      },
+      {
+        "id": "rule-channels-37978936-132341102",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/132341102",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "48fac202b419302c11b5369f5a5ce5c181402e5a"
+      },
+      {
+        "id": "rule-channels-37978936-160658383",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/160658383",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a03f1d508fc70dca4a2c0e4bb932b36a60415204"
+      }
+    ]
+  }
+}
