@@ -1,0 +1,78 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:58:21.982Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-data-processing-addendum",
+        "fetch": "https://openai.com/policies/data-processing-addendum/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3367f96f4862bfadd718ddb5d42ca6e708867023"
+      },
+      {
+        "id": "policies-ad-tools-dpa",
+        "fetch": "https://openai.com/policies/ad-tools-dpa/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2babef3e08b02ea37b5bd0229d9fc2538f8630d5"
+      },
+      {
+        "id": "policies-chatgpt-sites-data-processing-addendum",
+        "fetch": "https://openai.com/policies/chatgpt-sites-data-processing-addendum/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dd4bd8fe53ee3686745d4409e00da3d6d8d98462"
+      }
+    ]
+  }
+}
