@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:59:36.965Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-cookie-policy",
+        "fetch": "https://openai.com/policies/cookie-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "714103c44dd9e64b2374e21ea1cfb1c3d98330a8"
+      }
+    ]
+  }
+}
