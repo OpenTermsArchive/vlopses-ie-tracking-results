@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:00:07.622Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "apps-sdk-app-developer-guidelines",
+        "fetch": "https://developers.openai.com/apps-sdk/app-developer-guidelines/",
+        "select": [
+          "article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "572960f79356db40ba06468ad9ea10201afb1a44"
+      }
+    ]
+  }
+}
