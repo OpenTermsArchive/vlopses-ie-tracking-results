@@ -1,0 +1,125 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:31:35.395Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-developer-terms",
+        "fetch": "https://redditinc.com/policies/developer-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f4ab726cf525c6cebf2e51ef105c8f863d1ac34f"
+      },
+      {
+        "id": "policies-data-api-terms",
+        "fetch": "https://redditinc.com/policies/data-api-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "741054fadffdba95c80758d7d388797ef8a208c2"
+      },
+      {
+        "id": "policies-embeds-terms",
+        "fetch": "https://redditinc.com/policies/embeds-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b68a8c005a5447acb7969ac7c790e704aa7e6875"
+      },
+      {
+        "id": "docs-devvit_rules",
+        "fetch": "https://developers.reddit.com/docs/devvit_rules",
+        "select": ".theme-doc-markdown",
+        "remove": "a.hash-link",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2747c96f595ff3727996532b682ef1356819e249"
+      },
+      {
+        "id": "hc-en-us-articles-42728983564564-Responsible-Builder-Policy",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/42728983564564-Responsible-Builder-Policy",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "remove": [],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "50da267c67b707e9018f9b9427367f836351f3a2"
+      },
+      {
+        "id": "hc-en-us-articles-26410290525844-Public-Content-Policy",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/26410290525844-Public-Content-Policy",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "remove": [],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "20e9625699fe7258100011e52a0f1a102e37321d"
+      }
+    ]
+  }
+}
