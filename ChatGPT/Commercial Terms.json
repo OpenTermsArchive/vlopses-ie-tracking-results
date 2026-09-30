@@ -1,0 +1,170 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:59:07.546Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-services-agreement",
+        "fetch": "https://openai.com/policies/services-agreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7a6e36450ae319afd919b7629d8d5c1a14b9695d"
+      },
+      {
+        "id": "policies-advertising-terms",
+        "fetch": "https://openai.com/policies/advertising-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2100f9701055041c7da8d095004bdc7b554ff6f2"
+      },
+      {
+        "id": "policies-ad-tools-terms",
+        "fetch": "https://openai.com/policies/ad-tools-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "69d2557078df093fa5b293bafab788d94cf7d355"
+      },
+      {
+        "id": "policies-conversion-terms",
+        "fetch": "https://openai.com/policies/conversion-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1575e6172c6e63aa7d42ba7585af43e6a8d075e5"
+      },
+      {
+        "id": "policies-ad-credit-terms",
+        "fetch": "https://openai.com/policies/ad-credit-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b090d75cd271f911387c4efbdc9a1f1520a41b3a"
+      },
+      {
+        "id": "policies-education-terms",
+        "fetch": "https://openai.com/policies/education-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c71e1a17c3166b6a4d6c8278a0df67c4b27de745"
+      },
+      {
+        "id": "policies-financial-services-terms",
+        "fetch": "https://openai.com/policies/financial-services-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3b4506e1bd0acdc63729ae38d0a542e222101a76"
+      }
+    ]
+  }
+}
