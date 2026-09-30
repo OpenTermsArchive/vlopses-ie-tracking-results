@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:41:09.426Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-23595536875796-Digital-Services-Act-DSA-Information-for-EU-users",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "41c5bc7fe54f22a36a1153beacc49ad053fc0d69"
+      },
+      {
+        "id": "hc-en-us-articles-23511059871252-Content-Moderation-Enforcement-and-Appeals",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/23511059871252-Content-Moderation-Enforcement-and-Appeals",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c21c630a4aae7710bc921bea6683044da827a299"
+      },
+      {
+        "id": "hc-en-us-articles-23512591656212-Digital-Services-Act-DSA-Resolution-options-for-EU-users",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/23512591656212-Digital-Services-Act-DSA-Resolution-options-for-EU-users",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7c2a467b5f270dff6ed2634c7649d88073f5d0f9"
+      }
+    ]
+  }
+}
