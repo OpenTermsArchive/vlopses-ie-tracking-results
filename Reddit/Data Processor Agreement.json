@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:41:00.064Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "s-article-Reddit-Advertising-Data-Processing-Agreement",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Data-Processing-Agreement",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "73fee874a1aa44609d22ba9cb228b9767b001791"
+      },
+      {
+        "id": "s-article-Reddit-Security-Measures",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Security-Measures",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b5b0d7e411fb29586da8934037abf5ef42c4ba20"
+      },
+      {
+        "id": "s-article-Reddit-Ads-Subprocessors",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Ads-Subprocessors",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "96a5be3188ca44dd2f49ff4f3ed359e736c03cad"
+      }
+    ]
+  }
+}
