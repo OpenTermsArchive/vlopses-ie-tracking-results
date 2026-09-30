@@ -1,0 +1,78 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:57:56.581Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-usage-policies",
+        "fetch": "https://openai.com/policies/usage-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2f5a2ca517959dda6732e019937d9ad16afc0a37"
+      },
+      {
+        "id": "policies-using-chatgpt-agent-in-line-with-our-policies",
+        "fetch": "https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0b2336124d1b7d7a3ccf509b5ecdee1cae9442fb"
+      },
+      {
+        "id": "policies-sharing-publication-policy",
+        "fetch": "https://openai.com/policies/sharing-publication-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f07bf6be679ba9c91754d78486452cba99fc0870"
+      }
+    ]
+  }
+}
