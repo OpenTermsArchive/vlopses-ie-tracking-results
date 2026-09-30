@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:32:56.432Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-earn-terms",
+        "fetch": "https://redditinc.com/policies/earn-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "acfb39d52a9103986273a0dfd7860a1f7fbb2510"
+      },
+      {
+        "id": "policies-earn-policy",
+        "fetch": "https://redditinc.com/policies/earn-policy",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "12baf4c3fcb548d2cb3564308462e2fd38909637"
+      },
+      {
+        "id": "policies-creator-terms",
+        "fetch": "https://redditinc.com/policies/creator-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bc1743aed10bd9926953901134ceb8dacc08eaba"
+      }
+    ]
+  }
+}
