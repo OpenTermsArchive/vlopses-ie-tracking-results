@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:39:05.683Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-trademark-use-policy",
+        "fetch": "https://redditinc.com/policies/trademark-use-policy",
+        "select": ".page-center > #content",
+        "remove": [
+          ".filter-holder",
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ed082fd76f2abbcc2f5c0a7bb0f66bfde16d2792"
+      }
+    ]
+  }
+}
