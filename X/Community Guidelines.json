@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-29T23:58:25.322Z",
+    "date": "2026-09-30T11:49:01.141Z",
     "serviceName": "X",
     "sourceDocuments": [
       {
@@ -20,7 +20,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f768dd8b447a3cbde2a5320ebdf83e443ad7a0ff"
+        "snapshotId": "ed846b20e1bf3d45d1aca719d1a3e0f08fc7445d"
       },
       {
         "id": "en-rules-and-policies-violent-entities",
@@ -101,7 +101,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "7ed2c941d6ce8e2ce20d21a21ba6e889925c16ea"
+        "snapshotId": "a1ff4c3d2d377577c78d801ca02873185b9ed9c7"
       },
       {
         "id": "en-rules-and-policies-intimate-media",
@@ -119,7 +119,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "564bd07276dbafa6082e52d347b2204c4d3850da"
+        "snapshotId": "7cd0d825a9e9478def1983f761546cf9a42cb106"
       },
       {
         "id": "en-rules-and-policies-election-integrity-policy",
@@ -137,7 +137,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1e2386fba1873a4db874f6167e6f2e4002f46789"
+        "snapshotId": "c6deb984ab6ef607f17a04c6872f3ed521f06461"
       },
       {
         "id": "en-rules-and-policies-manipulated-media",
@@ -146,7 +146,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3f41665aa96bb8101df2720a6c7427a353621785"
+        "snapshotId": "b00e4e48055669bd16236714c5c7087dcaff82d6"
       },
       {
         "id": "en-rules-and-policies-x-trademark-policy",
@@ -173,7 +173,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d522bbf793c83270b6bb8d8b0cb29cddf9a3b516"
+        "snapshotId": "280c233513a3bef94ef366ccfe556b50c971fb51"
       },
       {
         "id": "en-rules-and-policies-financial-scam",
@@ -227,7 +227,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "585187a28bb507d23cf85a1acb33ed1f964156b6"
+        "snapshotId": "d3c4633558cbf8aba64c5c7a37e22eda360a5e8d"
       },
       {
         "id": "en-rules-and-policies-x-reach-limited",
@@ -245,7 +245,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "87f1b6762e4d1078b1d12f82c8df072cff2bdfe7"
+        "snapshotId": "985f3e9e9c9bab0e25260b8d637f1f38d8ab197f"
       },
       {
         "id": "en-rules-and-policies-x-moments-guidelines-and-principles",
@@ -272,7 +272,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0e480698e0f19739a2b4cbf3077adcf12c4c3927"
+        "snapshotId": "0e1472666c98f7bde9d92554152dac3cf253e220"
       },
       {
         "id": "en-rules-and-policies-media-literacy-plan",
@@ -299,13 +299,8 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "45dece3a520b5af5500b068cabc8d09ef47c157f"
+        "snapshotId": "3ee1b60fe4ad9f361983a0b9a3b8efba35de9af6"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.x.com/en/rules-and-policies/platform-manipulation'"
-      ]
-    }
+    ]
   }
 }
