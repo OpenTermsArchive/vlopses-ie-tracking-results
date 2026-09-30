@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:00:06.483Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "brand",
+        "fetch": "https://openai.com/brand/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          "removeMedia",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "017792de4566ce70a5fbba22c30696ce7af83355"
+      }
+    ]
+  }
+}
