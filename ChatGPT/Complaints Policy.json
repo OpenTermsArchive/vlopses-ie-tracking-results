@@ -1,0 +1,62 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:00:34.355Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "transparency-and-content-moderation",
+        "fetch": "https://openai.com/transparency-and-content-moderation/",
+        "select": [
+          "main [data-section-header]",
+          {
+            "startBefore": "#how-we-monitor-and-enforce",
+            "endBefore": "#explore-feed-prioritization"
+          }
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c05bf33fe483aead1b0e0c6174989db92d99d61c"
+      },
+      {
+        "id": "en-articles-8959649-eu-digital-services-act-dsa",
+        "fetch": "https://help.openai.com/en/articles/8959649-eu-digital-services-act-dsa",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "article > div:not(.article-content)"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "addf09366412295f23a78153063012b624524090"
+      },
+      {
+        "id": "en-articles-10245791-reporting-content-in-chatgpt-and-openai-platforms",
+        "fetch": "https://help.openai.com/en/articles/10245791-reporting-content-in-chatgpt-and-openai-platforms",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "article > div:not(.article-content)"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8eb0c86f316fa339fe126d0cf294454563ecb74f"
+      }
+    ]
+  }
+}
