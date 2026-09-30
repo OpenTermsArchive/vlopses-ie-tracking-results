@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:31:23.921Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-privacy-policy",
+        "fetch": "https://www.reddit.com/policies/privacy-policy",
+        "select": "#main-content",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "de55135f8a904454ca77737eb49ea439f08b640c"
+      }
+    ]
+  }
+}
