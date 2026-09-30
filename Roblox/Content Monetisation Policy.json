@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:43:06.273Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-115005718246-Developer-Exchange-Terms-of-Use",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/115005718246-Developer-Exchange-Terms-of-Use",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e6b463012c71782f5ec97ea314a4372bda003918"
+      },
+      {
+        "id": "hc-en-us-articles-32270572586260-Paid-Access-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/32270572586260-Paid-Access-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b637281f89e9374c3bf5084072ac5ac07815bbf2"
+      },
+      {
+        "id": "hc-en-us-articles-19694609252884-UGC-Subscription-Terms-of-Use",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/19694609252884-UGC-Subscription-Terms-of-Use",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "988152d09d7a98440533bb8e3908360538ff3cf7"
+      }
+    ]
+  }
+}
