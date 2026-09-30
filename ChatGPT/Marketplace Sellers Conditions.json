@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:00:21.653Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-commerce-policies",
+        "fetch": "https://openai.com/policies/commerce-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "44e2e459f48833ff631d1e4330be795c70ebd7a4"
+      },
+      {
+        "id": "policies-merchant-feed-terms-of-service",
+        "fetch": "https://openai.com/policies/merchant-feed-terms-of-service/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ce93d40510b4676ef0d940845bac57c86d6ff146"
+      }
+    ]
+  }
+}
