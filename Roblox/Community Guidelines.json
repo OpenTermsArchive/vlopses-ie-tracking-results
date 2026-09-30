@@ -1,0 +1,86 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:42:34.281Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "community-standards",
+        "fetch": "https://about.roblox.com/community-standards",
+        "select": [
+          {
+            "startBefore": "#community-standards",
+            "endBefore": ".discover-card-grid"
+          }
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": false,
+        "mimeType": "text/html",
+        "snapshotId": "fe6f65dafa12b55f1211c2362b6d6345ad5b8fd5"
+      },
+      {
+        "id": "hc-en-us-articles-15869919570708-Restricted-Content-Policy",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b6221130403660514cc815e6a009cb15fc88104e"
+      },
+      {
+        "id": "hc-en-us-articles-21416271342868-Content-Moderation-on-Roblox",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/21416271342868-Content-Moderation-on-Roblox",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ce948d175fcf15c3f8db7b0326cd37c0c047e769"
+      },
+      {
+        "id": "hc-en-us-articles-45600166055188-Consumer-UK-EU-Review-Policy",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/45600166055188-Consumer-UK-EU-Review-Policy",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "66926cfd366e939beb82e8a2933252b8d1678118"
+      },
+      {
+        "id": "hc-en-us-articles-36639673493652-Guidelines-for-Managing-Communities",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/36639673493652-Guidelines-for-Managing-Communities",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d45f1a6ee2a97927b5510475d0e622b68f988d73"
+      }
+    ]
+  }
+}
