@@ -1,0 +1,64 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:32:46.676Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "s-article-Reddit-Advertising-Services-Agreement",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Services-Agreement",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "759ab5fb4582665e21f32a962302b8f8a8567a79"
+      },
+      {
+        "id": "s-article-Reddit-Ads-API-Terms",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Ads-API-Terms",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c4aca74e6be0f32356d032e567568199689911c5"
+      },
+      {
+        "id": "s-article-Reddit-Business-Tool-Terms",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Business-Tool-Terms",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9e7744614f6eb3c8f87bbdde06b54f521cc034d7"
+      },
+      {
+        "id": "s-article-Reddit-Creative-Services-Terms",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Creative-Services-Terms",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ddb3bfc83fa63a7cb087dad6bb5233b09055e5ed"
+      },
+      {
+        "id": "s-article-Reddit-Lead-Generation-Ads-Terms",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Lead-Generation-Ads-Terms",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cdc0a9901b336ad7eb5518b65a7fb6c55308393c"
+      }
+    ]
+  }
+}
