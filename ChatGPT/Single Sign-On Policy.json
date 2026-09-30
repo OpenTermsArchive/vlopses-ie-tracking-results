@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:59:58.798Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-sign-in-with-chatgpt-terms",
+        "fetch": "https://openai.com/policies/sign-in-with-chatgpt-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d8caa865ac311f6158ee5c5268eb3c6d21b23421"
+      }
+    ]
+  }
+}
