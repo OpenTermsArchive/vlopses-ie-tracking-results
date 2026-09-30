@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:00:42.748Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "transparency-and-content-moderation",
+        "fetch": "https://openai.com/transparency-and-content-moderation/",
+        "select": [
+          "main [data-section-header]",
+          {
+            "startBefore": "#chatgpt-search-functionality",
+            "endBefore": "#uk-online-safety-act"
+          }
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6196c186c5174757db02522cecc7c2bd968abb68"
+      },
+      {
+        "id": "en-articles-11128490-shopping-with-chatgpt-search",
+        "fetch": "https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "article > div:not(.article-content)"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a22558ccb3ca8a0b10cb0a92801ec0ae460926dc"
+      }
+    ]
+  }
+}
