@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:41:18.575Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360043076292-Copyright-overview",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d5004a3c74fd80be00bfc9b7f57bd0dbee8dcf01"
+      },
+      {
+        "id": "hc-en-us-articles-25476777729556-Trademark-overview",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/25476777729556-Trademark-overview",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e07c9e7f4878e168f3e85b7a759e61f3d53f0e88"
+      }
+    ]
+  }
+}
