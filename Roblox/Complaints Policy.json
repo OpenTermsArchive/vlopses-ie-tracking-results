@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:44:24.471Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-23607654421524-Reporting-Illegal-Content-in-the-European-Union",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/23607654421524-Reporting-Illegal-Content-in-the-European-Union",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d299e5ed0472eedb4fef453f718d30a737f7317d"
+      },
+      {
+        "id": "hc-en-us-articles-13061336948244-EU-Digital-Services-Act",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/13061336948244-EU-Digital-Services-Act",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "43bb4b21aa9ee34bebf718a6895b77c5d613700f"
+      },
+      {
+        "id": "hc-en-us-articles-360000245263-Appeal-Your-Content-or-Account-Moderation",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/360000245263-Appeal-Your-Content-or-Account-Moderation",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8efe32db365363bed9e66cf74af3a68226679c35"
+      }
+    ]
+  }
+}
