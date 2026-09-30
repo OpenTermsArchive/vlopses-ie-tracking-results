@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:41:22.248Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-22755369815700-Running-promotions-on-Reddit",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/22755369815700-Running-promotions-on-Reddit",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6116b587c9df332d2c6757bc275b2c7a3a63abee"
+      }
+    ]
+  }
+}
