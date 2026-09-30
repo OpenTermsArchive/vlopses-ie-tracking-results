@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:41:12.519Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-23511859482388-Reddit-s-Approach-to-Content-Recommendations",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/23511859482388-Reddit-s-Approach-to-Content-Recommendations",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "deaf8eb9d6a1760c0634395966bb38549c629510"
+      }
+    ]
+  }
+}
