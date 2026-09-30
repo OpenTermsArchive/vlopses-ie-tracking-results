@@ -1,0 +1,273 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:39:03.746Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "s-article-Reddit-Advertising-Policy-Overview",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Overview",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6afa18980be80bbedea38a5dc8b46bf9347b69b5"
+      },
+      {
+        "id": "s-article-Reddit-Advertising-Policy-Targeting-Guidelines",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Targeting-Guidelines",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "56279a3401f28af8df5acd5ff4598c46bd33935a"
+      },
+      {
+        "id": "s-article-Reddit-Advertising-Policy-Editorial-Requirements",
+        "fetch": "https://business.reddithelp.com/s/article/Reddit-Advertising-Policy-Editorial-Requirements",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c6f5d4bab1884ba2bfc7925f87b94e5cc76e128c"
+      },
+      {
+        "id": "s-article-adult-content",
+        "fetch": "https://business.reddithelp.com/s/article/adult-content",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "168b3a40ae1bf2a0aa348c248650c8c838b2ea27"
+      },
+      {
+        "id": "s-article-alcohol-policy",
+        "fetch": "https://business.reddithelp.com/s/article/alcohol-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "88efd7dab16f2de7c0ef0eec575b246cb031f4df"
+      },
+      {
+        "id": "s-article-counterfeit-goods-policy",
+        "fetch": "https://business.reddithelp.com/s/article/counterfeit-goods-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9dbb731defa7a4aecda6a480d714e780a91b7106"
+      },
+      {
+        "id": "s-article-dating-services-policy",
+        "fetch": "https://business.reddithelp.com/s/article/dating-services-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "79a469bb5d2f19e955fc713d0f2838ba8b6bc042"
+      },
+      {
+        "id": "s-article-deceptive-untrue-or-misleading-advertising-policy",
+        "fetch": "https://business.reddithelp.com/s/article/deceptive-untrue-or-misleading-advertising-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "402e2bcc0057834972df213f5442f7711c2cd6ce"
+      },
+      {
+        "id": "s-article-dynamic-product-ads-policy",
+        "fetch": "https://business.reddithelp.com/s/article/dynamic-product-ads-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8da05ea0a1bce1a999d8abc75ec847ac7a6220e3"
+      },
+      {
+        "id": "s-article-financial-cryptocurrency-products-and-services-policy",
+        "fetch": "https://business.reddithelp.com/s/article/financial-cryptocurrency-products-and-services-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8690a9418e133e8bf3a43eba54ac60ba35d27182"
+      },
+      {
+        "id": "s-article-gambling-and-gaming-related-services-policy",
+        "fetch": "https://business.reddithelp.com/s/article/gambling-and-gaming-related-services-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f2472172ec466f92bed66f630a0d0dcf8930e90d"
+      },
+      {
+        "id": "s-article-healthcare-products-and-services-policy",
+        "fetch": "https://business.reddithelp.com/s/article/healthcare-products-and-services-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "06d49e510bf6aa59dde3d14ccbefcf5792d02e4c"
+      },
+      {
+        "id": "s-article-inappropriate-content-policy",
+        "fetch": "https://business.reddithelp.com/s/article/inappropriate-content-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8027170d1438140672892a2758c6aab381fbb010"
+      },
+      {
+        "id": "s-article-lead-generation-ads-policy",
+        "fetch": "https://business.reddithelp.com/s/article/lead-generation-ads-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4eb4c45ee43a652c40b7accfb2dc18cb8205c4bf"
+      },
+      {
+        "id": "s-article-live-animals-and-animal-products-policy",
+        "fetch": "https://business.reddithelp.com/s/article/live-animals-and-animal-products-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1c3c632127d73905e2843ae3df861fa6370f01a9"
+      },
+      {
+        "id": "s-article-political-advertisements-policy",
+        "fetch": "https://business.reddithelp.com/s/article/political-advertisements-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5c00ce4c4d958c6702258cc40b91534ca77836de"
+      },
+      {
+        "id": "s-article-products-or-services-that-facilitate-illegal-fraudulent-or-misleading-activity-policy",
+        "fetch": "https://business.reddithelp.com/s/article/products-or-services-that-facilitate-illegal-fraudulent-or-misleading-activity-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e18949490824d33954d3290592d5daa71295568a"
+      },
+      {
+        "id": "s-article-recreational-drugs-policy",
+        "fetch": "https://business.reddithelp.com/s/article/recreational-drugs-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "df95a57337f9b5f8805cfb824ad8e2dcb9f9864a"
+      },
+      {
+        "id": "s-article-third-party-rights-policy",
+        "fetch": "https://business.reddithelp.com/s/article/third-party-rights-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "94786b240322f2534a2a42e73d0132ea344063b2"
+      },
+      {
+        "id": "s-article-tobacco-policy",
+        "fetch": "https://business.reddithelp.com/s/article/tobacco-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4f2e02b3c6d163ffc214b977b2fd18660fa4110a"
+      },
+      {
+        "id": "s-article-unofficial-resale-of-event-tickets-policy",
+        "fetch": "https://business.reddithelp.com/s/article/unofficial-resale-of-event-tickets-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4ffa15dc913a06bc637fc956e67d47d73bb6b9d3"
+      },
+      {
+        "id": "s-article-user-data-collection-policy",
+        "fetch": "https://business.reddithelp.com/s/article/user-data-collection-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "77539e5a5fe1307233e3845a0e3d3808669ac041"
+      },
+      {
+        "id": "s-article-weapons-and-related-products-policy",
+        "fetch": "https://business.reddithelp.com/s/article/weapons-and-related-products-policy",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e33ef6ff2f9910a47bf4173dc6ee7cf25fbe5aa5"
+      },
+      {
+        "id": "s-article-About-Reddits-ad-review-process",
+        "fetch": "https://business.reddithelp.com/s/article/About-Reddits-ad-review-process",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "82f3a437c24bd4c3f268939758e0f34e2845ac2c"
+      }
+    ]
+  }
+}
