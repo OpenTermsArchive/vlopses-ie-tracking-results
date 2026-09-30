@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:31:36.934Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-developer-dpa",
+        "fetch": "https://redditinc.com/policies/developer-dpa",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ae0787c17c91207281d9b5e288de7cc5cc392f4d"
+      }
+    ]
+  }
+}
