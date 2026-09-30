@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:44:16.502Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360038525351-Using-Licensed-Music-in-Videos",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/360038525351-Using-Licensed-Music-in-Videos",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5a9109a730c8b90dca2bbfaca9ef0a8c17edf021"
+      }
+    ]
+  }
+}
