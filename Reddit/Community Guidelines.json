@@ -1,0 +1,133 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:33:15.213Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-moderator-code-of-conduct",
+        "fetch": "https://redditinc.com/policies/moderator-code-of-conduct",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": false,
+        "mimeType": "text/html",
+        "snapshotId": "52f85c10ecfede2ae809437cd33e251466984145"
+      },
+      {
+        "id": "hc-en-us-articles-27031206843156",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/27031206843156",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "356fb313487301b49371bc528cc622fe383ae82f"
+      },
+      {
+        "id": "hc-en-us-articles-27031214413588",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/27031214413588",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "658e581a7c80762962c7c814f5eb71440dd33763"
+      },
+      {
+        "id": "hc-en-us-articles-27031145215252",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/27031145215252",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fdad8c6a27c5b8767a77097fefe5a28b6b8522b1"
+      },
+      {
+        "id": "hc-en-us-articles-27031272792084",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/27031272792084",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "abb4280f7876e2a2e6f7c0471269fb279b7da7ac"
+      },
+      {
+        "id": "hc-en-us-articles-27031261124884",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/27031261124884",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8a986d7da6b13931c886349e5dcc43ce788dda39"
+      }
+    ]
+  }
+}
