@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:57:02.063Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-eu-terms-of-use",
+        "fetch": "https://openai.com/policies/eu-terms-of-use/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "626c8a346e17a86f7cacdf1d8235fea6818fc152"
+      },
+      {
+        "id": "policies-service-terms",
+        "fetch": "https://openai.com/policies/service-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c44d4a122e31c1ac5def48b968e4208dcbee2708"
+      },
+      {
+        "id": "policies-chatgpt-sites-terms",
+        "fetch": "https://openai.com/policies/chatgpt-sites-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "99b0e6609d9797c7dfc2fb6d86e7430f63624c3d"
+      },
+      {
+        "id": "policies-credit-score-terms",
+        "fetch": "https://openai.com/policies/credit-score-terms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5b60c9f9e1c74cf26e0ee785ac19326c8063a4bc"
+      }
+    ]
+  }
+}
