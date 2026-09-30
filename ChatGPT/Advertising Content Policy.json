@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:59:52.724Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-ad-policies",
+        "fetch": "https://openai.com/policies/ad-policies/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c610bc239ddce7c9937a17df2145072ed6bbce88"
+      }
+    ]
+  }
+}
