@@ -1,0 +1,385 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:39:59.110Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-reddit-rules",
+        "fetch": "https://redditinc.com/policies/reddit-rules",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": false,
+        "mimeType": "text/html",
+        "snapshotId": "7f3fd08db220232d930a24eb8dcbbd2b776c88c8"
+      },
+      {
+        "id": "hc-en-us-articles-360043071072-Harassment",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043071072-Harassment",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d955466ea4973373cd36f9a7fccd6c192bd85658"
+      },
+      {
+        "id": "hc-en-us-articles-360043513151-Violence",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043513151-Violence",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "346331d371966147226a77c0c253520ba388bd53"
+      },
+      {
+        "id": "hc-en-us-articles-360045715951-Hate",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360045715951-Hate",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dd868109eb0e1d1c3c8bc67e47a801f78ecf35e0"
+      },
+      {
+        "id": "hc-en-us-articles-360043504051-Spam",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043504051-Spam",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4cec3f90d164a38fc563bdae2645949cfe70de08"
+      },
+      {
+        "id": "hc-en-us-articles-360043066412-Disrupting-Communities",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043066412-Disrupting-Communities",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0ee4e8d08f1cde696fc9dce92495e22d29d7cb2d"
+      },
+      {
+        "id": "hc-en-us-articles-360043066452-Is-posting-someone-s-private-or-personal-information-okay",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043066452-Is-posting-someone-s-private-or-personal-information-okay",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "de3c00530827f2a2e7d4175f2029c8922bae59fc"
+      },
+      {
+        "id": "hc-en-us-articles-360043513411-Never-Post-Intimate-or-Sexually-Explicit-Media-of-Someone-Without-Their-Consent",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043513411-Never-Post-Intimate-or-Sexually-Explicit-Media-of-Someone-Without-Their-Consent",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2dd9e0bd8f2091f737cbb090174b63d6b49afac8"
+      },
+      {
+        "id": "hc-en-us-articles-360043075352-Do-not-share-sexual-or-suggestive-content-involving-minors-or-engage-in-any-predatory-or-inappropriate-behavior-with-minors",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043075352-Do-not-share-sexual-or-suggestive-content-involving-minors-or-engage-in-any-predatory-or-inappropriate-behavior-with-minors",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "33b30d5bc33991d87a55285dae49213b61d629df"
+      },
+      {
+        "id": "hc-en-us-articles-17130615698964-Do-not-share-content-depicting-or-promoting-neglect-physical-or-emotional-abuse-against-minors",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/17130615698964-Do-not-share-content-depicting-or-promoting-neglect-physical-or-emotional-abuse-against-minors",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f0a588577776bd37d4009dc585cd3d67b16e4065"
+      },
+      {
+        "id": "hc-en-us-articles-41180423371156-Manipulated-Content-and-Misleading-Behavior",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/41180423371156-Manipulated-Content-and-Misleading-Behavior",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "304ac37a4d0867a74b9b52132e161d7d7179aa73"
+      },
+      {
+        "id": "hc-en-us-articles-360043075032-Impersonation",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043075032-Impersonation",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3ebfeda5b0b9379b21d2b93a38b8bf50f0448242"
+      },
+      {
+        "id": "hc-en-us-articles-360043513471-Illegal-or-Prohibited-Transactions",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043513471-Illegal-or-Prohibited-Transactions",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e1be190b67b3ed2cecb263aa58068c0a2239fc01"
+      },
+      {
+        "id": "hc-en-us-articles-360043075712-External-Links-to-Firearm-or-Ammunition-Vendors",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043075712-External-Links-to-Firearm-or-Ammunition-Vendors",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0cb6d3bcfa9c8e71b07641cc3fc1438122a26d8e"
+      },
+      {
+        "id": "hc-en-us-articles-360043513691-External-Links-to-Vendors-of-Alcohol-Tobacco-or-Controlled-Substances",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043513691-External-Links-to-Vendors-of-Alcohol-Tobacco-or-Controlled-Substances",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "54fa5cb42434eef9f2d011ffbf5cbe365f9911e4"
+      },
+      {
+        "id": "hc-en-us-articles-360043512931-Don-t-break-the-site",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043512931-Don-t-break-the-site",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9bbb48ff0b4295c64a4c0304718a497266c0ebc1"
+      },
+      {
+        "id": "hc-en-us-articles-360043504811-What-is-ban-evasion",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043504811-What-is-ban-evasion",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c7dc92ac53ad85686f8dc7046261da9802f2f71e"
+      },
+      {
+        "id": "hc-en-us-articles-360043069012-Quarantined-Communities",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/360043069012-Quarantined-Communities",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "038b34e477856e13332ac37d6b1ae7feda7116bb"
+      }
+    ]
+  }
+}
