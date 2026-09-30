@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:42:37.089Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-21416941036564-Recommendations-and-Ranking-on-Roblox",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/21416941036564-Recommendations-and-Ranking-on-Roblox",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a3194acca57357ec648c1eb3c92dd30133a3353c"
+      }
+    ]
+  }
+}
