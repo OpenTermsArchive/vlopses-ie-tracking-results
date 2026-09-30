@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:42:45.603Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-46804865425300-Roblox-Subscription-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/46804865425300-Roblox-Subscription-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9ea478ee170c13a586d84da553db2b7426617ccb"
+      },
+      {
+        "id": "hc-en-us-articles-52737229124628-Roblox-Plus-Referral-Program-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/52737229124628-Roblox-Plus-Referral-Program-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "467937571e06632edbaaf11537150d8593b4e5d3"
+      },
+      {
+        "id": "hc-en-us-articles-35146071523604-In-Experience-Friend-Rewards-Program-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/35146071523604-In-Experience-Friend-Rewards-Program-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "92bdf01348fcf7933c5d953bdedde57d49864b22"
+      }
+    ]
+  }
+}
