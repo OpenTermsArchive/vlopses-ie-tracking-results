@@ -1,0 +1,101 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:57:28.664Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-eu-privacy-policy",
+        "fetch": "https://openai.com/policies/eu-privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b34f8565cddab3884853cdc2e312800288502881"
+      },
+      {
+        "id": "policies-how-your-data-is-used-to-improve-model-performance",
+        "fetch": "https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "728743b58d2df4828e104b24f54217acb8663347"
+      },
+      {
+        "id": "policies-health-privacy-policy",
+        "fetch": "https://openai.com/policies/health-privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fedd4bc93e24c9b24337834c1079b916cc83ed24"
+      },
+      {
+        "id": "policies-how-chatgpt-and-our-foundation-models-are-developed",
+        "fetch": "https://openai.com/policies/how-chatgpt-and-our-foundation-models-are-developed/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "981fccb8ddc84b2bf8a58422e33c0c8fb3d7eeff"
+      }
+    ]
+  }
+}
