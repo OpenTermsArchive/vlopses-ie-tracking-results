@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:40:16.634Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-cookies",
+        "fetch": "https://www.reddit.com/policies/cookies",
+        "select": "#main-content",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fc604573464b7bc13b33010a280e1ef7694c29b7"
+      },
+      {
+        "id": "s-article-reddit-for-business-cookie-notice",
+        "fetch": "https://business.reddithelp.com/s/article/reddit-for-business-cookie-notice",
+        "select": [
+          ".article-head",
+          ".article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "79d38ac648bd692241e6d11e62c6a97974a91d77"
+      }
+    ]
+  }
+}
