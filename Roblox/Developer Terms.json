@@ -1,0 +1,69 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:42:57.614Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-37967848292500-Roblox-Extended-Services-Program-Terms-of-Use",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/37967848292500-Roblox-Extended-Services-Program-Terms-of-Use",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "52d726391e1a993c06408ffe2bd3ba5146328805"
+      },
+      {
+        "id": "hc-en-us-articles-15887203369620-Creator-Third-Party-App-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/15887203369620-Creator-Third-Party-App-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1d94a88e404e87f1da36b51264b36058fcf9edd2"
+      },
+      {
+        "id": "hc-en-us-articles-37924211313044-Creator-Third-Party-App-Policy",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/37924211313044-Creator-Third-Party-App-Policy",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "77716fac42890bfa506f1e583ed09b3611514379"
+      },
+      {
+        "id": "hc-en-us-articles-33135560907796-Terms-of-Service-for-the-Roblox-DevRel-Discord-Bot",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/33135560907796-Terms-of-Service-for-the-Roblox-DevRel-Discord-Bot",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "25b6ae4882900c8510ef57cab21cfcd7131c3524"
+      }
+    ]
+  }
+}
