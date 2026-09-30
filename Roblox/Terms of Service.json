@@ -1,0 +1,85 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:42:06.780Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-115004647846-Roblox-Terms-of-Use",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "32c7dba3569fe44034975d5128bad1b868ad16c0"
+      },
+      {
+        "id": "hc-en-us-articles-4415545981332-Roblox-Dictionary",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/4415545981332-Roblox-Dictionary",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "79109ea60eed0432fc492420ef4eecb58024c25f"
+      },
+      {
+        "id": "hc-en-us-articles-37968041171604-Screen-Recording-Additional-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/37968041171604-Screen-Recording-Additional-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0c3c43d687072298636a62f36cb1e2737567b029"
+      },
+      {
+        "id": "hc-en-us-articles-8862768451604-Content-Maturity-Labels",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/8862768451604-Content-Maturity-Labels",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "aa8f0998d840f7f63a51c83a20771c05d83fea30"
+      },
+      {
+        "id": "docs-en-us-production-promotion-content-maturity",
+        "fetch": "https://create.roblox.com/docs/en-us/production/promotion/content-maturity",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          "#language-menu-button"
+        ],
+        "filter": [
+          "unwrapHeadingAnchors"
+        ],
+        "executeClientScripts": false,
+        "mimeType": "text/html",
+        "snapshotId": "761d31770161287e5359ce41be0b683ac0077940"
+      }
+    ]
+  }
+}
