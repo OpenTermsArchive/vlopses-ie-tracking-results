@@ -1,0 +1,43 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:33:17.870Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-econ-terms",
+        "fetch": "https://redditinc.com/policies/econ-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "32604cfc8d221525cb6227b5f9d2c2adce599b92"
+      },
+      {
+        "id": "policies-previews-terms",
+        "fetch": "https://redditinc.com/policies/previews-terms",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a42c40c00a292827fd302c409ae4eee3b57e3f57"
+      }
+    ]
+  }
+}
