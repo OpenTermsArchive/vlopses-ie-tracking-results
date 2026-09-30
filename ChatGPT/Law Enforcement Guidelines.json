@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T22:59:45.470Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "pdf-openai-law-enforcement-policy-v.2025-12",
+        "fetch": "https://cdn.openai.com/pdf/openai-law-enforcement-policy-v.2025-12.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "caf843a7fe48c7c1abc73e45011f1f60ce52330c"
+      },
+      {
+        "id": "policies-civil-user-data-requests",
+        "fetch": "https://openai.com/policies/civil-user-data-requests/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeLocaleSelector",
+          "removeTableOfContents",
+          {
+            "removeQueryParams": [
+              "openaicom-did",
+              "openaicom_referred"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1eeb07af889606d0782ab353a1ec2e46eac437fb"
+      }
+    ]
+  }
+}
