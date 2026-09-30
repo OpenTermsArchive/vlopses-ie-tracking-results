@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:32:51.697Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-guideline-for-law-enforcement",
+        "fetch": "https://redditinc.com/policies/guideline-for-law-enforcement",
+        "select": ".page-center > #content",
+        "remove": ".filter-holder",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "80ab143361f2829da86590e38ef628604b2d3390"
+      },
+      {
+        "id": "hc-en-us-articles-12793653507860-Guidelines-for-civil-and-non-government-legal-requests-for-account-information",
+        "fetch": "https://support.reddithelp.com/hc/en-us/articles/12793653507860-Guidelines-for-civil-and-non-government-legal-requests-for-account-information",
+        "select": [
+          ".lt-page__title",
+          ".lt-article__body"
+        ],
+        "remove": [],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "__hstc",
+              "__hssc",
+              "__hsfp"
+            ]
+          },
+          "removeBackToTopLinks"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fb7a597d7d3550d517c828be6c15aa4bc11d6421"
+      }
+    ]
+  }
+}
