@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:43:57.447Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-13722260778260-Advertising-Standards",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/13722260778260-Advertising-Standards",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bfcd56ea30eb98e45fc28d1d45ea1a9ef4e6cc4b"
+      }
+    ]
+  }
+}
