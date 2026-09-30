@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T23:43:31.299Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-21308223046932-Creator-Store-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/21308223046932-Creator-Store-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c972fe6a85d8405817b4e10095b9254d344b48aa"
+      },
+      {
+        "id": "docs-en-us-marketplace-marketplace-policy",
+        "fetch": "https://create.roblox.com/docs/en-us/marketplace/marketplace-policy",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          "#language-menu-button"
+        ],
+        "filter": [
+          "unwrapHeadingAnchors"
+        ],
+        "executeClientScripts": false,
+        "mimeType": "text/html",
+        "snapshotId": "71029469632a98399daed9ea368d8fc071dd74ce"
+      },
+      {
+        "id": "hc-en-us-articles-36495190721172-Commerce-Standards",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/36495190721172-Commerce-Standards",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "caafef84c16224da5872d48308384367ffefad2a"
+      },
+      {
+        "id": "hc-en-us-articles-36497692973972-Shopify-Commerce-Program-Online-Terms",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/36497692973972-Shopify-Commerce-Program-Online-Terms",
+        "select": [
+          ".article-title",
+          ".article-body"
+        ],
+        "filter": [
+          "removeGlossaryTooltips",
+          "removeTableOfContents"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "11139c4542b553673ea2570cb5149009be84b54b"
+      }
+    ]
+  }
+}
