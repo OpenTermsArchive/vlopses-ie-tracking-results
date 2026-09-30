@@ -1,35 +1,30 @@
 {
-  "runId": "ota-run-1f4006d8-8e28-4b0f-9d2e-e981fa26b611",
+  "runId": "ota-run-221835a7-c9af-472d-9765-1d7c4acbe90f",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-09-30T10:30:06.677Z",
-    "endDate": "2026-09-30T11:52:43.388Z",
+    "startDate": "2026-09-30T22:30:06.184Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "e5cdc876eb3b256b6ebc53fe4765a254c2e0fdeb",
-    "services": 24,
-    "terms": 219
+    "commit": "3c8e00e37b884c9dd00e13dc2a5ff610597a450d",
+    "services": 27,
+    "terms": 273
   },
   "tracked": {
-    "ok": 198,
-    "failed": 15
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 213,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
