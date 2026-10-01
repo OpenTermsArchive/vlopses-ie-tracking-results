@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T23:44:13.572Z",
+    "date": "2026-10-01T23:42:38.152Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "84c0f849464b6e600f3472c3aa3143d34dba9a43"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "docs-en-us-production-publishing-dmca-guidelines",
@@ -33,8 +33,11 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "ac846ca84731c6b9e63023b02ebbbdb187b5be8e"
+        "snapshotId": "aa5ce9cd176605a96c174ed5b36780ddb3ae6ed0"
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/21857240911380-IP-Platform-Terms-of-Use'"
     ]
   }
 }
