@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T23:42:57.614Z",
+    "date": "2026-10-01T23:41:58.143Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "52d726391e1a993c06408ffe2bd3ba5146328805"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-15887203369620-Creator-Third-Party-App-Terms",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "1d94a88e404e87f1da36b51264b36058fcf9edd2"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-37924211313044-Creator-Third-Party-App-Policy",
@@ -46,8 +46,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "77716fac42890bfa506f1e583ed09b3611514379"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-33135560907796-Terms-of-Service-for-the-Roblox-DevRel-Discord-Bot",
@@ -61,9 +61,15 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "25b6ae4882900c8510ef57cab21cfcd7131c3524"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/37967848292500-Roblox-Extended-Services-Program-Terms-of-Use'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/15887203369620-Creator-Third-Party-App-Terms'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/37924211313044-Creator-Third-Party-App-Policy'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/33135560907796-Terms-of-Service-for-the-Roblox-DevRel-Discord-Bot'"
     ]
   }
 }
