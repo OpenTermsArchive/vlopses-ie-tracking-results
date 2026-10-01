@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T23:44:08.440Z",
+    "date": "2026-10-01T23:42:35.462Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,9 +16,12 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "232aa2d58f5eb5c4f3c258ab36f08b337714c7c8"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/11219680442260-Help-Center-FAQs-for-Law-Enforcement'"
     ]
   }
 }
