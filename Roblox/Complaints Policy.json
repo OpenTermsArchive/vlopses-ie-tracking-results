@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-01T23:42:44.020Z",
+    "date": "2026-10-02T11:48:41.690Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "10547efc6019dc8c2fb5ef49a483ba88867157ea"
       },
       {
         "id": "hc-en-us-articles-13061336948244-EU-Digital-Services-Act",
@@ -46,13 +46,13 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "c020a6860078795475dc0dae9ac300fc1701b87b"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/23607654421524-Reporting-Illegal-Content-in-the-European-Union'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/13061336948244-EU-Digital-Services-Act'"
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/13061336948244-EU-Digital-Services-Act'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/360000245263-Appeal-Your-Content-or-Account-Moderation'"
     ]
   }
 }
