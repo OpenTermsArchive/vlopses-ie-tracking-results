@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T23:43:31.299Z",
+    "date": "2026-10-02T11:47:53.486Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "c972fe6a85d8405817b4e10095b9254d344b48aa"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "docs-en-us-marketplace-marketplace-policy",
@@ -33,7 +33,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "71029469632a98399daed9ea368d8fc071dd74ce"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-36495190721172-Commerce-Standards",
@@ -47,8 +47,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "caafef84c16224da5872d48308384367ffefad2a"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-36497692973972-Shopify-Commerce-Program-Online-Terms",
@@ -62,9 +62,14 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "11139c4542b553673ea2570cb5149009be84b54b"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/21308223046932-Creator-Store-Terms'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/36495190721172-Commerce-Standards'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/36497692973972-Shopify-Commerce-Program-Online-Terms'"
     ]
   }
 }
