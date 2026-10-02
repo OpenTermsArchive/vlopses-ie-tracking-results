@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-01T23:42:39.438Z",
+    "date": "2026-10-02T11:48:36.951Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,12 +16,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "4317f5ae15c091d073dd160cf34623bd342b3fed"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/360038525351-Using-Licensed-Music-in-Videos'"
     ]
   }
 }
