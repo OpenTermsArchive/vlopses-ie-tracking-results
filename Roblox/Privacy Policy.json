@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-01T23:41:47.812Z",
+    "date": "2026-10-02T11:47:25.329Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "ec4ed6c2fc976b894d8f8196f6cfc1851dd52876"
       },
       {
         "id": "hc-en-us-articles-42152315498516-Roblox-Biometric-and-Facial-Media-Data-Privacy-Notice",
@@ -46,8 +46,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5f9357d6312f43a3424fdba028caf41ac3228b03"
       },
       {
         "id": "hc-en-us-articles-8064749848980-Roblox-Facial-Animation-Privacy-Notice",
@@ -61,8 +61,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "9fa8c6921bade4128a496c82af92fc06f681a0f2"
       },
       {
         "id": "hc-en-us-articles-33135739593236-Privacy-Policy-for-the-Roblox-DevRel-Discord-Bot",
@@ -76,15 +76,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5c7d17a5e5e587d4b6beed9fb74ee9b767a19899"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/4412863575316-Roblox-Facial-Media-Capture-Privacy-Notice'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/42152315498516-Roblox-Biometric-and-Facial-Media-Data-Privacy-Notice'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/8064749848980-Roblox-Facial-Animation-Privacy-Notice'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/33135739593236-Privacy-Policy-for-the-Roblox-DevRel-Discord-Bot'"
     ]
   }
 }
