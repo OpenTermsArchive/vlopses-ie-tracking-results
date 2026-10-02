@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-02T11:48:03.303Z",
+    "date": "2026-10-02T23:46:54.611Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5d47b68acda71330dab8894ab3d9fd0c8b57719a"
       },
       {
         "id": "hc-en-us-articles-33703196637204-Roblox-Advertising-Terms-Managed-Campaigns",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "d69163b4baeab991fae10ee97ddbc95d38715e8d"
       },
       {
         "id": "hc-en-us-articles-47656162239124-Advertising-Integrations-Terms",
@@ -46,8 +46,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "cd407cac0a11336b712df94d237c147c016e553e"
       },
       {
         "id": "hc-en-us-articles-18922542221076-Opt-in-Corpus-Terms",
@@ -61,8 +61,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "9cf2b0204392caf1c8b80525d63219f12aee1cf9"
       },
       {
         "id": "hc-en-us-articles-23359485439124-Audio-Upload-License-Agreement",
@@ -76,8 +76,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "37bca2d385f8d30ebd84eecdbd9ae25e45dd90f2"
       },
       {
         "id": "hc-en-us-articles-42542704086548-License-Manager-Terms",
@@ -91,8 +91,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "3970b496890651f3561b592da415db41590a8ae4"
       },
       {
         "id": "hc-en-us-articles-24608223674388-Builder-Font-License",
@@ -106,8 +106,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "26f25e9f332932d56ddf32eed5127a0719f0c99a"
       },
       {
         "id": "hc-en-us-articles-10549651908244-Promo-Offers-for-Virtual-Rewards",
@@ -122,17 +122,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "7fe2ddf3b8e8de8ee467dde05d6a91937ae9d0e7"
+        "snapshotId": "d09e4bfb79280d142fa6f2336a12385d31d390cb"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/15494846263060-Roblox-Advertising-Terms'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/33703196637204-Roblox-Advertising-Terms-Managed-Campaigns'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/47656162239124-Advertising-Integrations-Terms'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/18922542221076-Opt-in-Corpus-Terms'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/23359485439124-Audio-Upload-License-Agreement'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/42542704086548-License-Manager-Terms'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/24608223674388-Builder-Font-License'"
     ]
   }
 }
