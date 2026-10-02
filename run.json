@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-01T22:30:06.015Z",
-    "endDate": null,
+    "endDate": "2026-10-02T00:05:56.738Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "3c8e00e37b884c9dd00e13dc2a5ff610597a450d",
@@ -14,17 +14,83 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 238,
+    "failed": 29
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
+    "newFailures": [
+      {
+        "serviceId": "Roblox",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Ranking Parameters Description"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "In-App Purchases Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Developer Terms"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Content Monetisation Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Advertising Content Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Brand Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Accessibility Statement"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Restricted Use Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Complaints Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "XVideos",
+        "termsType": "Terms of Service"
+      }
+    ],
     "reasonChanges": []
   },
-  "transientErrors": 0
+  "transientErrors": 4
 }
