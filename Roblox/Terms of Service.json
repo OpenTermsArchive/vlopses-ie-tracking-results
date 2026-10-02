@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-02T11:47:08.744Z",
+    "date": "2026-10-02T23:45:11.554Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5da1bd7e5cacb319c25678e19c6ecec0d1856dfa"
       },
       {
         "id": "hc-en-us-articles-4415545981332-Roblox-Dictionary",
@@ -32,7 +32,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "8e67b61caf954f2e00f1a276289a62e4b952741a"
+        "snapshotId": "69c482cdf328cada8bc72ffbd9c6bc618049be5e"
       },
       {
         "id": "hc-en-us-articles-37968041171604-Screen-Recording-Additional-Terms",
@@ -62,7 +62,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c07dfa9bcf5c641d23d1446087be92cc2137f7a8"
+        "snapshotId": "cfd36de720dbb24d5cadd704f7be5875c001e90a"
       },
       {
         "id": "docs-en-us-production-promotion-content-maturity",
@@ -78,11 +78,8 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "06988daa75a772e49e90bd4c4b4fd0df3eacd9ec"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use'"
     ]
   }
 }
