@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-01T23:42:02.775Z",
+    "date": "2026-10-02T11:47:50.296Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -46,13 +46,14 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "e68cc73c79b9b86f96ec06fae6e616d013bf6c35"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
       "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/115005718246-Developer-Exchange-Terms-of-Use'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/32270572586260-Paid-Access-Terms'"
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/32270572586260-Paid-Access-Terms'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/19694609252884-UGC-Subscription-Terms-of-Use'"
     ]
   }
 }
