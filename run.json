@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-02T22:30:08.087Z",
-    "endDate": null,
+    "endDate": "2026-10-03T00:11:54.982Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "3c8e00e37b884c9dd00e13dc2a5ff610597a450d",
@@ -14,17 +14,68 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 251,
+    "failed": 16
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "TikTok",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Roblox",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Ranking Parameters Description"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "In-App Purchases Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Developer Terms"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Content Monetisation Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Marketplace Sellers Conditions"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Complaints Policy"
+      },
+      {
+        "serviceId": "XVideos",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "TikTok",
+        "termsType": "Law Enforcement Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
