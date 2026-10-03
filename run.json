@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-eccfe7d5-b7ca-4e8a-8c44-616ac3d8d84a",
+  "runId": "ota-run-aab51101-a7b4-4e09-a622-633ef96f3d10",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-02T22:30:08.087Z",
-    "endDate": "2026-10-03T00:11:54.982Z",
+    "startDate": "2026-10-03T10:30:06.953Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "3c8e00e37b884c9dd00e13dc2a5ff610597a450d",
@@ -14,68 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 251,
-    "failed": 16
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Ranking Parameters Description"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "In-App Purchases Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Developer Terms"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Content Monetisation Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Marketplace Sellers Conditions"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Complaints Policy"
-      },
-      {
-        "serviceId": "XVideos",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
