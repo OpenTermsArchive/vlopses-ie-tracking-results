@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:25:53.374Z",
+    "date": "2026-10-06T12:18:10.085Z",
     "serviceName": "LinkedIn",
     "sourceDocuments": [
       {
@@ -9,16 +9,20 @@
         "fetch": "https://www.linkedin.com/legal/user-agreement",
         "select": "main",
         "remove": "div.banner__image-container",
-        "mimeType": "text/html",
-        "snapshotId": "ffb7d423899267a8f633a553ffb3dd872f3a3fe5"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "legal-eula",
         "fetch": "https://www.linkedin.com/legal/eula",
         "select": "main",
-        "mimeType": "text/html",
-        "snapshotId": "02545d583436cef6f81a17c5d1d5cf5d6866b372"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.linkedin.com/legal/user-agreement'",
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.linkedin.com/legal/eula'"
     ]
   }
 }
