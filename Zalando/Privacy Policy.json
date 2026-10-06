@@ -1,14 +1,14 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-06T00:16:21.884Z",
+    "date": "2026-10-06T12:16:03.297Z",
     "serviceName": "Zalando",
     "sourceDocuments": [
       {
         "id": "cnt-contentful-apps-uploads-62c0cb21-6d91-45f3-b90e-272a434ce5d6",
         "fetch": "https://mosaic02.ztat.net/cnt/contentful-apps/uploads/62c0cb21-6d91-45f3-b90e-272a434ce5d6.pdf",
         "mimeType": "application/pdf",
-        "snapshotId": null
+        "snapshotId": "345d4722219118bbbc2180835104f082d3f02bc9"
       },
       {
         "id": "privacy-policy",
@@ -17,7 +17,7 @@
           "main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "24ef2d291c56ad780916af8a624fc44f9d102a6a"
+        "snapshotId": "23d0b54913157581356e151446be1a36deacda84"
       },
       {
         "id": "en-zalando-data-protection-statement",
@@ -25,12 +25,9 @@
         "select": [
           "#content"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "e47dbea0f54cd98aff0dab3dabfb78360550f8cf"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://corporate.zalando.com/en/zalando-data-protection-statement'"
     ]
   }
 }
