@@ -1,65 +1,30 @@
 {
-  "runId": "ota-run-572d4637-bd54-4370-a02e-5e7fb2ee84d4",
+  "runId": "ota-run-675d2c8f-853a-4338-b5f9-f694f0c65bf4",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-06T10:30:07.406Z",
-    "endDate": "2026-10-06T12:18:32.770Z",
-    "engineVersion": "16.2.0",
-    "status": "completed"
+    "startDate": "2026-10-06T22:30:07.096Z",
+    "endDate": null,
+    "engineVersion": "16.3.0",
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "3c8e00e37b884c9dd00e13dc2a5ff610597a450d",
+    "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
     "services": 27,
     "terms": 273
   },
   "tracked": {
-    "ok": 251,
-    "failed": 16
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LinkedIn",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "XVideos",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "Imprint"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Zalando",
-        "termsType": "Anti-corruption Policy"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
