@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-05T22:30:07.418Z",
-    "endDate": null,
+    "endDate": "2026-10-06T00:17:24.410Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "3c8e00e37b884c9dd00e13dc2a5ff610597a450d",
@@ -14,17 +14,40 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 249,
+    "failed": 18
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "XNXX",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Zalando",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Zalando",
+        "termsType": "Imprint"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "XVideos",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Zalando",
+        "termsType": "Anti-corruption Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
