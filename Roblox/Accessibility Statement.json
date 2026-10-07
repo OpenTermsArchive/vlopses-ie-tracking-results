@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-02T11:48:13.625Z",
+    "date": "2026-10-07T23:50:21.687Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,9 +16,12 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "468a59b1be0d8bd3598339cbfc7920a41c59fd6c"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/360059080071-Roblox-Accessibility-Statement'"
     ]
   }
 }
