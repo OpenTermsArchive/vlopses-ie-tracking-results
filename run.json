@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-675d2c8f-853a-4338-b5f9-f694f0c65bf4",
+  "runId": "ota-run-1c7a02ca-d1ca-44ad-a6b3-2035d290cee0",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-06T22:30:07.096Z",
-    "endDate": "2026-10-07T00:15:01.061Z",
+    "startDate": "2026-10-07T10:30:07.079Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,31 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 253,
-    "failed": 14
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "LinkedIn",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "XVideos",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
