@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-02T11:47:38.644Z",
+    "date": "2026-10-07T23:49:35.983Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "fe6f65dafa12b55f1211c2362b6d6345ad5b8fd5"
+        "snapshotId": "1344fcdb6f26abb08164c5358b197a5fa4812017"
       },
       {
         "id": "hc-en-us-articles-15869919570708-Restricted-Content-Policy",
@@ -33,8 +33,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "4bef6791136b444fdaf19188766b00fa63674597"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-21416271342868-Content-Moderation-on-Roblox",
@@ -48,8 +48,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "bcd7d7d20aca85afdc4fc6e0328dba051d27f35f"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-45600166055188-Consumer-UK-EU-Review-Policy",
@@ -63,8 +63,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "72b3c3e61da708af3e7dde0eb60350e069272b36"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-36639673493652-Guidelines-for-Managing-Communities",
@@ -78,9 +78,15 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "e80086b35858d7fa3b9929d70bb05b122f17a5b6"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/21416271342868-Content-Moderation-on-Roblox'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/45600166055188-Consumer-UK-EU-Review-Policy'",
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/36639673493652-Guidelines-for-Managing-Communities'"
     ]
   }
 }
