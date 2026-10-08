@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-07T23:49:30.991Z",
+    "date": "2026-10-08T11:50:25.455Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -17,7 +17,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ec6b4ffc34e057a9e21035703222b15e315a09a4"
+        "snapshotId": "9e978997af07465925cb86a1b7280aeafc17706b"
       },
       {
         "id": "hc-en-us-articles-4412863575316-Roblox-Facial-Media-Capture-Privacy-Notice",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "9a586b4422b9871574082c5f5dadf10b9cb72763"
       },
       {
         "id": "hc-en-us-articles-42152315498516-Roblox-Biometric-and-Facial-Media-Data-Privacy-Notice",
@@ -46,8 +46,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "4b1f00490c923a5d326a547f66791a4d58f2251c"
       },
       {
         "id": "hc-en-us-articles-8064749848980-Roblox-Facial-Animation-Privacy-Notice",
@@ -61,8 +61,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "596c5ef9daf26b1f63e255fcb7d2d20fd737be86"
       },
       {
         "id": "hc-en-us-articles-33135739593236-Privacy-Policy-for-the-Roblox-DevRel-Discord-Bot",
@@ -76,15 +76,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "8163c9cd103cd95813188868d6bae2f77147c41c"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/4412863575316-Roblox-Facial-Media-Capture-Privacy-Notice'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/42152315498516-Roblox-Biometric-and-Facial-Media-Data-Privacy-Notice'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/8064749848980-Roblox-Facial-Animation-Privacy-Notice'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/33135739593236-Privacy-Policy-for-the-Roblox-DevRel-Discord-Bot'"
     ]
   }
 }
