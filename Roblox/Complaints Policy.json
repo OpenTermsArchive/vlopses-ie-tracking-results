@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-07T23:50:39.952Z",
+    "date": "2026-10-08T23:51:32.127Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "0a0e8e87b9342c6a699b353f2e0c57b2dabe373d"
       },
       {
         "id": "hc-en-us-articles-13061336948244-EU-Digital-Services-Act",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "832f8d50007c7b8b7acd7dc007d5120d0bfb6113"
       },
       {
         "id": "hc-en-us-articles-360000245263-Appeal-Your-Content-or-Account-Moderation",
@@ -46,14 +46,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "fc29ce8370a058ac04ae9a6f8063387bd292caf2"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/23607654421524-Reporting-Illegal-Content-in-the-European-Union'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/13061336948244-EU-Digital-Services-Act'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/360000245263-Appeal-Your-Content-or-Account-Moderation'"
     ]
   }
 }
