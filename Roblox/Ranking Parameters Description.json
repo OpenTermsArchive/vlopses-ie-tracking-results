@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-07T23:49:37.478Z",
+    "date": "2026-10-08T11:50:40.322Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,12 +16,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "15c82070a719e8fffb81abdc09de125fcbd6f693"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/21416941036564-Recommendations-and-Ranking-on-Roblox'"
     ]
   }
 }
