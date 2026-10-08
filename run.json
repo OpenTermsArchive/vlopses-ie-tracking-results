@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-de4c52d0-b6ce-4e66-98b4-6126578ffc95",
+  "runId": "ota-run-73dd46ad-3101-46cb-9982-69b22589ba5c",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-07T22:30:06.887Z",
-    "endDate": "2026-10-08T00:20:44.733Z",
+    "startDate": "2026-10-08T10:30:06.859Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,83 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 238,
-    "failed": 29
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Ranking Parameters Description"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "In-App Purchases Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Developer Terms"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Content Monetisation Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Marketplace Sellers Conditions"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Brand Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Accessibility Statement"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Restricted Use Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Complaints Policy"
-      },
-      {
-        "serviceId": "XVideos",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
