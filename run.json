@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-73dd46ad-3101-46cb-9982-69b22589ba5c",
+  "runId": "ota-run-511db302-187f-490d-b62a-1f86df242336",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-08T10:30:06.859Z",
-    "endDate": "2026-10-08T12:18:41.841Z",
+    "startDate": "2026-10-08T22:30:06.554Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,60 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 241,
-    "failed": 26
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "XNXX",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Ranking Parameters Description"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Marketplace Sellers Conditions"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Accessibility Statement"
-      },
-      {
-        "serviceId": "XVideos",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Content Monetisation Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Commercial Terms"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
