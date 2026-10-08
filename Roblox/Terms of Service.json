@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-02T23:45:11.554Z",
+    "date": "2026-10-08T11:50:07.293Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -17,7 +17,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "5da1bd7e5cacb319c25678e19c6ecec0d1856dfa"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-4415545981332-Roblox-Dictionary",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "69c482cdf328cada8bc72ffbd9c6bc618049be5e"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-37968041171604-Screen-Recording-Additional-Terms",
@@ -47,7 +47,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "29fde9545d963bc58eb9a5ef8f12694d45df7f74"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-8862768451604-Content-Maturity-Labels",
@@ -62,7 +62,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "cfd36de720dbb24d5cadd704f7be5875c001e90a"
+        "snapshotId": null
       },
       {
         "id": "docs-en-us-production-promotion-content-maturity",
@@ -78,8 +78,11 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "06988daa75a772e49e90bd4c4b4fd0df3eacd9ec"
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/4415545981332-Roblox-Dictionary'"
     ]
   }
 }
