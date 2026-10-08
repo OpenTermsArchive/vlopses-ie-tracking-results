@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-07T23:49:40.675Z",
+    "date": "2026-10-08T23:49:40.477Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,8 +16,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "75a489ce8f5889e6f698e1e8e9314ad2df257a79"
       },
       {
         "id": "hc-en-us-articles-52737229124628-Roblox-Plus-Referral-Program-Terms",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "725feed60a331c82027fd69b40a7c7cb393a77b7"
       },
       {
         "id": "hc-en-us-articles-35146071523604-In-Experience-Friend-Rewards-Program-Terms",
@@ -46,14 +46,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "4524b74ebe86edd7f0ee841809148f41bddc1d4b"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/46804865425300-Roblox-Subscription-Terms'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/52737229124628-Roblox-Plus-Referral-Program-Terms'",
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/35146071523604-In-Experience-Friend-Rewards-Program-Terms'"
     ]
   }
 }
