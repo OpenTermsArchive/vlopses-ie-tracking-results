@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-08T11:50:37.023Z",
+    "date": "2026-10-08T23:49:27.402Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "deb2724e5e038c9fa7c262ab88dcfb67f9bbd7a0"
       },
       {
         "id": "hc-en-us-articles-15869919570708-Restricted-Content-Policy",
@@ -34,7 +34,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d5f9aad60e82814edf517e9f700987d353e57efa"
+        "snapshotId": "1d17aa41064384dc16df18868f77039ae8469be6"
       },
       {
         "id": "hc-en-us-articles-21416271342868-Content-Moderation-on-Roblox",
@@ -49,7 +49,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "cb77108fc785b071a831cd39cbf6953835dbc7bf"
+        "snapshotId": "c9342aa6e153297886b087081beac73e58874dcd"
       },
       {
         "id": "hc-en-us-articles-45600166055188-Consumer-UK-EU-Review-Policy",
@@ -64,7 +64,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d6409a72733d477209306c2304a9118e76453176"
+        "snapshotId": "74010866b59a011092b33c6d604e52c23ced555f"
       },
       {
         "id": "hc-en-us-articles-36639673493652-Guidelines-for-Managing-Communities",
@@ -78,12 +78,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "62522d3ab1ed74b89213212d5b3d9c18086d1b65"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/36639673493652-Guidelines-for-Managing-Communities'"
     ]
   }
 }
