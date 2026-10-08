@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-08T11:51:35.855Z",
+    "date": "2026-10-08T23:50:48.815Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -17,7 +17,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "fa5698e72042d6a78f031150850dbd69c245d1df"
+        "snapshotId": "e8738bed224847cfbd08af2028fa2d5d7b748179"
       },
       {
         "id": "hc-en-us-articles-33703196637204-Roblox-Advertising-Terms-Managed-Campaigns",
@@ -32,7 +32,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f4691c594aa91ba7e51a7d17db74462d6d0e7687"
+        "snapshotId": "ce8c889d62229fa9dee87ca8f7d9e0352deef638"
       },
       {
         "id": "hc-en-us-articles-47656162239124-Advertising-Integrations-Terms",
@@ -47,7 +47,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e9049ff23c850cae6aba51f5a66eb8753bd98a28"
+        "snapshotId": "be832daac194360e193323e61c1d30e313c30db2"
       },
       {
         "id": "hc-en-us-articles-18922542221076-Opt-in-Corpus-Terms",
@@ -62,7 +62,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "34c44dd10ad10691cfa06de2e02a0debe89387a9"
+        "snapshotId": "304b8f1b535f8f351cd60028b36f1c1470bd4492"
       },
       {
         "id": "hc-en-us-articles-23359485439124-Audio-Upload-License-Agreement",
@@ -77,7 +77,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "59ce7518578790b9188c497647b0390a1d0cb34b"
+        "snapshotId": "25bf1d50d7d6276ad3eff3f63cf9285a79d55a0a"
       },
       {
         "id": "hc-en-us-articles-42542704086548-License-Manager-Terms",
@@ -92,7 +92,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c77cdd6d34bccf5f3d91f96ccccbaa39ecc63383"
+        "snapshotId": "82903b82dffc19a2e3c468bdc2dca85d68c8709f"
       },
       {
         "id": "hc-en-us-articles-24608223674388-Builder-Font-License",
@@ -107,7 +107,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "fa99b315f22569a7b55c394ee5c726725a055735"
+        "snapshotId": "b1123107130dbceed6ef014cf2ecd869aa05e3f3"
       },
       {
         "id": "hc-en-us-articles-10549651908244-Promo-Offers-for-Virtual-Rewards",
@@ -121,12 +121,9 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "1654274e2005d5c4f3ad7ef942d1a4762581a53e"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards'"
     ]
   }
 }
