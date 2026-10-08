@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-07T12:16:41.823Z",
+    "date": "2026-10-08T00:20:41.820Z",
     "serviceName": "XVideos",
     "sourceDocuments": [
       {
@@ -11,7 +11,7 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "f05d2fb67937c7e1b59966c0265bc72ed197f511"
+        "snapshotId": "ab8ec8d37061db7d3279933dbafad3d920399656"
       },
       {
         "id": "account-status",
@@ -20,7 +20,7 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "815d60557fcaa64a87a001de760e7da7663fbdf9"
+        "snapshotId": "ce3a74058842a0a196310146b82ae4ecb409af95"
       },
       {
         "id": "legal-tos",
@@ -28,9 +28,12 @@
         "select": [
           "#main"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "f05d2fb67937c7e1b59966c0265bc72ed197f511"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xvideos.red/legal/tos'"
     ]
   }
 }
