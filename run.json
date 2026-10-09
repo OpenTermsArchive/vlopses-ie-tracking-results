@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-511db302-187f-490d-b62a-1f86df242336",
+  "runId": "ota-run-4c8a1ccd-69b7-4ed1-b66e-f5f2a1ce03d2",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-08T22:30:06.554Z",
-    "endDate": "2026-10-09T00:16:22.896Z",
+    "startDate": "2026-10-09T10:30:07.259Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,71 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 252,
-    "failed": 15
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "In-App Purchases Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Developer Terms"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Content Monetisation Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Brand Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Restricted Use Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Complaints Policy"
-      },
-      {
-        "serviceId": "XNXX",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
