@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-08T22:30:06.554Z",
-    "endDate": null,
+    "endDate": "2026-10-09T00:16:22.896Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,17 +14,71 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 252,
+    "failed": 15
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
+    "newFailures": [
+      {
+        "serviceId": "TikTok",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Roblox",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "In-App Purchases Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Developer Terms"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Content Monetisation Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Brand Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Restricted Use Policy"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Complaints Policy"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
     "reasonChanges": []
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
