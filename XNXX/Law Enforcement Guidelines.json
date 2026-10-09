@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-08T12:18:41.748Z",
+    "date": "2026-10-09T00:13:12.748Z",
     "serviceName": "XNXX",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e850d554c04f48882cc8a2d284d0002efc1fddc3"
+        "snapshotId": "3bc978b773e0f2270436626de6af978251c5f21b"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.com/trusted-flaggers'"
-      ]
-    }
+    ]
   }
 }
