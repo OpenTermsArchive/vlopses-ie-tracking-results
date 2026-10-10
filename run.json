@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-faca210b-aaec-4b11-87da-7165f3fd197c",
+  "runId": "ota-run-8bcc3314-fca0-4cd8-957c-5e658e8e716a",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-10T10:30:07.531Z",
-    "endDate": "2026-10-10T12:19:09.508Z",
+    "startDate": "2026-10-10T22:30:07.222Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,35 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 253,
-    "failed": 14
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Zalando",
-        "termsType": "In-App Purchases Policy"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 5
+  "transientErrors": 0
 }
