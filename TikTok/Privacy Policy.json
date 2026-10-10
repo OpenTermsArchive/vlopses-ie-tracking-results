@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-10T12:18:53.569Z",
+    "date": "2026-10-10T23:56:41.335Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -9,27 +9,22 @@
         "fetch": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
         "select": "#policy-card",
         "mimeType": "text/html",
-        "snapshotId": "65cd590ed505998bab3d6ccb7e4bf5d306e26ce2"
+        "snapshotId": "c5b3b774432eefd2b7e683e0b259577b5702adee"
       },
       {
         "id": "legal-page-global-privacy-policy-for-younger-users-en",
         "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en",
         "select": "#policy-card",
         "mimeType": "text/html",
-        "snapshotId": "90a3f01ee9b256e858b72890f5ac7e71c9f3f80b"
+        "snapshotId": "97207bf1988177ed6ee7c8fc1f6f5b61a979a95d"
       },
       {
         "id": "legal-page-global-tiktok-ad-network-privacy-policy-en",
         "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en",
         "select": "#policy-card",
         "mimeType": "text/html",
-        "snapshotId": "e932cdd35dbc8a59ac38d6afc45434e0bd1129dd"
+        "snapshotId": "dcbfcd10cd676aa51e7ee5654c26344ec7af2903"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en'"
-      ]
-    }
+    ]
   }
 }
