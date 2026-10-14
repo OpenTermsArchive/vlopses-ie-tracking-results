@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-13T00:07:12.242Z",
+    "date": "2026-10-14T00:08:55.192Z",
     "serviceName": "XNXX",
     "sourceDocuments": [
       {
@@ -11,7 +11,7 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "00f362b4efe7a7da2afeeb78aa68b29fab5ad763"
+        "snapshotId": "ac8a2286ecef31bcd62a0649c380694097bf41bf"
       },
       {
         "id": "content_removal",
@@ -20,7 +20,7 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "1c20eb987df4421e2db5c8e0555fdf442cf3c089"
+        "snapshotId": "3149cffafa920e6885c90c41f91edd61f1c23922"
       },
       {
         "id": "content-fingerprint",
@@ -29,8 +29,14 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c400d338115dbba2bac19438496a429db85342d3"
+        "snapshotId": "1d94f71123b5d22c080385188039955f8646194a"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.com/legal/piracy'",
+        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.com/content_removal'"
+      ]
+    }
   }
 }
