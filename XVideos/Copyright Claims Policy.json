@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-14T12:06:55.167Z",
+    "date": "2026-10-15T00:07:02.087Z",
     "serviceName": "XVideos",
     "sourceDocuments": [
       {
@@ -11,7 +11,7 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "74649a6d2cc1d44e3888e40a5c0e7fb10db8f5b5"
+        "snapshotId": "bfcfce84f7ed0689f3905542a515b98834e5c7a6"
       },
       {
         "id": "content-fingerprint",
@@ -20,11 +20,8 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "009262e748438f7edfde3c7d4d4ea35771d26853"
       }
-    ],
-    "reasons": [
-      "[internal] Unexpected engine error"
     ]
   }
 }
