@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-754c9d97-cfa2-49ec-9e19-6b2ea46b38c1",
+  "runId": "ota-run-b2b017e9-482b-46a8-acd0-1d508150434c",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-14T22:30:07.058Z",
-    "endDate": "2026-10-15T00:09:50.745Z",
+    "startDate": "2026-10-15T10:30:06.487Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,27 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 252,
-    "failed": 15
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "XVideos",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
