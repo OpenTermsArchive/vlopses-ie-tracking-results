@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:40:34.940Z",
+    "date": "2026-10-24T00:06:34.780Z",
     "serviceName": "X",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4599631401c5ca521622ad0de0ac36dcec9257eb"
+        "snapshotId": "3928c10e309d73a12d2e2d1849cfe1e4ffa33f76"
       },
       {
         "id": "en-rules-and-policies-x-services-and-corporate-affiliates",
@@ -26,9 +26,12 @@
           "h4"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "d83d82e726509ed02193b8c3a5785a645f88d5c3"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.x.com/en/rules-and-policies/x-services-and-corporate-affiliates'"
     ]
   }
 }
