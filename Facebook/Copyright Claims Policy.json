@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:08:34.134Z",
+    "date": "2026-10-25T12:16:15.081Z",
     "serviceName": "Facebook",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "a1cebd7cf4e1af24192a1209ba431186a34e282a"
+        "snapshotId": "38110cbf8548c8c1830b7fca578f875f61dddca5"
       },
       {
         "id": "help-507663689427413",
@@ -42,7 +42,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "25d81948224e1af79e69e050d4b37b2697d48130"
+        "snapshotId": "574f5e1721b9b9b37a735069ec169e2e1ed66397"
       },
       {
         "id": "help-1378807958858854",
@@ -63,7 +63,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1b3ae74b58a3ca049516b001a7c476607e0dd3eb"
+        "snapshotId": "a4503bdd9995a77e15f1532af9fdc7d659915413"
       },
       {
         "id": "help-349534658401968",
@@ -84,7 +84,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "bf7c58279218b657953fb9afa1095e4e6364c2cb"
+        "snapshotId": "5637bfd2b3cb24e77ef5ca57124a0546b4ad7ad2"
       },
       {
         "id": "help-1430594943641002",
@@ -105,7 +105,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d9c7520307ce6a603659fbea4452417b7e3efae5"
+        "snapshotId": "aff25fdbcffa1f8f31016117ff0c405f4120cfe1"
       },
       {
         "id": "help-1378621128898663",
@@ -126,7 +126,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "09fffa06e1a084b1e868c595fa443b3b2cb45b12"
+        "snapshotId": "c535c5ebfcb474df59ff43816afb3782afc5ecac"
       },
       {
         "id": "help-1823502941230538",
@@ -147,7 +147,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "82487c56a9e696ef1deb287a4ff8e1956912ba04"
+        "snapshotId": "ef4fc62a5dfc6474afabaaea9d33e4ad759a3558"
       },
       {
         "id": "help-962020680598166",
@@ -168,7 +168,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "be5aa7b184405950f5cf4ce8e91f390ac2acc69b"
+        "snapshotId": "ef3f4134e8c6b3467cc3d54fab05c5da6d8681e9"
       },
       {
         "id": "help-719682678205946",
@@ -189,7 +189,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ae5a318122a9f54c7c381709127278964ad65fd4"
+        "snapshotId": "12029d5c2c48672b02870bb68bb66a26419991e6"
       },
       {
         "id": "help-339026683156879",
@@ -210,7 +210,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4908baeca29c1ab3eae742ab1b15affbe4939b1e"
+        "snapshotId": "a97cf7133319ca2f2332cf6399d4e646aacbc8d3"
       },
       {
         "id": "help-189778307789711",
@@ -231,7 +231,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "712e8c7f2c854ef65167f1bb0ab4287d3874a337"
+        "snapshotId": "baa250cc2368d73c0f2a4805a88bc2545aeafbc3"
       },
       {
         "id": "help-1900735080058381",
@@ -252,7 +252,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "8b543266dae82df7b63cae7bfda8babe0fe1c767"
+        "snapshotId": "1a4cded18e6c1444a3a35fe3364bce90da91dbf6"
       },
       {
         "id": "help-350712395302528",
@@ -273,7 +273,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "cc9be1383a1d09c75955ce17fd1b4815cfa6a525"
+        "snapshotId": "ce59952e85383578729838036d2b1b0d52748e81"
       },
       {
         "id": "help-191999230901156",
@@ -294,7 +294,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f66146aba3ec5b227ad50cd51409bd7c92df9f96"
+        "snapshotId": "1068683665227e0d29dfabea29a0862bbf5eac9c"
       },
       {
         "id": "help-401678573192627",
@@ -315,7 +315,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "a356a91916d7c23d3892e5e8858dc6fcbc417f07"
+        "snapshotId": "8819e426d1316ce596b90a0428109d5016936c40"
       },
       {
         "id": "help-1250304721728220",
@@ -336,7 +336,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2a95dc58619f6c06a927a8a5bc3245ec6452d3b7"
+        "snapshotId": "11f2463d692a27ade925c211e86e12b1139a6aef"
       },
       {
         "id": "help-1703586166530507",
@@ -357,7 +357,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "629c6cff6209aecad38eb3969e685c709b8c72bf"
+        "snapshotId": "033479d5761337f6cadf05abd7c6bc0ac8b6acc0"
       },
       {
         "id": "help-303715969677454",
@@ -378,7 +378,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "dbf4ede0c3822a1e8619e4ed4a942bb2abaf24da"
+        "snapshotId": "3c0b21d27f1697d7336de5a8e21f405186daf75b"
       },
       {
         "id": "help-493458120789098",
@@ -399,7 +399,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "93bfc3ea8f5b899180be9cfc7ceda54e95cfe17e"
+        "snapshotId": "cdfe645209751a38d0b9ba9fa4f37ae6abe1d104"
       },
       {
         "id": "help-258317347704209",
@@ -420,7 +420,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9b8ed8bf8aa30f4103e0ab0ddb206c2b9fa05036"
+        "snapshotId": "f076bee7e2369c35d64f930acac240312296ee15"
       },
       {
         "id": "help-150318481705777",
@@ -441,7 +441,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4c756f2b7b3a799f194c05cb3d91805a5241e902"
+        "snapshotId": "48ef7fca85d8e57101db8b6bf504d1c7b1f90a31"
       },
       {
         "id": "help-1206218382801108",
@@ -462,7 +462,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "aa9d1b06e2c0a3e846f42ff94a963247b3e8aaa0"
+        "snapshotId": "a53837cb87ac3cc557eff3e91260b61900d54cac"
       },
       {
         "id": "help-509605252475371",
@@ -483,7 +483,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "403ce176671faf79d4440957dd46468686f33689"
+        "snapshotId": "891fe3e3e90c702c4327e3490bd38bd6b3452e76"
       },
       {
         "id": "help-835772913244854",
@@ -504,7 +504,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "6a8bee3ab71d5c46caa8de6225758cf801988f23"
+        "snapshotId": "f42b0f3bc7aa8f132184ffd65e0220ac0ae0d79f"
       },
       {
         "id": "help-1020633957973118",
@@ -525,7 +525,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4e289b7f5eda42d868ff80114a630a59e113523d"
+        "snapshotId": "b046c69beef58181537660e047842a6a85b160a6"
       },
       {
         "id": "help-116772962146447",
@@ -546,7 +546,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "a00bf238dd61219900df254c14cdd2e710a3c8a6"
+        "snapshotId": "f7a658a418a964bb050b3c566758594cdc7fc808"
       },
       {
         "id": "help-1145592148881382",
@@ -567,7 +567,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "cbc144737f93b94f38dfc75ffcdf413381e2d408"
+        "snapshotId": "cef35002e5d417847c32a4be57a0c29a40ecf7b8"
       },
       {
         "id": "help-1388077314536976",
@@ -588,7 +588,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0141a49decbb9c9a5077a58e77d013fe5f76fd01"
+        "snapshotId": "f7a2b15cfce650e583d25e14e6f6fce4ca50c8c0"
       },
       {
         "id": "help-697921770376427",
@@ -609,7 +609,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "03e651adc7cc8d793f85435ba9984d73923a3dc9"
+        "snapshotId": "e4d42783aecab089d0369f708696dd3a40e01891"
       },
       {
         "id": "help-308895412492789",
@@ -630,7 +630,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0557e04f852e9360a33d7df48fb69e4eda5c2667"
+        "snapshotId": "f4b1c9d293750aea7af43cf3aab6ae3c0c50e008"
       },
       {
         "id": "help-337995452911154",
@@ -651,7 +651,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "87d48c61acfae52ad67992ce56c6623281f7838b"
+        "snapshotId": "992c62c74424c20b9ac29de184ab8e02c068e99a"
       },
       {
         "id": "help-225191540826940",
@@ -672,7 +672,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f4b8811b329af967fd60c0af034d2247596a4f4c"
+        "snapshotId": "dae1035b319f1a1cbb5da751541ebaa3d2a50538"
       },
       {
         "id": "help-444933372561104",
@@ -693,7 +693,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "40fd02ba3bc73efa41caacb15868713cd5e1b78c"
+        "snapshotId": "03e3f16db71a19919ac081038b477836271e5565"
       },
       {
         "id": "help-365111110185763",
@@ -714,7 +714,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3219d50fb9847b682af83b541e1aaa318a360fb4"
+        "snapshotId": "8ffc9ef39f42f0ca5985f4eba4f5c6fa93563bd8"
       },
       {
         "id": "help-265723950293778",
@@ -735,7 +735,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c9cd1fac56adb720fc145fb1a8b6683cdd2e16fd"
+        "snapshotId": "32806019b660276d87c3a3974ab378409a7edd3a"
       },
       {
         "id": "help-325058084212425",
@@ -756,7 +756,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "99029e8c60c8aaad5f80c9dd41909dee32095c8a"
+        "snapshotId": "ee9dfba73926605fd1a40b15b325ca72d5d8b16a"
       },
       {
         "id": "help-190268144407210",
@@ -777,7 +777,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "997da86fa24cbbae338c96f6f9c89fbd0154654a"
+        "snapshotId": "239dff7e9ea0f3a7175760527f2664fc0001874e"
       },
       {
         "id": "help-231463960277847",
@@ -798,7 +798,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "66b89b4cb3e5d194787be3da6e028815d43c5758"
+        "snapshotId": "45d7dad9a7b38279c4fdcd8e4dee4bc95883f77e"
       },
       {
         "id": "help-297270237338088",
@@ -819,7 +819,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "66bcfb6464abe8bc9a55690d25e9b1d9f256c233"
+        "snapshotId": "4f7886b00c1b841563f8d866c14e710964f68247"
       },
       {
         "id": "help-364993690187480",
@@ -840,7 +840,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "29a794feac5591c0cbf1b035f39e55b8c2d40034"
+        "snapshotId": "5af3f4e0772ba8b43e9d9d6ff9483ae1c7b61d49"
       },
       {
         "id": "help-348831205149904",
@@ -861,8 +861,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c49409db4d0cea1ebbc6551dd9ea0d6239d194f6"
+        "snapshotId": "12e9b54ceb23aaad96edbd1a86e0eaf651168131"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"[role=main]\"]\" has no match in the web page at 'https://www.facebook.com/help/1206218382801108'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
