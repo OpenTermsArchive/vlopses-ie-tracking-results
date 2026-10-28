@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-27T01:01:08.997Z",
+    "date": "2026-10-28T01:17:39.094Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           "#policy-card"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6fb767ca7e8d2027557eabb8649f4aeb0ed5cefa"
+        "snapshotId": "a3753397367d44060eda12da07c421af18ba51f3"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/eea/virtual-items/en'"
+      ]
+    }
   }
 }
