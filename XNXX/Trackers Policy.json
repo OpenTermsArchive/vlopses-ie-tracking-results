@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-27T13:22:09.220Z",
+    "date": "2026-10-28T01:14:32.404Z",
     "serviceName": "XNXX",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "636622e882d5aa230652055d08c805c3982ebf3a"
+        "snapshotId": "e613894089c889e818b7d8afe59f85a4fa88f50d"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.com/legal/cookiepolicy'"
-      ]
-    }
+    ]
   }
 }
