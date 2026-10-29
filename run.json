@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-8ddb7d55-a99b-44cc-81dc-1aaf6687a2f7",
+  "runId": "ota-run-3efcbbb7-a051-4b9c-8c80-e8de7c296cfa",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-28T23:30:07.167Z",
-    "endDate": "2026-10-29T01:16:19.502Z",
+    "startDate": "2026-10-29T11:30:08.276Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,22 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 250,
-    "failed": 17
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
