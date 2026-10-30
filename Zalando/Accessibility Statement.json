@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-10T12:18:17.540Z",
+    "date": "2026-10-30T13:23:37.412Z",
     "serviceName": "Zalando",
     "sourceDocuments": [
       {
@@ -13,9 +13,12 @@
         "remove": [
           "img"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "1e5dd7432f66842d9fbe9e651fd3a9ec32633710"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.zalando.ie/accessibility-statement/'"
     ]
   }
 }
