@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-29T01:16:16.374Z",
+    "date": "2026-10-30T01:14:20.479Z",
     "serviceName": "XNXX",
     "sourceDocuments": [
       {
@@ -11,7 +11,7 @@
           "#main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "820543004e9eccb95ea538ea1bd24e0c600f0044"
+        "snapshotId": "e7346ab9c614545c9df46930e2f22394999d8397"
       },
       {
         "id": "legal-tos",
@@ -19,12 +19,9 @@
         "select": [
           "#main"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "e7346ab9c614545c9df46930e2f22394999d8397"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.gold/legal/tos'"
     ]
   }
 }
