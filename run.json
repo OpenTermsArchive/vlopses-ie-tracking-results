@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-a6a9d126-7714-43a1-959a-9b1f00fe6041",
+  "runId": "ota-run-e4d2c2f7-ed90-4bf6-8de3-1ae80f585bf9",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-30T11:30:07.088Z",
-    "endDate": "2026-10-30T13:23:37.511Z",
+    "startDate": "2026-10-30T23:30:08.254Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,35 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 249,
-    "failed": 18
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "Accessibility Statement"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
