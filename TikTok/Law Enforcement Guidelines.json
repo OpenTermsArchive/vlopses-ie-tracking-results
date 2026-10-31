@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-30T13:23:13.468Z",
+    "date": "2026-10-31T13:24:40.690Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -10,12 +10,12 @@
         "select": [
           "#policy-card"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "54d2d04818a202258f6bc7197f04876cc5451781"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/law-enforcement/en'"
+      "[extraction] Extract failed: The provided selector \"[\"#policy-card\"]\" has no match in the web page at 'https://www.tiktok.com/legal/page/global/law-enforcement/en'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
