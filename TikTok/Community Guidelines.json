@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-30T13:23:03.297Z",
+    "date": "2026-10-31T01:01:23.153Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -172,11 +172,6 @@
         "mimeType": "text/html",
         "snapshotId": "265b445c17ebb07c7daf8cb87fc86f604530d885"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/safety/en/policies-and-engagement/youth-safety?cgversion=2025H2update'"
-      ]
-    }
+    ]
   }
 }
