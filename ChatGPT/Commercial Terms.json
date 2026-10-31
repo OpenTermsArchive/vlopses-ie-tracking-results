@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-31T01:19:28.405Z",
+    "date": "2026-10-31T12:03:25.514Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9fa1df72adf1dd95036339c8c6acb02b0db77603"
+        "snapshotId": "b024fbc89701ef928591a414e5952887c51e37cd"
       },
       {
         "id": "policies-advertising-terms",
@@ -48,7 +48,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "401c3f8518f0f37060b46ac997bc849f5ac8f941"
+        "snapshotId": "d440f9ab02f4b5ed5c279911182d92986ca54dde"
       },
       {
         "id": "policies-ad-tools-terms",
@@ -71,7 +71,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f466ab3564146548d39e931694b86fedfc680a9b"
+        "snapshotId": "379d95f620c530f7b2d6827bb7b7ba5f95305d5e"
       },
       {
         "id": "policies-conversion-terms",
@@ -94,7 +94,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "bb577cf02a96ee17f99640fa33af923493b6a5ba"
+        "snapshotId": "cce578e76c18324a91f78a9e94fb98dc9f1e0143"
       },
       {
         "id": "policies-ad-credit-terms",
@@ -117,7 +117,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f4158c9518c56e33cb89a5db4ea2b05639009a62"
+        "snapshotId": "854c34cd269fd00b7ac2635e5dea38ef90c86aab"
       },
       {
         "id": "policies-education-terms",
@@ -140,7 +140,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1c467808d919a643ee24c249c361c1eb756bdef9"
+        "snapshotId": "76fadcb604d44a3ef2c618d7341eecde2e8e3fef"
       },
       {
         "id": "policies-financial-services-terms",
@@ -163,13 +163,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "645910ab618815befc60f944e2d23050031b30fc"
+        "snapshotId": "af7281f9506b4c68024b82cce0fbbf8f9697e747"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/ad-credit-terms/'"
-      ]
-    }
+    ]
   }
 }
