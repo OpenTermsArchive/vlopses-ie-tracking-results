@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-e4d2c2f7-ed90-4bf6-8de3-1ae80f585bf9",
+  "runId": "ota-run-a0478bcb-f3c9-48b3-9047-cfd96320882a",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-30T23:30:08.254Z",
-    "endDate": "2026-10-31T01:20:09.317Z",
+    "startDate": "2026-10-31T11:30:08.618Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,36 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 250,
-    "failed": 17
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "Accessibility Statement"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
