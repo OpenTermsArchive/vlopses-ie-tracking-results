@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-06T12:16:04.619Z",
+    "date": "2026-11-01T01:17:04.095Z",
     "serviceName": "Zalando",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           "#main-content"
         ],
         "mimeType": "text/html",
-        "snapshotId": "a7b62b7cc4548195f21826715a0dbefb78480f68"
+        "snapshotId": "a6b79e57be4b773208f93f1ef85223c21f1dbf4e"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.zalando.ie/zalando-terms/'"
+      ]
+    }
   }
 }
