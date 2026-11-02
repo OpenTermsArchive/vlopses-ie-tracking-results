@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-08T23:48:55.509Z",
+    "date": "2026-11-02T00:50:12.968Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -17,7 +17,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "dd579d0a3c8bd32dff111a850b8a3d51840bb5cf"
+        "snapshotId": "528a7ff8095386c1a38e259924f717d00af1d83f"
       },
       {
         "id": "hc-en-us-articles-4415545981332-Roblox-Dictionary",
@@ -31,8 +31,8 @@
           "removeTableOfContents"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "e3ff4368e82a95f81c1b73d82801325779a69d33"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-37968041171604-Screen-Recording-Additional-Terms",
@@ -47,7 +47,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "cb8221920bd19abeb33ac360cc8a21070722cbd3"
+        "snapshotId": "2a1a1c2c689a69ef3385006deb412d7f382f6686"
       },
       {
         "id": "hc-en-us-articles-8862768451604-Content-Maturity-Labels",
@@ -62,7 +62,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "25972b2b8b78ec91e43441137af0027fae54e929"
+        "snapshotId": "51a17f2513dd173aa73811f55293784c6579f8fe"
       },
       {
         "id": "docs-en-us-production-promotion-content-maturity",
@@ -78,8 +78,11 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "fe37fc3fa6078a278011212b68443214db8d58df"
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/4415545981332-Roblox-Dictionary'"
     ]
   }
 }
