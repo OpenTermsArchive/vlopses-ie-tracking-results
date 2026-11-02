@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-02T00:55:25.081Z",
+    "date": "2026-11-02T13:00:09.031Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -9,21 +9,21 @@
         "fetch": "https://www.snap.com/terms/snap-conversion",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "860b3b43889a0198b804f1f00d0c9f58410317c0"
+        "snapshotId": "dac14cb79cd90497db7ed54c82ac7f1c73a1a9d4"
       },
       {
         "id": "terms-snap-audience-match",
         "fetch": "https://www.snap.com/terms/snap-audience-match",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "e5272c5acb48a1da823aa6926ef6ac2cc979a98c"
+        "snapshotId": "8951e234fca63407cf6d83d1c606a039ddf03d56"
       },
       {
         "id": "terms-cst",
         "fetch": "https://www.snap.com/terms/cst",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "19c892bede579a9c23668b141d939f18b448ef44"
+        "snapshotId": "95fd7543897f9ad42faf09129fb8ea2c8c28f3a9"
       },
       {
         "id": "terms-catalog",
@@ -51,18 +51,15 @@
         "fetch": "https://www.snap.com/terms/business-services",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "6cbe5e2e552af6ed158898ae015c975f713c7b13"
+        "snapshotId": "944f34e2674ec9febfea30a5dd6b63d227ce8fff"
       },
       {
         "id": "terms-payment",
         "fetch": "https://www.snap.com/terms/payment",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "fd0c7e967495f9b55903684332411a983dbf7fde"
+        "snapshotId": "303d15444b2e965a8311abe16ab04437662d1bc5"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/payment'"
     ]
   }
 }
