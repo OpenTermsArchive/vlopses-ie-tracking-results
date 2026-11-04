@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T22:57:28.664Z",
+    "date": "2026-11-04T01:20:11.893Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b34f8565cddab3884853cdc2e312800288502881"
+        "snapshotId": "eae0873c7f5462793884807cbadd249d7e327375"
       },
       {
         "id": "policies-how-your-data-is-used-to-improve-model-performance",
@@ -48,7 +48,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "728743b58d2df4828e104b24f54217acb8663347"
+        "snapshotId": "056e4d4f39f3b55f10e807f2363b114f5452ddd2"
       },
       {
         "id": "policies-health-privacy-policy",
@@ -71,7 +71,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "fedd4bc93e24c9b24337834c1079b916cc83ed24"
+        "snapshotId": "49aa61c65daa8eb137d77e1cd42dff97d6f1867a"
       },
       {
         "id": "policies-how-chatgpt-and-our-foundation-models-are-developed",
@@ -94,8 +94,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "981fccb8ddc84b2bf8a58422e33c0c8fb3d7eeff"
+        "snapshotId": "676cd236e57e30e56851af461e84c1df3ae5f8cb"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/'"
+      ]
+    }
   }
 }
