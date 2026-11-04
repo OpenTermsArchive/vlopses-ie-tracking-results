@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-03T13:26:46.082Z",
+    "date": "2026-11-04T01:17:53.325Z",
     "serviceName": "YouTube",
     "sourceDocuments": [
       {
@@ -15,7 +15,7 @@
           ".mobile-only"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c533580826d1896afb13e2e4b8d829edfeb25a75"
+        "snapshotId": "b20ba7735b729641d43480627563c1349b74773a"
       },
       {
         "id": "youtube-answer-185111",
@@ -28,7 +28,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "facb7d984e26a6000f60aba73282d2decbd4793b"
+        "snapshotId": "8f744b24a5121f80d1960f5df674fa167d9fd931"
       },
       {
         "id": "youtube-answer-9288567",
@@ -41,7 +41,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "795cd243fafc16dfccfde52fc96adf976fe4c69d"
+        "snapshotId": "69c3f27d08790e632a14c6b86774ad2f9f72cd52"
       },
       {
         "id": "youtube-answer-2801973",
@@ -54,7 +54,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "bb6f06397bbac3cecb2a83f76f45291b8452b08b"
+        "snapshotId": "e0ac6fe6375c840ad13aa197f8031f429e3c1a8a"
       },
       {
         "id": "youtube-answer-2801947",
@@ -67,7 +67,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "f897ada1d48b2f3479fb92f7d2eb60941f36437e"
+        "snapshotId": "06a7de97fa1e98e17ffde26cc0040502e8b0b2f7"
       },
       {
         "id": "youtube-answer-9054257",
@@ -80,7 +80,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "d3fd53b138c70871cf8d91437c93d88909f8e01f"
+        "snapshotId": "96095ee63cd90234fc63dcd4d278ae883d09b3f5"
       },
       {
         "id": "youtube-answer-3399767",
@@ -93,7 +93,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "f95d20f6a8c8a97d5beb15893b528867c892f308"
+        "snapshotId": "df317fe725e95c8c215868f751e566542f05a1ee"
       },
       {
         "id": "youtube-answer-9713446",
@@ -106,7 +106,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e13d53f9e354924445f81dcec1ae7a08591a93b9"
+        "snapshotId": "c2c1f81ba04f0b0d6f8624e3c89af6edbbbf2b26"
       },
       {
         "id": "youtube-answer-2801981",
@@ -119,7 +119,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "33e4d1db97b336d8bdb61072461b5078b3b9a668"
+        "snapshotId": "0729e059b38bb4993fb05e356d5c96f8312c50dd"
       },
       {
         "id": "youtube-answer-2802002",
@@ -132,7 +132,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "2210d967e4d67ecc92f9b844506ed6a0057b218d"
+        "snapshotId": "df59a4f6a3384c38edc303c8ac8fe1f6a73f0cbc"
       },
       {
         "id": "youtube-answer-9229980",
@@ -145,7 +145,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e3e592fcff7bc34ed2846eaefce3351dc1393ff7"
+        "snapshotId": "ed97edeb538deddbc584269ec3ebbc2158b654ce"
       },
       {
         "id": "youtube-answer-2801999",
@@ -158,7 +158,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "250b5bdf29de81b01ced8395626ae66c6af03aef"
+        "snapshotId": "40570f7492a8fbda41c1cb38fee2972bac5579d8"
       },
       {
         "id": "youtube-answer-2802245",
@@ -171,7 +171,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "39a8b4df5258a144c5ec53af8c287aed111ea736"
+        "snapshotId": "52191428ef816484b1268f0a357e5c6e5d0f2d0e"
       },
       {
         "id": "youtube-answer-10072685",
@@ -184,7 +184,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "1272c3e8af0c4c5a0444bb8be77bed2d56cb57a2"
+        "snapshotId": "49380258de0cd690177b25a383540521aa412266"
       },
       {
         "id": "youtube-answer-2801964",
@@ -197,7 +197,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "d99afc537385134fae908c5846e9dfed566f46e3"
+        "snapshotId": "ec01cdffca840fd5d805f5eb36d69667f4ae78b6"
       },
       {
         "id": "youtube-answer-2802008",
@@ -210,7 +210,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "525befedcfe3cc6956b63515ff6b72d5b15f48cb"
+        "snapshotId": "5b137650a9a7da50ab2953a1bb64bb3ca3dfd0e2"
       },
       {
         "id": "youtube-answer-9229472",
@@ -223,7 +223,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "60d96aff2ace2a2ef4a1b026df52189d48247858"
+        "snapshotId": "b51c974452c190feb71a0b279b41d71581e64661"
       },
       {
         "id": "youtube-answer-2801939",
@@ -236,7 +236,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "2e7492ef29f8a769a0942a5d0f703b7568f8d772"
+        "snapshotId": "36f8c5b8d550837e6643c9edd119f408508fa12e"
       },
       {
         "id": "youtube-answer-2802268",
@@ -249,7 +249,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "abb1f2f8ebee5b941f4137bac25480e97f4ec408"
+        "snapshotId": "356b3b3c144e6549ccd59e581d18188557cfbae2"
       },
       {
         "id": "youtube-answer-9229611",
@@ -262,7 +262,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c69c8e7480a257005224fcca016f639d46bc96d4"
+        "snapshotId": "1684925fb6a4a773d41f3a8dee865a6f7553e8f0"
       },
       {
         "id": "youtube-answer-7667605",
@@ -275,7 +275,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "737eb0696648c8c182326ed7ec482af764908d4b"
+        "snapshotId": "1a31fd2604521919666e38b6d476535f3d92b345"
       },
       {
         "id": "youtube-answer-10834785",
@@ -288,7 +288,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "4b0415dca84e0e4271a0ea30179810a0c476adce"
+        "snapshotId": "34488204da58abefc960fc9858b16ba7aceaa50c"
       },
       {
         "id": "youtube-answer-10835034",
@@ -301,7 +301,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "8ced7722b69f7a2e8eec77f805aa7cbd22a4008d"
+        "snapshotId": "6f37ad57a660681a312f37458a3a7510c80c1539"
       },
       {
         "id": "youtube-answer-13813322",
@@ -314,7 +314,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e6a9fe86a31126b27095690174f79ea9e8bfd75b"
+        "snapshotId": "fbd711f02d7038ac982b58b76dfe8e7f061aa104"
       },
       {
         "id": "youtube-answer-6345162",
@@ -327,13 +327,8 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "08c1746dbd6394b1f28b123173a1019b3ee2a82c"
+        "snapshotId": "b5ecb235278225fa1f954281a683d247728acd0e"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://support.google.com/youtube/answer/9288567'"
-      ]
-    }
+    ]
   }
 }
