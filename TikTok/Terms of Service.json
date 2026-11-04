@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-01T13:00:17.937Z",
+    "date": "2026-11-04T13:24:17.991Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           "#policy-card"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6bb246ac626b21888a990d11a3e72414b38302db"
+        "snapshotId": "3a8f3680a0a86e686f7076ad6ee8158740774bc2"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/eea/terms-of-service/en'"
+      ]
+    }
   }
 }
