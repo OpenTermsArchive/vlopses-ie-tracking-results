@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-04T23:30:08.432Z",
-    "endDate": null,
+    "endDate": "2026-11-05T01:23:05.276Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,17 +14,44 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 246,
+    "failed": 21
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "TikTok",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "In-App Purchases Policy"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Commercial Terms"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Data Processor Agreement"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
