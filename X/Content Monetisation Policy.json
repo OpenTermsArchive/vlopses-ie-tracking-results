@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:47:57.383Z",
+    "date": "2026-11-05T13:25:31.474Z",
     "serviceName": "X",
     "sourceDocuments": [
       {
@@ -9,9 +9,12 @@
         "fetch": "https://help.x.com/en/rules-and-policies/content-monetization-standards",
         "select": "main",
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "ba5f22b8df3c9216617e54d45ae144292a366300"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.x.com/en/rules-and-policies/content-monetization-standards'"
     ]
   }
 }
