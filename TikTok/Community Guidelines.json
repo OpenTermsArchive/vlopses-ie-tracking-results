@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-31T01:01:23.153Z",
+    "date": "2026-11-05T13:22:16.939Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d4703be67bfcc22639dbbe55c9d6b6bf346a7ac7"
+        "snapshotId": "8b8f6312ff962fe772309afdae92ea94ae639f52"
       },
       {
         "id": "community-guidelines-en-community-principles",
@@ -30,7 +30,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b00567dc3c9312f8ef584bcc49b1031780f38368"
+        "snapshotId": "df67d017a18f9e578f63c9ed5cddefd1a5ab2b4d"
       },
       {
         "id": "safety-en-policies-and-engagement-youth-safety",
@@ -44,7 +44,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ec877190eea4bb7365a2ec5c94c86035ae5195bd"
+        "snapshotId": "3f2c6e4c99b08dc67398d96ad0f683a72863ea5b"
       },
       {
         "id": "community-guidelines-en-safety-civility",
@@ -58,7 +58,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b9aaf666a82df9805f2118a89ddc9a667baa8d39"
+        "snapshotId": "18853d1fd7f8dc0b8ff420d3a280a0a0d13d4a39"
       },
       {
         "id": "community-guidelines-en-mental-behavioral-health",
@@ -72,7 +72,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "36bcd8cdb81d66e623bc67b659576d09b0f6b5fe"
+        "snapshotId": "5ccfef1494d677380169cf19a3cbe47f7241bee5"
       },
       {
         "id": "community-guidelines-en-sensitive-mature-themes",
@@ -86,7 +86,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "43d090545eafac84aedaa869ce73b88e08b56e70"
+        "snapshotId": "a5fbecab8c5a6607d80e555562e62c0f389780e0"
       },
       {
         "id": "community-guidelines-en-integrity-authenticity",
@@ -100,7 +100,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f9107e5221283beef5caa2e5c6ecf90bd5c3e4ef"
+        "snapshotId": "cd4a7af08ce4a348e52fddceb50fa16ede62a158"
       },
       {
         "id": "community-guidelines-en-regulated-commercial-activities",
@@ -114,7 +114,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "82bd8c782eb9702da6d2c6d90a0e491364459a31"
+        "snapshotId": "1a201b0e9763578898aacb4e9cccb0bdec4dfe80"
       },
       {
         "id": "community-guidelines-en-privacy-security",
@@ -128,7 +128,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "8fd1f4184a86fa273e0aad441a90bed7c3373b34"
+        "snapshotId": "75b0c2f59250506ec22ea75ceafd610400588bcd"
       },
       {
         "id": "safety-en-policies-and-engagement-fyf-standards",
@@ -142,7 +142,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "91439d46c04baaf7b69b8d3cd21b779482cb496d"
+        "snapshotId": "8694bf2aa1f8860b5c7c79ddff8f2f6f986614d8"
       },
       {
         "id": "community-guidelines-en-accounts-features",
@@ -156,7 +156,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "bd77185226343e9c3117c09f07aca12b00bb4d16"
+        "snapshotId": "9d5dd4a90b0df4f947cea32dd445f8871aff4d23"
       },
       {
         "id": "community-guidelines-en-enforcement",
@@ -170,8 +170,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "265b445c17ebb07c7daf8cb87fc86f604530d885"
+        "snapshotId": "37270b2d3d95f34af6783cd3eb5ec18d0d65baa9"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes/?cgversion=2025H2update'"
+      ]
+    }
   }
 }
