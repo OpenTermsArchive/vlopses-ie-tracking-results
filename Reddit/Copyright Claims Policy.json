@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T23:41:18.575Z",
+    "date": "2026-11-05T13:19:15.911Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -15,8 +15,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "d5004a3c74fd80be00bfc9b7f57bd0dbee8dcf01"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-25476777729556-Trademark-overview",
@@ -30,8 +30,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e07c9e7f4878e168f3e85b7a759e61f3d53f0e88"
+        "snapshotId": "252aeeaaf6b1c101e46c8169dad944636f755a9c"
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043076292-Copyright-overview'"
     ]
   }
 }
