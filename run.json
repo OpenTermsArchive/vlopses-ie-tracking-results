@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-05T11:30:08.865Z",
-    "endDate": null,
+    "endDate": "2026-11-05T13:25:48.344Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,17 +14,80 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 240,
+    "failed": 27
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Reddit",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Acceptable Use Policy"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Complaints Policy"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Ranking Parameters Description"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Data Processor Agreement"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Content Monetisation Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "TikTok",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "In-App Purchases Policy"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Data Processor Agreement"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 4
 }
