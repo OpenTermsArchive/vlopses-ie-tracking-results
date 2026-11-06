@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-06T00:55:57.811Z",
+    "date": "2026-11-06T13:01:18.213Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "4b63a92ec2f93b39f4a58677a33bd95ffd72e328"
+        "snapshotId": "c640557b469e6219cb89dc9903d4f32e3c2d709e"
       },
       {
         "id": "terms-paid-features",
@@ -36,7 +36,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "80adc102101d87587141c084f744b0437e5217bb"
+        "snapshotId": "1bcbb8f732adbec5244fbaaa6798b9fa4734532c"
       },
       {
         "id": "policies-pcd",
@@ -58,7 +58,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "4f5da1bd8cce2d7bdc6a8117d6a8ad8abaf03678"
+        "snapshotId": "1c171f6c3aaa2a0a72f2c45631002c64e18b3c3f"
       },
       {
         "id": "terms-lens-studio-terms",
@@ -69,18 +69,15 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "26f6d69077dfda685db2678648916109072b8156"
+        "snapshotId": "64a56ad268e61bf8d5a44c5b7b0c9430681c196e"
       },
       {
         "id": "terms-ai-tools",
         "fetch": "https://www.snap.com/terms/ai-tools",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "2ea604e1484a7cd856799ddcdbd8c7bf05844a7a"
+        "snapshotId": "dba3f6800b1dbb5a839cd95f1a49031834bbe727"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/ai-tools'"
     ]
   }
 }
