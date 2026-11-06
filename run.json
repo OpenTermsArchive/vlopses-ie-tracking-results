@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-a7961883-c4cc-4887-9d02-1d196109949f",
+  "runId": "ota-run-d00d5f27-aab7-436e-a4d4-39c139a0af96",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-05T23:30:07.896Z",
-    "endDate": "2026-11-06T01:20:36.354Z",
+    "startDate": "2026-11-06T11:30:09.222Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,76 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 248,
-    "failed": 19
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Reddit",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Acceptable Use Policy"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Complaints Policy"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Ranking Parameters Description"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "X",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "X",
-        "termsType": "Data Processor Agreement"
-      },
-      {
-        "serviceId": "X",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "X",
-        "termsType": "Content Monetisation Policy"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Data Processor Agreement"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
