@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-05T13:19:19.961Z",
+    "date": "2026-11-06T00:50:19.286Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -16,13 +16,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "66c3c6f71bf550c645e6aa6d833102a4f86f802f"
+        "snapshotId": "3f63d6b0610aa72af839a41c82d27f4cfb6de70f"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/22755369815700-Running-promotions-on-Reddit'"
-      ]
-    }
+    ]
   }
 }
