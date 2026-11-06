@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-06T01:09:34.350Z",
+    "date": "2026-11-06T13:27:36.365Z",
     "serviceName": "X",
     "sourceDocuments": [
       {
@@ -20,8 +20,13 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "440f85716969c5bc9691b85a8c1e286acc3a15d9"
+        "snapshotId": "8a4e9396fc0442e03ed77e8db8b9f136c956d12b"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.x.com/en/rules-and-policies/copyright-policy'"
+      ]
+    }
   }
 }
