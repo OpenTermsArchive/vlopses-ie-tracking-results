@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-05T13:19:08.848Z",
+    "date": "2026-11-06T00:50:02.745Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -15,8 +15,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "01d91055227da0f7521eb437a3bef0abc61f2c53"
       },
       {
         "id": "hc-en-us-articles-23511059871252-Content-Moderation-Enforcement-and-Appeals",
@@ -29,8 +29,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "a21560169263d183ed43e2372c7f358ee728e4c5"
       },
       {
         "id": "hc-en-us-articles-23512591656212-Digital-Services-Act-DSA-Resolution-options-for-EU-users",
@@ -44,12 +44,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "5a18c44cd875ee4faf8bf74793686fef4a70ae09"
+        "snapshotId": "5ec46c6c546418cb8d55563c7dae8e787efed078"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/23511059871252-Content-Moderation-Enforcement-and-Appeals'"
     ]
   }
 }
