@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-06T11:30:09.222Z",
-    "endDate": null,
+    "endDate": "2026-11-06T13:33:33.861Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,17 +14,64 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 243,
+    "failed": 24
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Reddit",
+        "termsType": "Developer Terms"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Acceptable Use Policy"
+      },
+      {
+        "serviceId": "Reddit",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Community Guidelines"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Data Processor Agreement"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Law Enforcement Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 4
 }
