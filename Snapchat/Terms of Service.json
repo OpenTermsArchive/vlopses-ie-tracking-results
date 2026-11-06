@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:30:07.251Z",
+    "date": "2026-11-06T00:55:57.811Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "df5651e8d749cc5d5a1aacfef911e50d6a3ffab7"
+        "snapshotId": "4b63a92ec2f93b39f4a58677a33bd95ffd72e328"
       },
       {
         "id": "terms-paid-features",
@@ -25,7 +25,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "dde512dddb0dcb8481e8cf07968a0c084b0d5e50"
+        "snapshotId": "128cc46da65264da077913fe35d173029b7a279d"
       },
       {
         "id": "terms-my-selfie",
@@ -36,7 +36,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "a602807a55edebbb513e572f3ab419a4377484d9"
+        "snapshotId": "80adc102101d87587141c084f744b0437e5217bb"
       },
       {
         "id": "policies-pcd",
@@ -47,7 +47,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "71a8766074e5287b594242a85d90d85a04924408"
+        "snapshotId": "8234794fce8880f2d4f53e1f3a2d6560b9a58f26"
       },
       {
         "id": "terms-create-geofilter",
@@ -58,7 +58,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "66d8301ced5965f4d12721b4cc3a3c396cd8d03c"
+        "snapshotId": "4f5da1bd8cce2d7bdc6a8117d6a8ad8abaf03678"
       },
       {
         "id": "terms-lens-studio-terms",
@@ -69,15 +69,18 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6ac1e848aa8764cca1025f1856a13abfed77d300"
+        "snapshotId": "26f6d69077dfda685db2678648916109072b8156"
       },
       {
         "id": "terms-ai-tools",
         "fetch": "https://www.snap.com/terms/ai-tools",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "c5cb689d97ebf395933b2a69852b60bbe1b9d6ec"
+        "snapshotId": "2ea604e1484a7cd856799ddcdbd8c7bf05844a7a"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/ai-tools'"
     ]
   }
 }
