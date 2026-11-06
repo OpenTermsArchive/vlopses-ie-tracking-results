@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-06T00:40:41.068Z",
+    "date": "2026-11-06T13:25:45.008Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -21,7 +21,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "fedd5491cefc95480aaf3df76777ff7b522cfec4"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-27031206843156",
@@ -42,7 +42,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1f031fa964b940719bed1722d6fac3d1bf77f294"
+        "snapshotId": "89be20351d016284664e8977f77680601e26cf95"
       },
       {
         "id": "hc-en-us-articles-27031214413588",
@@ -63,7 +63,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d9dac05fb7ed945604f05f924539253dc5afb859"
+        "snapshotId": "ae11e20526706c85b99d6ae13b8fadb0e1341579"
       },
       {
         "id": "hc-en-us-articles-27031145215252",
@@ -83,8 +83,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "c057505e74815ec2e554fa7e702f60b3bc4b513c"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-27031272792084",
@@ -104,8 +104,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "0b1417166324db4a39e92a435f7693fe7556f299"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-27031261124884",
@@ -125,9 +125,14 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "39274e8d726dc8483bdf8e1f05b728250f8a082c"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031145215252'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031272792084'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031261124884'"
     ]
   }
 }
