@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-05T13:22:48.289Z",
+    "date": "2026-11-06T01:09:48.609Z",
     "serviceName": "X",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": "main",
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "28cc936548f30c776078708058ef113d393723f2"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.x.com/en/rules-and-policies/data-processing-legal-bases'"
     ]
   }
 }
