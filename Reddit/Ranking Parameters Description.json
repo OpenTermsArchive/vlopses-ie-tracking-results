@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-05T13:19:10.642Z",
+    "date": "2026-11-06T00:50:06.909Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -15,12 +15,9 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "4c9c503d8fdd86dc628412b3697860f66d00e85e"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/23511859482388-Reddit-s-Approach-to-Content-Recommendations'"
     ]
   }
 }
