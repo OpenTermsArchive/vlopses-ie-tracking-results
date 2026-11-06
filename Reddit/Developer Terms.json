@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T23:31:35.395Z",
+    "date": "2026-11-06T13:25:27.472Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -20,7 +20,7 @@
           "removeBackToTopLinks"
         ],
         "mimeType": "text/html",
-        "snapshotId": "f4ab726cf525c6cebf2e51ef105c8f863d1ac34f"
+        "snapshotId": null
       },
       {
         "id": "policies-data-api-terms",
@@ -38,7 +38,7 @@
           "removeBackToTopLinks"
         ],
         "mimeType": "text/html",
-        "snapshotId": "741054fadffdba95c80758d7d388797ef8a208c2"
+        "snapshotId": null
       },
       {
         "id": "policies-embeds-terms",
@@ -56,7 +56,7 @@
           "removeBackToTopLinks"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b68a8c005a5447acb7969ac7c790e704aa7e6875"
+        "snapshotId": null
       },
       {
         "id": "docs-devvit_rules",
@@ -74,7 +74,7 @@
           "removeBackToTopLinks"
         ],
         "mimeType": "text/html",
-        "snapshotId": "2747c96f595ff3727996532b682ef1356819e249"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-42728983564564-Responsible-Builder-Policy",
@@ -96,7 +96,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "50da267c67b707e9018f9b9427367f836351f3a2"
+        "snapshotId": "c4f940a2561977b2e4aa594ab679987865945782"
       },
       {
         "id": "hc-en-us-articles-26410290525844-Public-Content-Policy",
@@ -117,9 +117,12 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "20e9625699fe7258100011e52a0f1a102e37321d"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/26410290525844-Public-Content-Policy'"
     ]
   }
 }
