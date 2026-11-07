@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-07T00:47:14.360Z",
+    "date": "2026-11-07T13:32:47.137Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -21,7 +21,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "30d41b4699ac6e06ca90dbd79454d2f7b9c8ca73"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043071072-Harassment",
@@ -41,8 +41,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "913e7522074c0c0c845a1ab53993c4ed7dcbff53"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043513151-Violence",
@@ -62,8 +62,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "afbdd2e69c455c805e5e7d52ebf989be24b35677"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360045715951-Hate",
@@ -84,7 +84,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d8e7325c5be98ac93499886633ed9db27a07f5ed"
+        "snapshotId": "0c6a0ac7a49f572e1ada5548f306cc2c846eef07"
       },
       {
         "id": "hc-en-us-articles-360043504051-Spam",
@@ -105,7 +105,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "26b5fc08d15a20e7b0fc2451a147809e943c146d"
+        "snapshotId": "7465451fc8e3d4c627900530d4709245389f71b0"
       },
       {
         "id": "hc-en-us-articles-360043066412-Disrupting-Communities",
@@ -126,7 +126,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "903e1af27a67e0191d8960218c51001d4f14d94c"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043066452-Is-posting-someone-s-private-or-personal-information-okay",
@@ -146,8 +146,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "33d4d3611d910040f361ff7f29f2ef4c9f9109ad"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043513411-Never-Post-Intimate-or-Sexually-Explicit-Media-of-Someone-Without-Their-Consent",
@@ -167,8 +167,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "903a188340366fb1773d654ec168671a5c806359"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043075352-Do-not-share-sexual-or-suggestive-content-involving-minors-or-engage-in-any-predatory-or-inappropriate-behavior-with-minors",
@@ -188,8 +188,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "59b4f260ced1b07424389cff86930022cc452e28"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-17130615698964-Do-not-share-content-depicting-or-promoting-neglect-physical-or-emotional-abuse-against-minors",
@@ -210,7 +210,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ce4e2a429edd58ff3a2b5188b09fd5a3a0a928fd"
+        "snapshotId": "ac420ca809e11adfea56b116ff48ad30d94f9711"
       },
       {
         "id": "hc-en-us-articles-41180423371156-Manipulated-Content-and-Misleading-Behavior",
@@ -231,7 +231,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "5e134af35c2e686d5eb285b5e0d7e54f08827a2d"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043075032-Impersonation",
@@ -251,8 +251,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "5e5f5d774bcc3b69433643a25d8be3e9e2e18204"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043513471-Illegal-or-Prohibited-Transactions",
@@ -272,8 +272,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "15ff80b08f83eb98e2b50eff44714ca7946438a9"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043075712-External-Links-to-Firearm-or-Ammunition-Vendors",
@@ -293,8 +293,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "b0624bc6f8c6fb279e3d1fc26c30425aed91a21f"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043513691-External-Links-to-Vendors-of-Alcohol-Tobacco-or-Controlled-Substances",
@@ -314,8 +314,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "b53a149ebff26b2136e57a7173a6e1648d21d43a"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043512931-Don-t-break-the-site",
@@ -336,7 +336,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "a1fec6640132680bd285b98ac39a486a82399d9f"
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043504811-What-is-ban-evasion",
@@ -356,8 +356,8 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "035f6effee4b9463c1ba443f9d8b97a5f53b183c"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "hc-en-us-articles-360043069012-Quarantined-Communities",
@@ -378,8 +378,20 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "26503461f127416e269ffa9d75f8ff638071532c"
+        "snapshotId": "80a332a41a701bffcfeb0114a4e921a675af7654"
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043071072-Harassment'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043513151-Violence'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043066452-Is-posting-someone-s-private-or-personal-information-okay'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043513411-Never-Post-Intimate-or-Sexually-Explicit-Media-of-Someone-Without-Their-Consent'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043075352-Do-not-share-sexual-or-suggestive-content-involving-minors-or-engage-in-any-predatory-or-inappropriate-behavior-with-minors'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043075032-Impersonation'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043513471-Illegal-or-Prohibited-Transactions'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043075712-External-Links-to-Firearm-or-Ammunition-Vendors'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043513691-External-Links-to-Vendors-of-Alcohol-Tobacco-or-Controlled-Substances'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043504811-What-is-ban-evasion'"
     ]
   }
 }
