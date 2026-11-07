@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-67412261-998e-494b-ae6b-95f0676ca5a7",
+  "runId": "ota-run-9133ff0b-e065-4b9d-9c6a-46aa1d72082f",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-06T23:30:08.116Z",
-    "endDate": "2026-11-07T01:18:35.035Z",
+    "startDate": "2026-11-07T11:30:09.178Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,55 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 250,
-    "failed": 17
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Reddit",
-        "termsType": "Developer Terms"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Acceptable Use Policy"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "X",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
