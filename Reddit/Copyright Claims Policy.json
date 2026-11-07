@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-06T13:26:47.537Z",
+    "date": "2026-11-07T00:48:50.917Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c314f6a82647bb43df181add6e5399eac6373fc1"
+        "snapshotId": "6c9c0703213d2ff609ab30ead8deef5d54d273c8"
       },
       {
         "id": "hc-en-us-articles-25476777729556-Trademark-overview",
@@ -29,12 +29,9 @@
           "removeBackToTopLinks"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5493d79c33dcec044163db65e65f61c812162ccb"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/25476777729556-Trademark-overview'"
     ]
   }
 }
