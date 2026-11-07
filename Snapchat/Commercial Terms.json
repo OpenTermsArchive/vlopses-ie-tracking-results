@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-06T13:01:45.097Z",
+    "date": "2026-11-07T00:54:58.453Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -9,21 +9,21 @@
         "fetch": "https://www.snap.com/terms/snap-conversion",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "d903fb9430e1a0d1839c6eeb0be5996259be54a7"
+        "snapshotId": "db038bbecb6fd9816b32f24899226e86ccdb3c46"
       },
       {
         "id": "terms-snap-audience-match",
         "fetch": "https://www.snap.com/terms/snap-audience-match",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "ba840e4c4f7d89c5d944eb75f314dfbd8f310f8c"
+        "snapshotId": "98953199af3bb4226cc5126c31b8d8c0ca98e96d"
       },
       {
         "id": "terms-cst",
         "fetch": "https://www.snap.com/terms/cst",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "bf32bd122d0914d03bc81140a92b3825eeadc331"
+        "snapshotId": "a832775315f82ba074688022c5f803b67488d544"
       },
       {
         "id": "terms-catalog",
@@ -51,18 +51,18 @@
         "fetch": "https://www.snap.com/terms/business-services",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "0705a48d9fd2e83f202d8adec280ecdbc55b7280"
+        "snapshotId": "7089b70323c8d624c54ddf34361ce4924686bca7"
       },
       {
         "id": "terms-payment",
         "fetch": "https://www.snap.com/terms/payment",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "265ccae413148d73fbcd0a557f1c5d55f3a5a42b"
+        "snapshotId": "ec48c6ca58be481aeeea2b311cccc6e016a1e86e"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/cst'"
+      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/business-services'"
     ]
   }
 }
