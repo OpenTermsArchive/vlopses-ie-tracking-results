@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-06T01:02:23.989Z",
+    "date": "2026-11-08T01:24:15.023Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -172,6 +172,11 @@
         "mimeType": "text/html",
         "snapshotId": "37270b2d3d95f34af6783cd3eb5ec18d0d65baa9"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/?cgversion=2025H2update'"
+      ]
+    }
   }
 }
