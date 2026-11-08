@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-08T00:40:59.338Z",
+    "date": "2026-11-08T13:27:37.238Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -128,6 +128,15 @@
         "mimeType": "text/html",
         "snapshotId": "ca0d9632dcf6668ef833dceb3132cb2509bac889"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031206843156'",
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031214413588'",
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031145215252'",
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031272792084'",
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031261124884'"
+      ]
+    }
   }
 }
