@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-d599d864-30e6-4e24-af15-d33322be911b",
+  "runId": "ota-run-28ca1ab9-c427-4006-a8aa-f194d3c9aa6c",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-07T23:30:07.918Z",
-    "endDate": "2026-11-08T01:24:34.173Z",
+    "startDate": "2026-11-08T11:30:08.969Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
@@ -14,48 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 249,
-    "failed": 18
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Data Processor Agreement"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Reddit",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "X",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Reddit",
-        "termsType": "Acceptable Use Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
