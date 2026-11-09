@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-08T13:01:39.967Z",
+    "date": "2026-11-09T00:57:18.440Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -20,19 +20,15 @@
         "fetch": "https://www.snap.com/terms/data-sharing-agreement",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "63450199aab34f0e0de832ab1b2ef375fd8242f1"
+        "snapshotId": "dc70978a5aa30ada9e136c0fdd68bdca4ba057e2"
       },
       {
         "id": "terms-data-transfer-agreement",
         "fetch": "https://www.snap.com/terms/data-transfer-agreement",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "acbdaa98d7b64a68189dc16dadf53641262a4350"
+        "snapshotId": "2c4ccc231e408e9203dc663c0b637146ca7c7fd6"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/data-sharing-agreement'",
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/data-transfer-agreement'"
     ]
   }
 }
