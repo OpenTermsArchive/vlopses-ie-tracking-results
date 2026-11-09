@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-08T13:27:37.238Z",
+    "date": "2026-11-09T12:42:06.028Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -42,7 +42,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "bf72da73c041b5b5b5b756d3114196054fa17934"
+        "snapshotId": "31a8ce00de840a0ddd0e04f854f19e46e90c6d80"
       },
       {
         "id": "hc-en-us-articles-27031214413588",
@@ -63,7 +63,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f1ab48a0f6dd0c24f10c0c85003aa27d0f5f160a"
+        "snapshotId": "e72d9daa9bd627bc6369bb9d3815cb3f78cb9add"
       },
       {
         "id": "hc-en-us-articles-27031145215252",
@@ -84,7 +84,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d9a86a638f35664c032eb447a0e182e049cd8348"
+        "snapshotId": "6fa442e28022fed344a0eebbca1a7257b6e79f5b"
       },
       {
         "id": "hc-en-us-articles-27031272792084",
@@ -128,15 +128,6 @@
         "mimeType": "text/html",
         "snapshotId": "ca0d9632dcf6668ef833dceb3132cb2509bac889"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031206843156'",
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031214413588'",
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031145215252'",
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031272792084'",
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031261124884'"
-      ]
-    }
+    ]
   }
 }
