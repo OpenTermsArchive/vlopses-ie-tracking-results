@@ -1,45 +1,30 @@
 {
-  "runId": "ota-run-5dc5a5b1-d0a2-49c5-a6b0-c9e6c945d04e",
+  "runId": "ota-run-236ae96c-9a11-4f32-b183-b2c014a2c686",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-09T11:30:09.047Z",
-    "endDate": "2026-11-09T13:24:31.364Z",
-    "engineVersion": "16.3.0",
-    "status": "completed"
+    "startDate": "2026-11-09T23:30:09.433Z",
+    "endDate": null,
+    "engineVersion": "17.0.0",
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "1288d5b07088c1bc5e01ff22fa5235bc9097de66",
+    "commit": "052039555a4dada4d6174b5c82058449527b1d87",
     "services": 27,
     "terms": 273
   },
   "tracked": {
-    "ok": 249,
-    "failed": 18
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
