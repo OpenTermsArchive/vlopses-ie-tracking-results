@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-09T13:23:58.455Z",
+    "date": "2026-11-10T12:39:13.065Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -42,13 +42,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e7d9a0114160e57d481f8d2fb7d0d43929a4c336"
+        "snapshotId": "1a15d3a638575f2bf5a6803aceac737151f00e1f"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/12793653507860-Guidelines-for-civil-and-non-government-legal-requests-for-account-information'"
-      ]
-    }
+    ]
   }
 }
