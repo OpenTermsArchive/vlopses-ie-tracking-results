@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:25:59.765Z",
+    "date": "2026-11-10T00:33:02.415Z",
     "serviceName": "LinkedIn",
     "sourceDocuments": [
       {
@@ -10,15 +10,18 @@
         "select": "main",
         "remove": "div.banner__image-container",
         "mimeType": "text/html",
-        "snapshotId": "9ded4e5fed1619492f64e6156fb102efa546b1d3"
+        "snapshotId": "248b6cae218e2160e5c2bf109ccdf25e19930e62"
       },
       {
         "id": "legal-privacy-eu",
         "fetch": "https://www.linkedin.com/legal/privacy/eu",
         "select": "main",
         "mimeType": "text/html",
-        "snapshotId": "07a4149f54ea630d837793bfd0e603d94dc21182"
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[internal] Unexpected engine error"
     ]
   }
 }
