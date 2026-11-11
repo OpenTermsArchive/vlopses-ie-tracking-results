@@ -1,35 +1,30 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-10T13:22:10.024Z",
+    "date": "2026-11-11T12:56:30.889Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
         "id": "legal-page-eea-privacy-policy-en",
         "fetch": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
         "select": "#policy-card",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "e0d69fce662174c18b5476b4e222d66b61097d9d"
       },
       {
         "id": "legal-page-global-privacy-policy-for-younger-users-en",
         "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en",
         "select": "#policy-card",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "a25a851e028bd4f06e460d9f241f870e3a10ef02"
       },
       {
         "id": "legal-page-global-tiktok-ad-network-privacy-policy-en",
         "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en",
         "select": "#policy-card",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "efbfa01eb350be4d0552e9a60acd530a2c23a97d"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/eea/privacy-policy/en'",
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en'",
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en'"
     ]
   }
 }
