@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-29T23:30:18.663Z",
+    "date": "2026-11-11T12:53:12.359Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "46a51f4d9a88cd2821c8717bf5475e0e54c87225"
+        "snapshotId": "403a1b95c226cb30e87878ee616c0017e6b608ed"
       },
       {
         "id": "privacy-privacy-policy-eea-uk-privacy-notice",
@@ -26,7 +26,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "5d00b0d66cd6267148ac514a15f4b5714e114adc"
+        "snapshotId": "02e16361cd53660b8b27c97211bc0a1bbfe48635"
       },
       {
         "id": "privacy-privacy-policy-chd-privacy-policy",
@@ -38,7 +38,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "491c190d72e1f9109cf665fdfb2d419bb12d972e"
+        "snapshotId": "f5f30bdead5c9755cafb8f81467a91e760b7b82b"
       },
       {
         "id": "privacy-ads-privacy",
@@ -51,7 +51,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "4d0fe82bbd38b72bf63f3c81026b480f52d81bde"
+        "snapshotId": "2c54a470ae86561dbe323c2dcef6968aaefe9c43"
       },
       {
         "id": "privacy-privacy-by-product",
@@ -64,7 +64,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "f3272654ed2621355a42a38bdf97390a6d3a757e"
+        "snapshotId": "e34c7576f4d2024438a8b1e429733fb52d80c2e2"
       },
       {
         "id": "privacy-your-information",
@@ -77,29 +77,32 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "3593358bf6fcfc3ffc0d9572541943d203c01516"
+        "snapshotId": "7adf8e7207f5621378732191405b000891c40d8b"
       },
       {
         "id": "terms-personal-data",
         "fetch": "https://www.snap.com/terms/personal-data",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "be85d4c33cdb6b06c7e60e0d43338487463a0ab0"
+        "snapshotId": "29903d6e23c0f26e1e720ea10b5aab62c90602c4"
       },
       {
         "id": "terms-standard-contractual-clauses",
         "fetch": "https://www.snap.com/terms/standard-contractual-clauses",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "865e0514701c2ecefbc0c6f74fbd2d428eef2344"
+        "snapshotId": "a8f5f5cae65e41b7658ee6ebfa1bfbc21f39aafb"
       },
       {
         "id": "terms-eea-c-c-scc",
         "fetch": "https://www.snap.com/terms/eea-c-c-scc",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "779098e5b39d4f906a64b0d4f3ca3627bc1c8b97"
+        "snapshotId": "e0419c3869d9ee08afe9a9b6ff9a69404a9f3c9c"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://values.snap.com/privacy/ads-privacy'"
     ]
   }
 }
