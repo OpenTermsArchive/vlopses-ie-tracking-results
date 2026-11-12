@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T22:57:56.581Z",
+    "date": "2026-11-12T13:21:29.078Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2f5a2ca517959dda6732e019937d9ad16afc0a37"
+        "snapshotId": "8d2f3dea7aef9bfe87661da54ae609d6b25fe3fa"
       },
       {
         "id": "policies-using-chatgpt-agent-in-line-with-our-policies",
@@ -48,7 +48,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0b2336124d1b7d7a3ccf509b5ecdee1cae9442fb"
+        "snapshotId": "1b6dae3577f4f975ad7cee8f9845a38d70cb610f"
       },
       {
         "id": "policies-sharing-publication-policy",
@@ -71,8 +71,14 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f07bf6be679ba9c91754d78486452cba99fc0870"
+        "snapshotId": "ddc6eeb9653d8d5f0ceb45f9cef8799212409574"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/'",
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/sharing-publication-policy/'"
+      ]
+    }
   }
 }
