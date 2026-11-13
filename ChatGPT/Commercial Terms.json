@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-13T01:20:13.621Z",
+    "date": "2026-11-13T12:03:03.112Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e045115a64345d435a2ac211085a23216ef0db80"
+        "snapshotId": "46c3c95ab66c3173aa3c4bde193e36fdc22c1fd2"
       },
       {
         "id": "policies-advertising-terms",
@@ -48,7 +48,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e71c68cc73305322ad9e9defb9c410c7704e64d9"
+        "snapshotId": "7f6405a090a486e99dd69e79ee9b9440441e85a1"
       },
       {
         "id": "policies-ad-tools-terms",
@@ -71,7 +71,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "604f4813343e69660a467844e0b4fb752124bfd8"
+        "snapshotId": "f9c59d1d7b6fcb2aa971478ce0ecb6bca50c3107"
       },
       {
         "id": "policies-conversion-terms",
@@ -94,7 +94,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "578036c4c266c6956615cdbafe991ef09da8bdc6"
+        "snapshotId": "d6745065c4dd6651f415ee031ce13a4d05428191"
       },
       {
         "id": "policies-ad-credit-terms",
@@ -117,7 +117,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "61fb671def9c448abaf26e10a7daab09b2be1c9b"
+        "snapshotId": "846ff14ec2aa708f088b1b53fc6f6f5288a1fdab"
       },
       {
         "id": "policies-education-terms",
@@ -140,7 +140,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "dbf2432694c6931dda03126f26b7b6d4477b061c"
+        "snapshotId": "c94f8be64b0a8ebfa54dfa8c113a773750185b04"
       },
       {
         "id": "policies-financial-services-terms",
@@ -163,13 +163,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1ff9923c18100fdf78cab407f8f7ae5855a84b92"
+        "snapshotId": "3c13fec9a17a6fe89600aa2c813582912c26addb"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/education-terms/'"
-      ]
-    }
+    ]
   }
 }
