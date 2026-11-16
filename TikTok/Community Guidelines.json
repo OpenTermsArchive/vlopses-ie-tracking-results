@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-15T13:24:00.960Z",
+    "date": "2026-11-16T01:00:40.582Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -172,11 +172,6 @@
         "mimeType": "text/html",
         "snapshotId": "41b3bf8817eef65bfa3022b31eb28aaae5c947cf"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.tiktok.com/community-guidelines/en/accounts-features/?cgversion=2025H2update'"
-      ]
-    }
+    ]
   }
 }
