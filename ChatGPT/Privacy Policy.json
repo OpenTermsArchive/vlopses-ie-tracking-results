@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-16T13:22:27.244Z",
+    "date": "2026-11-17T00:00:27.686Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "db08cad6009d93267c0bec26b3a80f8419855151"
+        "snapshotId": "66d208239430f50d94b591662bb7d0e686a469da"
       },
       {
         "id": "policies-how-your-data-is-used-to-improve-model-performance",
@@ -48,7 +48,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0a38a5be2450c7d3908f4617bbf60383db5b2cbf"
+        "snapshotId": "f2147227d8de811bfdcdfef3f376bbc0ce6ef70a"
       },
       {
         "id": "policies-health-privacy-policy",
@@ -71,7 +71,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3453f3ef39fe529e6415803d03b1ce583f1cc99c"
+        "snapshotId": "f7dc8dee90563bf47f94bd1dffc55254b1daf40d"
       },
       {
         "id": "policies-how-chatgpt-and-our-foundation-models-are-developed",
@@ -94,15 +94,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "499f26872e1020f8a12399b91fcdc354542f39d8"
+        "snapshotId": "34e8d560b999c3aad46e089f00d3f4ee21558f04"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/'",
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/health-privacy-policy/'",
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/how-chatgpt-and-our-foundation-models-are-developed/'"
-      ]
-    }
+    ]
   }
 }
