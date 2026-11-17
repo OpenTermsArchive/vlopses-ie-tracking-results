@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-17T01:21:03.641Z",
+    "date": "2026-11-17T13:07:23.234Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -44,7 +44,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c7f5f8c880852c434d4906f16124922f0f2105c3"
+        "snapshotId": "8e4c2f756c258c36d21e87e490fe4057371dfb6a"
       },
       {
         "id": "community-guidelines-en-safety-civility",
@@ -58,7 +58,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b0c04fd2edc67158e6b88f97c0b98a672009279d"
+        "snapshotId": "c8b7d0f8468d7f0448dc1fc746d85968ccfbaebf"
       },
       {
         "id": "community-guidelines-en-mental-behavioral-health",
@@ -170,13 +170,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "41b3bf8817eef65bfa3022b31eb28aaae5c947cf"
+        "snapshotId": "a4c9646795b0102787a2b0916c42e21e70b0e476"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/?cgversion=2025H2update'"
-      ]
-    }
+    ]
   }
 }
