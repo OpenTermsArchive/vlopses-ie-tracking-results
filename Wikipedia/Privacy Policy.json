@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-17T13:12:40.545Z",
+    "date": "2026-11-18T01:08:31.123Z",
     "serviceName": "Wikipedia",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "274d22846952752638d75a2baf6910edcb1877b5"
+        "snapshotId": "3b686e43a583b99a40ff15374c92b4a4a7901a7e"
       },
       {
         "id": "wiki-Policy_Cookie_statement",
@@ -35,7 +35,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "63010bd0545b75c32b1c64ebdedbc16f24a5e7f0"
+        "snapshotId": "4e95149978bb92dba91f1e6ef33b8f082234a1b8"
       },
       {
         "id": "wiki-Policy_Wikimedia_Foundation_Access_to_Nonpublic_Personal_Data_Policy",
@@ -51,7 +51,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "8a9b0413cd612aeccd852e02a993a4e235bf79a6"
+        "snapshotId": "d29c95d04d2b14f98e012534591f320c72079e4a"
       },
       {
         "id": "wiki-Policy_Wikimedia_Foundation_Access_to_Nonpublic_Personal_Data_Policy-Underage_exemptions",
@@ -67,7 +67,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "044360d17dcc95f38f8c538cf3e1ba85ebfceffb"
+        "snapshotId": "d07841ef9730064c2f8a249fce57789158b9e94d"
       },
       {
         "id": "wiki-Policy_Wikimedia_Access_to_Temporary_Account_IP_Addresses_Policy",
@@ -83,7 +83,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6bcb16317a5f54ea2fc10afdf25963397f185745"
+        "snapshotId": "509fc2640718a197e7b8ef2fbbb6b4fd6a7e5558"
       },
       {
         "id": "wiki-Legal_Data_Collection_Guidelines",
@@ -99,7 +99,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "fda8780923814902568b9f42cb19d5c9b23c339e"
+        "snapshotId": "8f55d5bc9aa2876a2d9644b5f318d034b009c63e"
       },
       {
         "id": "wiki-Legal_Data_publication_guidelines",
@@ -115,7 +115,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "698a5fe4028105fb51703d5ca6616a5b4be5c2b3"
+        "snapshotId": "1c38a21d6a7229cefbabd877938d94ffbf11993c"
       },
       {
         "id": "wiki-Legal_Wikimedia_Foundation_Data_Retention_Guidelines",
@@ -131,7 +131,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "83bd4be368b8e39761775fcd6937de559dc4fe06"
+        "snapshotId": "099f882002a3a6d8bfe56781407ecb3f6c353ffd"
       },
       {
         "id": "wiki-Policy_Donor_privacy_policy",
@@ -147,7 +147,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b23ad913518c8162976e46aed5b952bcd8397f1c"
+        "snapshotId": "fe784d946919e880d86e752809e259d05b216cda"
       },
       {
         "id": "wiki-Legal_Wikimedia_IP_Information_Tool_Policy",
@@ -163,7 +163,7 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "28b1949f84260ba5b9545e255a30f7babb149b7f"
       },
       {
         "id": "wiki-Policy_Privacy_policy",
@@ -179,11 +179,8 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6ff31cf2e7d1e406f3f0a415acf54b4d08889404"
+        "snapshotId": "22b5a3716c3cbd2aca90a7bf771a2fccfb5faba3"
       }
-    ],
-    "reasons": [
-      "[internal] Unexpected engine error"
     ]
   }
 }
