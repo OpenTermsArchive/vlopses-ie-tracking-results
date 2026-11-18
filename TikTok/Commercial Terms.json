@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-17T13:09:27.511Z",
+    "date": "2026-11-18T01:05:18.313Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -15,7 +15,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "888bd89ed929200f574b8d1cac525bd563774e51"
+        "snapshotId": "ab42e2d2677b87aa0ebc49760b56adb0fc74e392"
       },
       {
         "id": "i18n-official-policy-business-products-terms",
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "04a9d87f36e095fd2d78e549c63404a120ac3526"
+        "snapshotId": "806e475a74eeea77e78e86318b25bd3c2a0c9004"
       },
       {
         "id": "i18n-official-policy-commercial-terms-of-service",
@@ -45,11 +45,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "321d71333df96924458ec273a7f80991fae57496"
+        "snapshotId": "c9d5cbde50ab2be8508e41b1b3968078b8e825b5"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"#articleContainer\"]\" matches an empty content in the web page at 'https://ads.tiktok.com/i18n/official/policy/business-products-terms'"
     ]
   }
 }
