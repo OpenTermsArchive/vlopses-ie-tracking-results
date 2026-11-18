@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-11T00:43:09.217Z",
+    "date": "2026-11-18T01:22:24.158Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -21,7 +21,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "9634c6d8faadd4d33f9dac4ed6dbbd09abc7be27"
+        "snapshotId": "6c412e1f77a1d7f451527101bcd5fcee135eefa8"
       },
       {
         "id": "hc-en-us-articles-360043071072-Harassment",
@@ -42,7 +42,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "fcee21707ac41053ce083263e2d6a2e0598f951a"
+        "snapshotId": "2779e2386044ede62029d0c2cbbd1c3aace9356c"
       },
       {
         "id": "hc-en-us-articles-360043513151-Violence",
@@ -63,7 +63,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "374f3276d49d50e40cadc28a4a3a94fc16b0cef1"
+        "snapshotId": "f86035b6f1549ccee0e9a6589ab33af5da4c051b"
       },
       {
         "id": "hc-en-us-articles-360045715951-Hate",
@@ -84,7 +84,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "a25e1fe5b12059e201e763125be54bac77416184"
+        "snapshotId": "4fabe6af3c34d53d7e4b8fb9b1a5cdbffdc85ed7"
       },
       {
         "id": "hc-en-us-articles-360043504051-Spam",
@@ -105,7 +105,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9174f14c998ec1c18c785b7a125737315c487b64"
+        "snapshotId": "02a3e6f0bdca56c6ab78e9a10535ea4dd2f39725"
       },
       {
         "id": "hc-en-us-articles-360043066412-Disrupting-Communities",
@@ -126,7 +126,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e1d6ca8b1edda45b95c12dd47cf5c3d2303ceb7c"
+        "snapshotId": "ce804ae63f41782b6b701334f1f39d809633ccbe"
       },
       {
         "id": "hc-en-us-articles-360043066452-Is-posting-someone-s-private-or-personal-information-okay",
@@ -147,7 +147,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "89184c7f91c42004f00f46f90260cd7dbbf3c096"
+        "snapshotId": "b8bb1b330b099765530fa13f34a3c1890a53963d"
       },
       {
         "id": "hc-en-us-articles-360043513411-Never-Post-Intimate-or-Sexually-Explicit-Media-of-Someone-Without-Their-Consent",
@@ -168,7 +168,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "7e75991216cee18f4c7740aca646c48936e06322"
+        "snapshotId": "6bd2efb4520d1cfa355bff0a26079c4c928f2677"
       },
       {
         "id": "hc-en-us-articles-360043075352-Do-not-share-sexual-or-suggestive-content-involving-minors-or-engage-in-any-predatory-or-inappropriate-behavior-with-minors",
@@ -189,7 +189,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "fd19606f2dd0737dd7d1a09e3675d6df50dc42cc"
+        "snapshotId": "3cb4c8fc10517306ccf1e6c8bd906e93b989fbc2"
       },
       {
         "id": "hc-en-us-articles-17130615698964-Do-not-share-content-depicting-or-promoting-neglect-physical-or-emotional-abuse-against-minors",
@@ -210,7 +210,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1c2db33757eea138215aa6432242356e5d209ea3"
+        "snapshotId": "555ab0cfe964d6a365f791e578821bc5e92efc70"
       },
       {
         "id": "hc-en-us-articles-41180423371156-Manipulated-Content-and-Misleading-Behavior",
@@ -231,7 +231,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "91b4399ad03e60a184fd624d6f3e5db93398237e"
+        "snapshotId": "573f19e9af04872a8c388405c01aa16a60e27740"
       },
       {
         "id": "hc-en-us-articles-360043075032-Impersonation",
@@ -252,7 +252,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d8f25d93c571c028e16ee3622afe1ad391064752"
+        "snapshotId": "84cba93b5d2b1dd9c544a7a8305f9c1b8a13c05a"
       },
       {
         "id": "hc-en-us-articles-360043513471-Illegal-or-Prohibited-Transactions",
@@ -273,7 +273,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b244c864efe9ce0d5b2011fabbee9e9254e71798"
+        "snapshotId": "e38ac4f8b8da646c66e7f767f84b152982f55abf"
       },
       {
         "id": "hc-en-us-articles-360043075712-External-Links-to-Firearm-or-Ammunition-Vendors",
@@ -294,7 +294,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "777a6247f5cbeddfea803f3a4d81879358927ce8"
+        "snapshotId": "467b2770c01fc1a55c491d6d6f5c15b5fbb9033c"
       },
       {
         "id": "hc-en-us-articles-360043513691-External-Links-to-Vendors-of-Alcohol-Tobacco-or-Controlled-Substances",
@@ -315,7 +315,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "97efa7db56a6a5c86a251ad19d79880fcac855ca"
+        "snapshotId": "850a0ffef0e169f0115eacbef2b05adc1d23309c"
       },
       {
         "id": "hc-en-us-articles-360043512931-Don-t-break-the-site",
@@ -336,7 +336,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f4bfc7d560d0df674f7975bae0eb0ee328a881cf"
+        "snapshotId": "be80a3399665c6c05d2bc4a1ab445c8113be717f"
       },
       {
         "id": "hc-en-us-articles-360043504811-What-is-ban-evasion",
@@ -357,7 +357,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4d5df189b61ca86de32ab30028b5584d32338394"
+        "snapshotId": "10b2330d1e6d1c6fe81876af8e352c5f2a2c5aab"
       },
       {
         "id": "hc-en-us-articles-360043069012-Quarantined-Communities",
@@ -378,8 +378,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "631aa83159a3c847f80730d385b55429c0a11d5b"
+        "snapshotId": "06b5656b25fc6b0e3f67b8171fd564dac2d6f5f9"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/360043512931-Don-t-break-the-site'"
+      ]
+    }
   }
 }
