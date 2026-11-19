@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-a1343e98-17a2-49b5-ab34-6eb4a4a7dfcc",
+  "runId": "ota-run-aa946036-31be-40a4-b01a-47fa00e5c181",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-18T23:30:11.411Z",
-    "endDate": "2026-11-19T01:21:02.928Z",
+    "startDate": "2026-11-19T11:30:10.405Z",
+    "endDate": null,
     "engineVersion": "17.0.2",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "76582eb245954c7187f98237b0d88035d69243e0",
@@ -14,27 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 249,
-    "failed": 18
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Trackers Policy"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "TikTok",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
