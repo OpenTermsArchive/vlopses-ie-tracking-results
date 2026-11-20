@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-17T13:07:23.234Z",
+    "date": "2026-11-20T13:29:26.154Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -44,7 +44,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "8e4c2f756c258c36d21e87e490fe4057371dfb6a"
+        "snapshotId": "4807f66c7f7203c00dc6f4dc518eaac06c5755c2"
       },
       {
         "id": "community-guidelines-en-safety-civility",
@@ -58,7 +58,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c8b7d0f8468d7f0448dc1fc746d85968ccfbaebf"
+        "snapshotId": "1414b7cdaf66f0106f279f41b00d7947b013015f"
       },
       {
         "id": "community-guidelines-en-mental-behavioral-health",
@@ -86,7 +86,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "830b132da3f62cb0cc49221b01aabfca7e908440"
+        "snapshotId": "00618e73e25d4196942f63955c38bde3d4339b96"
       },
       {
         "id": "community-guidelines-en-integrity-authenticity",
@@ -100,7 +100,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2c341143f21a9cb605be201e741c8c167ab7beb3"
+        "snapshotId": "dfa814e1f248cc95cbb11170df9ba01ed70bd350"
       },
       {
         "id": "community-guidelines-en-regulated-commercial-activities",
@@ -170,8 +170,17 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "a4c9646795b0102787a2b0916c42e21e70b0e476"
+        "snapshotId": "458449795ae742db2d657d93a26cbce41803d84b"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.tiktok.com/community-guidelines/en/community-principles/?cgversion=2025H2update'",
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/integrity-authenticity/?cgversion=2025H2update'",
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/?cgversion=2025H2update'",
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/privacy-security/?cgversion=2025H2update'",
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/safety/en/policies-and-engagement/fyf-standards?cgversion=2025H2update'"
+      ]
+    }
   }
 }
