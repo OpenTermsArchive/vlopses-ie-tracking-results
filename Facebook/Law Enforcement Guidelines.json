@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-01T11:02:36.867Z",
+    "date": "2026-11-20T01:19:25.196Z",
     "serviceName": "Facebook",
     "sourceDocuments": [
       {
@@ -23,8 +23,13 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "00dac953519227bda221b6fe0ce0aca249da84d4"
+        "snapshotId": "99fa5541c748c3dbdc92a83d5f3fdabe25448c97"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://www.meta.com/safety/communities/law/guidelines/'"
+      ]
+    }
   }
 }
