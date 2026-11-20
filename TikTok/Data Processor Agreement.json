@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-19T13:22:49.921Z",
+    "date": "2026-11-20T01:02:18.991Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": [
           "#policy-card"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "2bb4ebab0e3902b7a82d6115ba4a9ab44b5cde7c"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/tiktok-data-sharing-agreement/en'"
     ]
   }
 }
