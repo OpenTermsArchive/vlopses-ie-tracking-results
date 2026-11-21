@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-21T01:19:40.045Z",
+    "date": "2026-11-21T13:09:53.468Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           "#policy-card"
         ],
         "mimeType": "text/html",
-        "snapshotId": "342160ae810bdafe1be697c221e1d0909325e270"
+        "snapshotId": "5d2a661376d5bd0e2bc32ecda2e3433ebdcf3037"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/copyright-policy/en'"
-      ]
-    }
+    ]
   }
 }
