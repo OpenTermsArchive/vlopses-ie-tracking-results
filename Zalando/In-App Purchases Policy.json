@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-21T01:19:56.506Z",
+    "date": "2026-11-21T13:33:11.173Z",
     "serviceName": "Zalando",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": [
           "#main-content"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5a3c106a11e1b79e3d70d31dfc87d0aa81812585"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.zalando.ie/terms-giftcards/'"
     ]
   }
 }
