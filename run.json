@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-c5dd33cb-1c75-4126-95df-6c4c03eb23ad",
+  "runId": "ota-run-11f96c31-b157-4a4c-9e0b-b402004c4dc5",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-21T11:30:10.497Z",
-    "endDate": "2026-11-21T13:42:44.320Z",
+    "startDate": "2026-11-21T23:30:09.147Z",
+    "endDate": null,
     "engineVersion": "17.0.2",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "76582eb245954c7187f98237b0d88035d69243e0",
@@ -14,43 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 247,
-    "failed": 20
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LinkedIn",
-        "termsType": "Brand Guidelines"
-      },
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "In-App Purchases Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
