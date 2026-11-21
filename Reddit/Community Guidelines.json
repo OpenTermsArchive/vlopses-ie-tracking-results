@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-20T13:26:23.390Z",
+    "date": "2026-11-21T00:40:15.239Z",
     "serviceName": "Reddit",
     "sourceDocuments": [
       {
@@ -21,7 +21,7 @@
         ],
         "executeClientScripts": false,
         "mimeType": "text/html",
-        "snapshotId": "8b487d6be7c5fabd6eeacea19bfe9e3ea9fb38c9"
+        "snapshotId": "85601ebad941d29156b42c8722bad84a53136dce"
       },
       {
         "id": "hc-en-us-articles-27031206843156",
@@ -42,7 +42,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "32026b0e52cdcc5a1e0db7e3fbff59d7bda3bd7f"
+        "snapshotId": "ab8a52aa8ee238c3ad4ea25904a6b8f405ce8bff"
       },
       {
         "id": "hc-en-us-articles-27031214413588",
@@ -63,7 +63,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "5238c0eb9d31c66701755ee87caebcc8f8773f21"
+        "snapshotId": "516ace2043532a4ce9d7dc83f77ec669776383ef"
       },
       {
         "id": "hc-en-us-articles-27031145215252",
@@ -84,7 +84,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0c021f20cc2ec44af1a2856428bb159191bffe2e"
+        "snapshotId": "641131c1bdc1261dd2d34576fc840f4312d81590"
       },
       {
         "id": "hc-en-us-articles-27031272792084",
@@ -105,7 +105,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "27c97c83887c5af36ef494a7efa0e13c5e05e642"
+        "snapshotId": "ab8a28caf74ece9c3a562dbf70d8c36ab1599cfd"
       },
       {
         "id": "hc-en-us-articles-27031261124884",
@@ -126,13 +126,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0fadcdf43eb3b21b96ec28d211f2abc982062597"
+        "snapshotId": "9b98ffa25bbd3ece753bead09a8d2e93a7b472ba"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://support.reddithelp.com/hc/en-us/articles/27031206843156'"
-      ]
-    }
+    ]
   }
 }
