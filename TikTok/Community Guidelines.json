@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-20T13:29:26.154Z",
+    "date": "2026-11-21T01:02:11.927Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -44,7 +44,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4807f66c7f7203c00dc6f4dc518eaac06c5755c2"
+        "snapshotId": "0a0f01daf9f90671737c95b290c6881072d41971"
       },
       {
         "id": "community-guidelines-en-safety-civility",
@@ -172,15 +172,6 @@
         "mimeType": "text/html",
         "snapshotId": "458449795ae742db2d657d93a26cbce41803d84b"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.tiktok.com/community-guidelines/en/community-principles/?cgversion=2025H2update'",
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/integrity-authenticity/?cgversion=2025H2update'",
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/?cgversion=2025H2update'",
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/community-guidelines/en/privacy-security/?cgversion=2025H2update'",
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.tiktok.com/safety/en/policies-and-engagement/fyf-standards?cgversion=2025H2update'"
-      ]
-    }
+    ]
   }
 }
