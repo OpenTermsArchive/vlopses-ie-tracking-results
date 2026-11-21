@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-b4aa113f-ecb2-47be-8775-e6c9576bb83d",
+  "runId": "ota-run-c5dd33cb-1c75-4126-95df-6c4c03eb23ad",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-20T23:30:10.197Z",
-    "endDate": "2026-11-21T01:19:56.603Z",
+    "startDate": "2026-11-21T11:30:10.497Z",
+    "endDate": null,
     "engineVersion": "17.0.2",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "76582eb245954c7187f98237b0d88035d69243e0",
@@ -14,40 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 247,
-    "failed": 20
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LinkedIn",
-        "termsType": "Brand Guidelines"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "In-App Purchases Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
