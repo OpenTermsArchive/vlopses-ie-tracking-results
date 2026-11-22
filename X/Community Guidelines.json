@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-21T13:42:33.742Z",
+    "date": "2026-11-22T01:16:29.549Z",
     "serviceName": "X",
     "sourceDocuments": [
       {
@@ -11,7 +11,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "77bc47011e86a3ccc93505f6e10176c031782726"
+        "snapshotId": "67ea9328bfcfbcbf3e2df76e016a464a6603a0e7"
       },
       {
         "id": "en-rules-and-policies-violent-content",
@@ -56,7 +56,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "6b84377b82adc87626b91b54a23dcb3d423e90ac"
+        "snapshotId": "14d0caf19428a6a32bebda27c29aeee9ee321e90"
       },
       {
         "id": "en-rules-and-policies-perpetrators-of-violent-attacks",
@@ -83,7 +83,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "e492fd7e4ff26d8568325a0a69271ffe04b45b29"
+        "snapshotId": "784c80e750fc50c8b55eec3bbaf4a9eff32ebd84"
       },
       {
         "id": "en-rules-and-policies-shopping-policies",
@@ -137,7 +137,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "bade65a875b11957ed3daca42ba53490f17b5938"
+        "snapshotId": "d2c70302d1069ca689c88672f9c182d0b3454163"
       },
       {
         "id": "en-rules-and-policies-manipulated-media",
@@ -146,7 +146,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "895c3a4a50a9755f41939e163046be83b9a8d19b"
+        "snapshotId": "663b6dcd3b32db8b4bc7512574c2d55d0762cc67"
       },
       {
         "id": "en-rules-and-policies-x-trademark-policy",
@@ -155,7 +155,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "600726494868e5274f90ff6772d4d403712e94bf"
+        "snapshotId": "9d05b0a447e5d5aa1b167d488bfb6c80f229e0c2"
       },
       {
         "id": "en-rules-and-policies-x-username-squatting",
@@ -164,7 +164,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b2b74b21f199c074124099da34ca81fa7fc3ec58"
+        "snapshotId": "8665c91eeeb8ee2c0b394ac76fa2cac0f126f3a7"
       },
       {
         "id": "en-rules-and-policies-copypasta-duplicate-content",
@@ -182,7 +182,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f420577ebe1e74b6ead2a45f284a49d5bea6e495"
+        "snapshotId": "ea1c191c5874da2c489912af620c59c08cb1bb97"
       },
       {
         "id": "en-rules-and-policies-abusive-profile",
@@ -236,7 +236,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "6f48177533a2411790e330bfe19c316907f440d1"
+        "snapshotId": "128c0f3679f25d328e7ae3e99d4d56f5ac16ff70"
       },
       {
         "id": "en-rules-and-policies-enforcement-options",
@@ -245,7 +245,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "919b2eb4493e86ccdabd01549971314698366f87"
+        "snapshotId": "ecbcd22483ce41064bbc3a0f8e8d0b4499c06862"
       },
       {
         "id": "en-rules-and-policies-x-moments-guidelines-and-principles",
@@ -254,7 +254,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9e24adc5c1e5680818182345a570801b19f6f249"
+        "snapshotId": "633fa5bb98332ed937d54aebc571db1ecdd95fa4"
       },
       {
         "id": "en-rules-and-policies-fair-use-policy",
@@ -263,7 +263,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "70a5efd19e2ce6e10b4678aba97936f5e788f2b3"
+        "snapshotId": "6cd92ed4af7e153061bab5176463d8386cfd95c6"
       },
       {
         "id": "en-rules-and-policies-enforcement-philosophy",
@@ -272,7 +272,7 @@
         "remove": "[aria-label=\"Breadcrumbs\"]",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "de6f11105bb8dcfba1ba23ee3601cea8b0f3e351"
+        "snapshotId": "e8289188cd3d5432a332c37af379c0205f98c823"
       },
       {
         "id": "en-rules-and-policies-media-literacy-plan",
@@ -301,11 +301,6 @@
         "mimeType": "text/html",
         "snapshotId": "4ef07f65553b7fd50c7f54501b3944cf45d3eba0"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://help.x.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy'"
-      ]
-    }
+    ]
   }
 }
