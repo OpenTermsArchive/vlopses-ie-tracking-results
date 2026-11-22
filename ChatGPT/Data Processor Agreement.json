@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-27T12:01:07.546Z",
+    "date": "2026-11-22T01:20:23.205Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3a887d8b46bdc154e1e7aaf58b6d6a26a7457937"
+        "snapshotId": "2a884074da11b44812095dbfd362ba41a1885c26"
       },
       {
         "id": "policies-ad-tools-dpa",
@@ -48,7 +48,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "944858e3895c06adb763b46e6785abfa63d1125f"
+        "snapshotId": "2f18506ff9c7ac7a5889e9b46f03858be2102292"
       },
       {
         "id": "policies-chatgpt-sites-data-processing-addendum",
@@ -71,8 +71,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ed82214389aa6aacfae3ba378374113c6adac064"
+        "snapshotId": "ce24d78b598ae484fed8dc794d1e1ba8129ed063"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/data-processing-addendum/'"
+      ]
+    }
   }
 }
