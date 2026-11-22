@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-22T01:20:02.898Z",
+    "date": "2026-11-22T12:01:57.589Z",
     "serviceName": "ChatGPT",
     "sourceDocuments": [
       {
@@ -25,13 +25,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "89b389a66650e139068d7f7e00a93fd9f1bfb887"
+        "snapshotId": "11cfcb50dfd501f8f1d4cddfffa1dee51e218dff"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://openai.com/policies/developer-apps-terms/'"
-      ]
-    }
+    ]
   }
 }
