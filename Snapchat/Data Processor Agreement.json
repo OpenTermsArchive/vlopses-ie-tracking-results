@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-22T13:00:52.243Z",
+    "date": "2026-11-23T13:05:24.365Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -13,25 +13,22 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b502992ba9e6d3de1bd936ea99604323466eacc7"
+        "snapshotId": "010c293fe154fe6c9e53e2b6ae6be4f39baf79b0"
       },
       {
         "id": "terms-data-sharing-agreement",
         "fetch": "https://www.snap.com/terms/data-sharing-agreement",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "b785bc7b5b2feaaf547cc671ea2e0e47dc195068"
+        "snapshotId": "84c1af43a49cb33370a8332a852e195f9cec9694"
       },
       {
         "id": "terms-data-transfer-agreement",
         "fetch": "https://www.snap.com/terms/data-transfer-agreement",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "196170cf53644e28babb003c0ee4c31da65181ec"
+        "snapshotId": "620f12d0abf30aa50193a6f18620455caf8713e9"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://www.snap.com/terms/data-processing-agreement'"
     ]
   }
 }
