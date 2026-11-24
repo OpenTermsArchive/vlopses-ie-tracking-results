@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-23T01:04:38.653Z",
+    "date": "2026-11-24T13:32:28.527Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           "#policy-card"
         ],
         "mimeType": "text/html",
-        "snapshotId": "55fc3b81371d19660b49a45857f1f904b0fa8524"
+        "snapshotId": "bfb3bea3f4396c68f6fc13bfdab5b9664a6d5866"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en'"
+      ]
+    }
   }
 }
