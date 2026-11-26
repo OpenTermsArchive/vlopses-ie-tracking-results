@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-26T01:20:28.332Z",
+    "date": "2026-11-26T13:36:00.360Z",
     "serviceName": "XNXX",
     "sourceDocuments": [
       {
@@ -19,12 +19,13 @@
         "select": [
           "#main"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "6822e80f21cc9ea070a2a57efc0ce790a76bd84f"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.com/legal/tos'"
+      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.com/legal/tos'",
+      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://info.xnxx.gold/legal/tos'"
     ]
   }
 }
