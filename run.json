@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-ed7b9478-1685-46e4-a048-815f07e1bed6",
+  "runId": "ota-run-76c9e00a-7c02-4fb0-83c7-7d4403866f57",
   "collectionId": "vlopses-ie",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-26T11:30:13.852Z",
-    "endDate": "2026-11-26T13:36:10.590Z",
+    "startDate": "2026-11-26T23:30:10.285Z",
+    "endDate": null,
     "engineVersion": "17.0.2",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "76582eb245954c7187f98237b0d88035d69243e0",
@@ -14,44 +14,17 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 245,
-    "failed": 22
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 267,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "Zalando",
-        "termsType": "In-App Purchases Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "XVideos",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "XNXX",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
