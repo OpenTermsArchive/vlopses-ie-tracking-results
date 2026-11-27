@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-27T11:30:09.838Z",
-    "endDate": null,
+    "endDate": "2026-11-27T13:27:28.525Z",
     "engineVersion": "17.0.2",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "76582eb245954c7187f98237b0d88035d69243e0",
@@ -14,17 +14,48 @@
     "terms": 273
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 247,
+    "failed": 20
   },
   "coverage": {
-    "processed": 0,
+    "processed": 267,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Data Processor Agreement"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Law Enforcement Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 3
 }
