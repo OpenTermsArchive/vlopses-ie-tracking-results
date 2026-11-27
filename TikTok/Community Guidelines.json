@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-26T13:35:22.336Z",
+    "date": "2026-11-27T01:03:19.236Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -142,7 +142,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "c79c79620f3c53351aec78e85a79ea4c535a661e"
+        "snapshotId": "2fc2923c736d942de0a4787ae279ae12b03eb297"
       },
       {
         "id": "community-guidelines-en-accounts-features",
@@ -172,11 +172,6 @@
         "mimeType": "text/html",
         "snapshotId": "b61cab42ced738b3abc4a5598cc1f1cedc3ca3f3"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.tiktok.com/community-guidelines/en/accounts-features/?cgversion=2025H2update'"
-      ]
-    }
+    ]
   }
 }
